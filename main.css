@@ -8,6 +8,7 @@ body	/* Default style */
 
 .sidebar
 {
+	box-sizing: border-box;
 	display: inline-block;
 	float: left;
 	width: 50%;
@@ -16,6 +17,7 @@ body	/* Default style */
 
 .wrapper, .footer
 {
+	box-sizing: border-box;
 	display: inline-block;
 	float: right;
 	width: 50%;
