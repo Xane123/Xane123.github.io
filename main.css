@@ -12,7 +12,7 @@ body	/* Default style */
 	font-family: serif;
 }
 
-.sidebar, .wrapper, .footer
+.sidebar, .wrapper
 {
 	vertical-align: top;
 	box-sizing: border-box;
@@ -22,15 +22,20 @@ body	/* Default style */
 
 .wrapper, .footer
 {
-	float: right;
 	padding: 1em 1em 1em 1em;
+}
+
+.content
+{
+	float: right;
+	background-color: rgba(255,255,255,0.5);
+	border: 1px solid rgba(255,255,255,0.75);
+	border-radius: 1em;
 }
 
 .wrapper
 {
-	background-color: rgba(255,255,255,0.5);
-	border: 1px solid rgba(255,255,255,0.75);
-	border-radius: 1em;
+	float: right;
 }
 
 .footer
