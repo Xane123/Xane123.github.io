@@ -8,19 +8,21 @@ body	/* Default style */
 
 .sidebar
 {
+	float: left;
+	font-family: serif;
+}
+
+.sidebar, .wrapper, .footer
+{
+	vertical-align: top;
 	box-sizing: border-box;
 	display: inline-block;
-	float: left;
 	width: 50%;
-	font-family: serif;
 }
 
 .wrapper, .footer
 {
-	box-sizing: border-box;
-	display: inline-block;
 	float: right;
-	width: 50%;
 	padding: 1em 1em 1em 1em;
 }
 
