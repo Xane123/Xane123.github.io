@@ -24,7 +24,7 @@ body { 	background-color: #3c4c6d; }
 	border-bottom: 1px solid Rgba(255,224,192,0.34);
 }
 .sidebar li { font-size: 16pt; }
-.sidebar li a, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited {  }
+.sidebar li a, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited { color:  }
 
 .sidebar, .wrapper
 {
@@ -60,4 +60,15 @@ body { 	background-color: #3c4c6d; }
 	background-color: rgba(0,0,0,0.34);
 	color: white;
 	border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+   .sidebar, .wrapper
+   {
+	   box-sizing: unset !important;
+	   width: 100% !important;
+	   display: block !important;
+	   float: none;
+	   position: unset !important;
+   }
 }
