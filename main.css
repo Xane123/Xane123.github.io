@@ -65,10 +65,10 @@ body { 	background-color: #3c4c6d; }
 @media screen and (max-width: 500px) {
    .sidebar, .wrapper
    {
-	   box-sizing: unset !important;
-	   width: 100% !important;
-	   display: block !important;
+	   box-sizing: unset;
+	   width: 100%;
+	   display: block;
 	   float: none;
-	   position: unset !important;
+	   position: unset;
    }
 }
