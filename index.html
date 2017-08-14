@@ -20,13 +20,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<center class="title">Xane.com</center>
 		<div class="sidebar">
 			Testing the sidebar.<br/>Let's see how this works.
 		</div>
 		<div class="wrapper">
+			<center class="title">Xane.com</center>
 			<div class="content">
-				<iframe src="test.html" width=100% style="border:none;" onload="resizeIframe(this)"></iframe>
+				<iframe src="test.html"
+					onload="this.style.height=this.contentDocument.body.scrollHeight +'px';">
+				</iframe>
 			</div>
 			<div class="footer">Xane.com is &#169;2017 Xane Myers. It is hosted by <a href="https://pages.github.com">GitHub Pages</a>.</div>
 		</div>
