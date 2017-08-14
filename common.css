@@ -1,8 +1,8 @@
 body	/* Default style. This CSS file only includes what all pages will use. */
 {
 	font-family: 'xpinball', 'trebuchet ms', 'trebuchet', sans-serif;
-	color: #fdb;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
+body, .sidebar li a, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited { color: #fdb; }
 
 a, a:hover, a:focus, a:active, a:visited { color: chartreuse; }

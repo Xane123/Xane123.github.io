@@ -6,15 +6,25 @@ body { 	background-color: #3c4c6d; }
 	font-size: 24pt;
 }
 
+/* Left-side sidebar */
 .sidebar
 {
 	background-color: rgba(0,0,0,0.25);
-	border-ra
+	border-radius: 0.5em;
 	float: left;
-	font-family: serif;
+	font-family: "Roboto Slab";
 	width: 25%;
 	position: fixed;
 }
+.sidebar h1
+{
+	padding: 0 0;
+	margin: 0 0;
+	text-align: center;
+	border-bottom: 1px solid Rgba(255,224,192,0.34);
+}
+.sidebar li { font-size: 16pt; }
+.sidebar li a, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited {  }
 
 .sidebar, .wrapper
 {
