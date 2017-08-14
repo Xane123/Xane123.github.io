@@ -62,11 +62,17 @@ body { 	background-color: #3c4c6d; }
 	border-radius: 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
+	.sidebar h1, .sidebar li
+	{
+		font-size: 100%;
+	}
+}
+@media screen and (max-width: 500px) {	/* 500px: Mobile portrait orientation */
    .sidebar, .wrapper
    {
 	   box-sizing: unset;
-	   width: 100%;
+	   width: 93%;
 	   display: block;
 	   float: none;
 	   position: unset;
