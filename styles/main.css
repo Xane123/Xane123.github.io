@@ -1,5 +1,10 @@
 /* This CSS file contains the main page style. */
-body { 	background-color: #3c4c6d; }
+body
+{
+	background-image: url(https://i.imgur.com/eePwHUKh.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
 
 .title
 {
@@ -32,7 +37,7 @@ body { 	background-color: #3c4c6d; }
 	width: 25%;
 	position: fixed;
 }
-.sidebar h1
+h1
 {
 	padding: 0 0;
 	margin: 0 0;
