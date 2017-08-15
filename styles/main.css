@@ -5,6 +5,7 @@ body
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+	background-color: #335;
 }
 iframe
 {
@@ -21,8 +22,8 @@ iframe
 .mobile-topbar h1
 {
 	position: absolute;
-	top: -10px;
-	left: calc(75% / 2);
+	top: 5px;
+	left: calc(100% / 3);
 }
 .mobile-topbarbutton
 {
@@ -50,8 +51,8 @@ h1
 	text-align: center;
 	border-bottom: 1px solid Rgba(255,224,192,0.34);
 }
-.sidebar li { font-size: 16pt; }
-.sidebar li a, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited { color:  }
+.sidebar center { text-align: center; font-size: 12pt; }
+.sidebar center a, .sidebar center a:focus, .sidebar center a:active, .sidebar center a:visited { color: #fdb; }
 
 .sidebar, .wrapper
 {
@@ -90,10 +91,11 @@ h1
 }
 
 @media screen and (max-width: 750px) {
-	.sidebar h1, .sidebar li
+	.sidebar h1
 	{
-		font-size: 100%;
+		font-size: 14pt;
 	}
+	.sidebar center { font-size: 10pt; }
 }
 @media screen and (max-width: 500px) {	/* 500px: Mobile portrait orientation */
    .sidebar, .wrapper

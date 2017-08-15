@@ -14,3 +14,14 @@ p
 	margin-top: 0.75em;
 	margin-bottom: 0em;
 }
+
+img.inline-left
+{
+	opacity: 0.75;
+	border: 1px solid rgba(128,128,128,0.5);
+	box-shadow: -2px -2px 0 white;
+	filter: drop-shadow(2px 2px 0 black);
+	float: left;
+	position: relative;
+	left: -4px;
+}
