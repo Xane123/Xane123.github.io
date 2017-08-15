@@ -39,10 +39,10 @@ iframe
 {
 	background-color: rgba(0,0,0,0.25);
 	border-radius: 0.5em;
-	float: left;
+	float: right;
 	font-family: "Roboto Slab";
 	width: 25%;
-	position: fixed;
+	max-width: 250px;
 }
 h1
 {
@@ -79,6 +79,7 @@ h1
 {
 	float: right;
 	width: 75%;
+	max-width: 1280px;
 }
 
 .footer
@@ -90,14 +91,16 @@ h1
 	border-radius: 5px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px)
+{
 	.sidebar h1
 	{
 		font-size: 14pt;
 	}
 	.sidebar center { font-size: 10pt; }
 }
-@media screen and (max-width: 500px) {	/* 500px: Mobile portrait orientation */
+@media screen and (max-width: 500px)
+{	/* 500px: Mobile portrait orientation */
    .sidebar, .wrapper
    {
 	   box-sizing: unset;
@@ -107,6 +110,7 @@ h1
 	   position: unset;
 	   position: relative;
 	   top: 64px;
+	   max-width: unset;
    }
    .title { display: none; }
    .mobile-topbar
