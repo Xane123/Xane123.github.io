@@ -1,3 +1,4 @@
+/* This CSS file is for the iframe-powered page content only. */
 body
 {
 	color: #fa7;
@@ -6,7 +7,7 @@ body
 }
 h1, h2, h3, h4, h5, h6
 {
-	padding: 0 0;
+	padding: 0.25em 0;
 	margin: 0 0;
 }
 p
