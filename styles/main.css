@@ -103,28 +103,3 @@ h1
 	}
 	.sidebar center { font-size: 10pt; }
 }
-@media screen and (max-width: 500px)
-{	/* 500px: Mobile portrait orientation */
-   .sidebar, .wrapper
-   {
-	   box-sizing: unset;
-	   width: 93%;
-	   display: block;
-	   float: none;
-	   position: unset;
-	   position: relative;
-	   top: 64px;
-	   max-width: unset;
-   }
-   .content { background-color: rgba(0,0,0,0.5); }
-   .title { display: none; }
-   .mobile-topbar
-   {
-	   display: block;
-	   position: fixed;
-	   left: 0px;
-	   top: 0px;
-   }
-
-   }
-}
