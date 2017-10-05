@@ -6,3 +6,8 @@ body	/* Default style. This CSS file only includes what all pages will use. */
 .sidebar, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited { color: #fdb; !important }
 
 a, a:hover, a:focus, a:active, a:visited { color: chartreuse; }
+
+/* Scrollbar customization - time to remove modern Windows' sorta-ugly scrollbars! */
+::-webkit-scrollbar { width: 15px; background-color: rgba(48,96,192,0.5); border-radius: 1em; box-shadow: -2px 0 1px rgba(32,64,128,0.5); }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-button, ::-webkit-scrollbar-corner { display: none; }
+::-webkit-scrollbar-thumb { border-radius: 1em; background-color: rgba(255,255,255,0.5); }

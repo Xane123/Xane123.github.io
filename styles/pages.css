@@ -7,7 +7,7 @@ body
 	margin: 0px;
 	overflow-x:hidden;
 }
-a { transition: color 0.25s; }
+a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
 a, a:focus, a:active, a:visited { color: #adf; }
 a:hover { color: #d5eeff; }
 
@@ -23,12 +23,11 @@ p
 }
 code
 {
-    color: #c63;
-    background-color: moccasin;
-    font-size: large;
-    filter: drop-shadow(0 0 0 transparent) !important;
-    text-shadow: unset !important;
-    box-shadow: unset !important;
+	color: #cf8;
+	background-color: rgba(221, 255, 187, 0.5);
+	font-size: large;
+	text-shadow: 1.5px 1.5px 0.5px #482 !important;
+	border-radius: 5px;
 }
 
 img.inline-left
