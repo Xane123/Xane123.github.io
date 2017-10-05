@@ -11,6 +11,7 @@ iframe
 {
 	border: none !important;
 	border-width: 0px;
+	transition: height 0.75s ease-in-out;
 }
 
 .title
@@ -46,6 +47,7 @@ iframe
 	font-family: "Roboto Slab";
 	width: 25%;
 	max-width: 250px;
+	padding: 0em 1em 1em 1em;
 }
 h1
 {
@@ -64,14 +66,8 @@ h1
 	display: inline-block;
 }
 
-.wrapper, .sidebar
-{
-	padding: 0em 1em 1em 1em;
-}
-
 .content
 {
-	padding: 0.25em 0.5em;
 	background-color: rgba(255,255,255,0.5);
 	border: 1px solid rgba(255,255,255,0.5);
 	border-top-left-radius: 1em;

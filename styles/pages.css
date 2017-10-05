@@ -1,10 +1,16 @@
 /* This CSS file is for the iframe-powered page content only. */
 body
 {
-	color: #fa7;
-	text-shadow: -0.75px -0.75px 0px antiquewhite;
-	filter: drop-shadow(1px 1px 1px #842);
+	color: #fc8;
+	text-shadow: 1.5px 1.5px 0.5px #842;
+	padding: 0.5em 1.25em 0.25em 1em;
+	margin: 0px;
+	overflow-x:hidden;
 }
+a { transition: color 0.25s; }
+a, a:focus, a:active, a:visited { color: #adf; }
+a:hover { color: #d5eeff; }
+
 h1, h2, h3, h4, h5, h6
 {
 	padding: 0.25em 0;
