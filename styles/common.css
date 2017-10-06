@@ -1,11 +1,158 @@
 body	/* Default style. This CSS file only includes what all pages will use. */
 {
-	font-family: 'xpinball', 'trebuchet ms', 'trebuchet', sans-serif;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-family: XPinball, 'Trebuchet MS', Trebuchet, sans-serif;
+	color: #fc8;
+	text-shadow: 1.5px 1.5px 0.5px #842;
+	overflow-x:hidden;
+	background-image: url(https://i.imgur.com/I6oihTN.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	margin: 0;
 }
-.sidebar, .sidebar li a:focus, .sidebar li a:active, .sidebar li a:visited { color: #fdb; !important }
 
-a, a:hover, a:focus, a:active, a:visited { color: chartreuse; }
+a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
+a, a:focus, a:active, a:visited { color: #adf; }
+a:hover { color: #d5eeff; }
+
+iframe
+{
+	border: none !important;
+	border-width: 0px;
+	transition: height 0.75s ease-in-out;
+}
+
+.logo-container, .logo-text, .navigation
+{
+	display: inline-block;
+	position: relative;
+	left: 1px;
+}
+.logo-container
+{
+	border-radius: 5px;
+    background-color: #c52;
+    padding: 0 7px;
+    border: 3px solid;
+    border-top-color: #e74;
+    border-left-color: #e74;
+    border-right-color: #a30;
+    border-bottom-color: #a30;
+}
+.navbar
+{
+	position: fixed;
+	top: 3px;
+	left: 3px;
+    background-color: #25c;
+    border: 3px solid;
+    border-top-color: #47e;
+    border-left-color: #47e;
+    border-right-color: #03a;
+    border-bottom-color: #03a;
+    height: calc 9(4em - 3px);
+	vertical-align: top;
+	margin: -3px;
+	width: calc(100% - 6px);
+}
+.logo-text
+{
+	font-family: 'Londrina Shadow';
+	font-weight: 500;
+	font-size: 39pt;
+	color: white;
+}
+.navigation
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 26pt;
+}
+
+.content
+{
+	background-color: rgba(255,255,255,0.5);
+	border: 1px solid rgba(255,255,255,0.5);
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+.footer
+{
+	padding: 0.5em 1em;
+	text-align: center;
+	background-color: rgba(0,0,0,0.34);
+	color: white;
+	border-radius: 5px;
+	color: white !important;
+}
+
+/* Header labels for normal screens */
+#nav1::after
+{
+	content: "Home";
+}
+#nav2::after
+{
+	content: "Links";
+}
+#nav3::after
+{
+	content: "Games";
+}
+
+/* Page content */
+h1, h2, h3, h4, h5, h6
+{
+	padding: 0.25em 0;
+	margin: 0 0;
+}
+p
+{
+	margin-top: 0.75em;
+	margin-bottom: 0em;
+}
+code
+{
+	color: #cf8;
+	background-color: rgba(221, 255, 187, 0.5);
+	font-size: large;
+	text-shadow: 1.5px 1.5px 0.5px #482 !important;
+	border-radius: 5px;
+}
+
+img.inline-left
+{
+	opacity: 0.75;
+	border: 1px solid rgba(128,128,128,0.5);
+	box-shadow: -2px -2px 0 white;
+	filter: drop-shadow(2px 2px 0 black);
+	float: left;
+	position: relative;
+	left: -4px;
+}
+
+@media screen and (max-width: 500px)	/* Smaller screens and mobile */
+{
+	.navigation	/* Change each navigation link into an icon. */
+	{
+		font-family: WebIcons;
+		font-size: 28pt;
+		vertical-align: text-bottom;
+	}
+	#nav1::after
+	{
+		content: "H";
+	}
+	#nav2::after
+	{
+		content: "L";
+	}
+	#nav3::after
+	{
+		content: "G";
+	}
+}
 
 /* Scrollbar customization - time to remove modern Windows' sorta-ugly scrollbars! */
 ::-webkit-scrollbar { width: 15px; background-color: rgba(48,96,192,0.5); border-radius: 1em; box-shadow: -2px 0 1px rgba(32,64,128,0.5); }
