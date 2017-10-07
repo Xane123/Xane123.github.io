@@ -10,9 +10,9 @@ function SetupPage() {
 	text_logo.textContent = sitename;
 	document.title = sitename + ' - ' + document.title;
 	
-	var temp_content = text_content.internalHTML;
+	var temp_content = text_content.innerHTML;
 	temp_content.replace(/SiteName/g, sitename);
-	text_content.internalHTML = temp_content;
+	text_content.innerHTML = temp_content;
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
 
