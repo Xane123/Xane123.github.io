@@ -51,17 +51,17 @@ iframe
     border-left-color: #47e;
     border-right-color: #03a;
     border-bottom-color: #03a;
-    height: calc 9(4em - 3px);
 	vertical-align: top;
 	margin: -3px;
 	width: calc(100% - 6px);
+	z-index: 100;
 }
 .logo-text
 {
-	font-family: 'Londrina Shadow';
+	font-family: 'Londrina Solid', cursive;
 	font-weight: 500;
 	font-size: 39pt;
-	color: white;
+	color: #fc8;
 }
 .navigation
 {
@@ -69,6 +69,37 @@ iframe
     font-size: 26pt;
 }
 
+@media screen	/* If on a screen, move the page down for the navbar. */
+{
+	.header, .wrapper
+	{
+		position: relative;
+		top: 62px;
+	}
+}
+
+.header
+{
+    transform: scale(1.13);
+	background-image: url('https://i.imgur.com/bMbpnX2.png');
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	padding: calc(100% - 85%) 0;
+	vertical-align: middle;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-family: 'Roboto Slab', serif;
+	font-size: 48pt;
+	z-index: -1;
+}
+
+.wrapper
+{
+	width: 66%;
+    position: relative;
+    left: 17%;
+}
 .content
 {
 	background-color: rgba(255,255,255,0.5);
@@ -132,8 +163,15 @@ img.inline-left
 	left: -4px;
 }
 
-@media screen and (max-width: 500px)	/* Smaller screens and mobile */
+/* Scrollbar customization - time to remove modern Windows' sorta-ugly scrollbars! */
+::-webkit-scrollbar { width: 15px; background-color: #147; }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-button, ::-webkit-scrollbar-corner { display: none; }
+::-webkit-scrollbar-thumb { border-radius: 1em; background-color: #ca8; }
+
+@media screen and (max-width: 800px)	/* Smaller screens and mobile */
 {
+	.logo-text { display: none; }	/* Hide the website title. */
+	.logo-container { border-radius: 99em; padding: 0; }
 	.navigation	/* Change each navigation link into an icon. */
 	{
 		font-family: WebIcons;
@@ -152,9 +190,15 @@ img.inline-left
 	{
 		content: "G";
 	}
+	.wrapper { width: 100%; left: 0%; }
 }
 
-/* Scrollbar customization - time to remove modern Windows' sorta-ugly scrollbars! */
-::-webkit-scrollbar { width: 15px; background-color: rgba(48,96,192,0.5); border-radius: 1em; box-shadow: -2px 0 1px rgba(32,64,128,0.5); }
-::-webkit-scrollbar-track, ::-webkit-scrollbar-button, ::-webkit-scrollbar-corner { display: none; }
-::-webkit-scrollbar-thumb { border-radius: 1em; background-color: rgba(255,255,255,0.5); }
+@media print	/* If printing, make the webpage look correct on white paper! */
+{
+	.navbar { display: none; }	/* Hide the navbar if printing. */
+	.header { background: lightgrey; border-radius: 100%; padding: 0; color: #a30; }
+	.wrapper { width: 100%; position: unset; left: 0%; }
+	body { background: white none; color: black; text-shadow: 0 0 0 transparent; font-weight: bold; }
+	h1, h2, h3, h4, h5, h6 { color: #842; }
+	
+}
