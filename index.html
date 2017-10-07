@@ -35,14 +35,11 @@
 		<meta name="msapplication-square150x150logo" content="https://i.imgur.com/glXHkRs.png" />
 		<meta name="msapplication-wide310x150logo" content="https://i.imgur.com/ML2rAyu.png" />
 		<meta name="msapplication-square310x310logo" content="https://i.imgur.com/L2gjAqe.png" />
-		<script>
-			function SetPageTitle()	<!-- This sets the page's title to the header of the page. Obviously doesn't work offline due to security limitations. -->
-			{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
-		</script>
+		<script src="scripts/common.js"></script>
 	</head>
 	
 	<!-- SECTION: HEADER -->
-	<body>
+	<body onload="SetPageTitle();">
 		<div class="navbar">
 			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
@@ -53,7 +50,7 @@
 			<a class="navigation" id="nav1" href="pages/links.html"></a>
 			<a class="navigation" id="nav2" href="pages/games.html"></a>
 		</div>
-		<center class="header" id="headerid" onload="SetPageTitle();">Welcome to Xane.com!</center>
+		<center class="header" id="headerid">Welcome to Xane.com!</center>
 		<noscript>It seems Javascript is disabled. Please enable it for this website if possible.</noscript>
 		<div class="header-divider"></div>
 		
