@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />
+<!--<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
+<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
 		<!--Customize the page's title and loaded stylesheets here.-->
-		<title>Welcome to Xane.com (under construction)</title>
 		<link href="styles/common.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles/common.css">
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
 		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
-
+		<title>Offline</title>
 		<!-- SECTION: COMMON SETTINGS FOR WEBSITE -->
 		<meta name="apple-mobile-web-app-capable" content="yes"><!-- iOS Safari -->
 		<link rel="manifest" href="/manifest.json"><!--For webapps-->
@@ -35,21 +35,26 @@
 		<meta name="msapplication-square150x150logo" content="https://i.imgur.com/glXHkRs.png" />
 		<meta name="msapplication-wide310x150logo" content="https://i.imgur.com/ML2rAyu.png" />
 		<meta name="msapplication-square310x310logo" content="https://i.imgur.com/L2gjAqe.png" />
+		<script>
+			function SetPageTitle()	<!-- This sets the page's title to the header of the page. Obviously doesn't work offline due to security limitations. -->
+			{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
+		</script>
 	</head>
 	
 	<!-- SECTION: HEADER -->
 	<body>
 		<div class="navbar">
-			<a class="logo-link" href="index.html">
+			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
-					<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt></img>
+					<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt alt="Website logo: a 3D, blue sphere with an orange X on it."></img>
 					<div class="logo-text" href="../index.html">Xane.com</div>
 				</div>
 			</a>
 			<a class="navigation" id="nav1" href="pages/links.html"></a>
 			<a class="navigation" id="nav2" href="pages/games.html"></a>
 		</div>
-		<center class="header">List of Games</center>
+		<center class="header" id="headerid" onload="SetPageTitle();">The List of Games</center>
+		<noscript>It seems Javascript is disabled. Please enable it for this website if possible.</noscript>
 		<div class="header-divider"></div>
 		
 		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
