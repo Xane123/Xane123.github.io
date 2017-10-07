@@ -11,7 +11,7 @@ function SetupPage() {
 	document.title = sitename + ' - ' + document.title;
 	
 	var temp_content = text_content.innerHTML;
-	temp_content.replace(/SiteName/g, sitename);
+	temp_content = temp_content.replace(/SiteName/g, sitename);
 	text_content.innerHTML = temp_content;
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
