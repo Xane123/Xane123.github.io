@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<!--<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
-<base href="https://xane123.github.io/" />	<!-- Online -->
+<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
+<!--<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
-		<!--Customize the page's title and loaded stylesheets here.-->
+		<!--Customize the page's title, stylesheets, and header image (online-only) here.-->
 		<link href="styles/common.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles/common.css">
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
 		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
-		<title>Xane.com</title>
+		<title>Welcome to Xane.com!</title>
 		<!-- SECTION: COMMON SETTINGS FOR WEBSITE -->
 		<meta name="apple-mobile-web-app-capable" content="yes"><!-- iOS Safari -->
 		<link rel="manifest" href="/manifest.json"><!--For webapps-->
@@ -42,18 +42,18 @@
 	</head>
 	
 	<!-- SECTION: HEADER -->
-	<body onload="SetPageTitle(); ">
+	<body onload="SetupPage();">
 		<div class="navbar">
 			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
 					<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt alt="Website logo: a 3D, blue sphere with an orange X on it."></img>
-					<div class="logo-text" href="../index.html">Xane.com</div>
+					<div class="logo-text" id="logotextid" href="../index.html">Loading...</div>
 				</div>
 			</a>
 			<a class="navigation" id="nav1" href="pages/links.html"></a>
 			<a class="navigation" id="nav2" href="pages/games.html"></a>
 		</div>
-		<center class="header" id="headerid">Welcome to Xane.com!</center>
+		<center class="header" id="headerid" style="background-image: url('https://i.imgur.com/faI7pPo.png');">Offline Test</center> <!--Insert an image into the style here.-->
 		<noscript>It seems Javascript is disabled. Please enable it for this website if possible.</noscript>
 		<div class="header-divider"></div>
 		
@@ -63,9 +63,8 @@
 				<h1>The new design is here!</h1>
 				<p>Welcome to Xane.com's new design! The games page has been ported but may break when working on it due to the &lt;base&gt; HTML tag. being used to make it easy to copy/paste the HTML code between pages.</p>
 				<p>Yes, both pages have to be up to date as it's all standalone now. Let's hope Google can crawl this website properly now.</p>
-				<code>Website design by Xane Myers.</code>
 			</div>
-			<div class="footer">Xane.com is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.</div>
+			<div class="footer">Xane.com is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>. Content not made by Xane Myers is owned by their respective owners.</div>
 		</div>
 			
 	</body>
