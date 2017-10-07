@@ -3,21 +3,12 @@
 <base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
 		<!--Customize the page's title and loaded stylesheets here.-->
-		<script>
-			// Gabi's elegant approach, but eliminating one unnecessary line of code:
-			function SetPageTitle()
-			{
-				var element = document.getElementByID('headerid');
-				element.innerHTML = element.innerText || element.textContent;
-				document.title = element.innerHTML;
-			}
-		</script>
 		<link href="styles/common.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles/common.css">
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
 		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
-
+		<title>Xane.com</title>
 		<!-- SECTION: COMMON SETTINGS FOR WEBSITE -->
 		<meta name="apple-mobile-web-app-capable" content="yes"><!-- iOS Safari -->
 		<link rel="manifest" href="/manifest.json"><!--For webapps-->
@@ -44,6 +35,14 @@
 		<meta name="msapplication-square150x150logo" content="https://i.imgur.com/glXHkRs.png" />
 		<meta name="msapplication-wide310x150logo" content="https://i.imgur.com/ML2rAyu.png" />
 		<meta name="msapplication-square310x310logo" content="https://i.imgur.com/L2gjAqe.png" />
+		<script>
+			function SetPageTitle()	<!-- This sets the page's title to the header of the page. Obviously doesn't work offline due to security limitations. -->
+			{
+				var element = document.getElementById('headerid');
+				element.innerHTML = element.innerText || element.textContent;
+				document.title = element.innerHTML;
+			}
+		</script>
 	</head>
 	
 	<!-- SECTION: HEADER -->
@@ -58,14 +57,16 @@
 			<a class="navigation" id="nav1" href="pages/links.html"></a>
 			<a class="navigation" id="nav2" href="pages/games.html"></a>
 		</div>
-		<center class="header" id="headerid" onload="SetPageTitle();">AHHHHHHHHHHHHHH</center>
+		<center class="header" id="headerid" onload="SetPageTitle();">Welcome to Xane.com!</center>
+		<noscript>It seems Javascript is disabled. Please enable it for this website if possible.</noscript>
 		<div class="header-divider"></div>
 		
 		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
 		<div class="wrapper">
 			<div class="content">
-				<h1>New design!</h1>
-				<p>Welcome to Xane.com's new design! Nothing works yet, as no pages have been ported from the previous design, but this new design is both mobile and printer-friendly!</code></p>
+				<h1>The new design is here!</h1>
+				<p>Welcome to Xane.com's new design! The games page has been ported but may break when working on it due to the &lt;base&gt; HTML tag. being used to make it easy to copy/paste the HTML code between pages.</p>
+				<p>Yes, both pages have to be up to date as it's all standalone now. Let's hope Google can crawl this website properly now.</p>
 				<code>Website design by Xane Myers.</code>
 			</div>
 			<div class="footer">Xane.com is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.</div>
