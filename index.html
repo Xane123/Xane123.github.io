@@ -7,7 +7,7 @@
 			// Gabi's elegant approach, but eliminating one unnecessary line of code:
 			function SetPageTitle()
 			{
-				var element = document.getElementByClassName('header');
+				var element = document.getElementByID('headerid');
 				element.innerHTML = element.innerText || element.textContent;
 				document.title = element.innerHTML;
 			}
@@ -58,7 +58,7 @@
 			<a class="navigation" id="nav1" href="pages/links.html"></a>
 			<a class="navigation" id="nav2" href="pages/games.html"></a>
 		</div>
-		<center class="header" onload="SetPageTitle();">AHHHHHHHHHHHHHH</center>
+		<center class="header" id="headerid" onload="SetPageTitle();">AHHHHHHHHHHHHHH</center>
 		<div class="header-divider"></div>
 		
 		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
