@@ -56,12 +56,14 @@ iframe
 	width: calc(100% - 6px);
 	z-index: 100;
 }
-.logo-text
+.logo-link, .logo-link:hover, .logo-link:active, .logo-link:focus, .logo-link:visited
 {
 	font-family: 'Londrina Solid', cursive;
+	text-decoration: none;
 	font-weight: 500;
 	font-size: 39pt;
 	color: #fc8;
+	cursor: default;
 }
 .navigation
 {
@@ -80,7 +82,6 @@ iframe
 
 .header
 {
-    transform: scale(1.13);
 	background-image: url('https://i.imgur.com/bMbpnX2.png');
 	background-size: cover;
 	background-position: bottom;
@@ -92,6 +93,21 @@ iframe
 	font-family: 'Roboto Slab', serif;
 	font-size: 48pt;
 	z-index: -1;
+	cursor: default;
+}
+
+.header-divider
+{
+	width: calc(100% - 4px);
+	height: 8px;
+	border: 2px solid;
+	position: relative;
+	top: 52px;
+	border-top-color: #e74;
+	background-color: #a30;
+	border-left-color: #c52;
+	border-right-color: #c52;
+	border-bottom-color: #620
 }
 
 .wrapper
@@ -121,13 +137,9 @@ iframe
 /* Header labels for normal screens */
 #nav1::after
 {
-	content: "Home";
-}
-#nav2::after
-{
 	content: "Links";
 }
-#nav3::after
+#nav2::after
 {
 	content: "Games";
 }
@@ -168,7 +180,7 @@ img.inline-left
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-button, ::-webkit-scrollbar-corner { display: none; }
 ::-webkit-scrollbar-thumb { border-radius: 1em; background-color: #ca8; }
 
-@media screen and (max-width: 800px)	/* Smaller screens and mobile */
+@media screen and (max-width: 639px)	/* Smaller screens and mobile */
 {
 	.logo-text { display: none; }	/* Hide the website title. */
 	.logo-container { border-radius: 99em; padding: 0; }
@@ -178,27 +190,25 @@ img.inline-left
 		font-size: 28pt;
 		vertical-align: text-bottom;
 	}
+	.header { font-size: 36pt; }
 	#nav1::after
-	{
-		content: "H";
-	}
-	#nav2::after
 	{
 		content: "L";
 	}
-	#nav3::after
+	#nav2::after
 	{
 		content: "G";
 	}
 	.wrapper { width: 100%; left: 0%; }
 }
 
-@media print	/* If printing, make the webpage look correct on white paper! */
+@media print	/* If printing, make the webpage look okay on white paper! */
 {
-	.navbar { display: none; }	/* Hide the navbar if printing. */
-	.header { background: lightgrey; border-radius: 100%; padding: 0; color: #a30; }
+	.navbar, .header-divider { display: none; }	/* Hide parts of the page if printing. */
+	.header { transform: scale(1); background: #e0e0e0 none; border-radius: 100px; padding: 0; color: #a30; }
 	.wrapper { width: 100%; position: unset; left: 0%; }
-	body { background: white none; color: black; text-shadow: 0 0 0 transparent; font-weight: bold; }
+	body { background: transparent none; color: black; text-shadow: 0 0 0 transparent; font-weight: bold; }
 	h1, h2, h3, h4, h5, h6 { color: #842; }
+	code { color: darkgreen; border: 1px dashed green; background-color: transparent; text-shadow: 0 0 0 none; }
 	
 }

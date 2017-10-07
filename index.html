@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html>
+<!--<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
+<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
 		<!--Customize the page's title and loaded stylesheets here.-->
-		<title>Welcome to Xane.com (under construction)</title>
+		<script>
+			// Gabi's elegant approach, but eliminating one unnecessary line of code:
+			function SetPageTitle()
+			{
+				var element = document.getElementByClassName('header');
+				element.innerHTML = element.innerText || element.textContent;
+				document.title = element.innerHTML;
+			}
+		</script>
+		<link href="styles/common.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles/common.css">
-		<link href="styles/extra/mobile.css" rel="stylesheet" media="orientation:portrait">
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
 		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
@@ -21,7 +30,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">		<link rel="stylesheet" href="styles/font/xpinball.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="styles/font/webicons.css" type="text/css" charset="utf-8" />
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />	<!--Outdated browsers-->
 		<link rel="icon" type="image/png" href="https://i.imgur.com/BUaWuf8.png" sizes="192x192"><!--Supposedly Android-->
 		<link rel="apple-touch-icon" sizes="57x57" href="https://i.imgur.com/zfwuUfO.png">	<!--Various iOS icon sizes. Not sure which relates to each iPhone/iPad.-->
 		<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/F9WABeo.png">
@@ -41,16 +49,19 @@
 	<!-- SECTION: HEADER -->
 	<body>
 		<div class="navbar">
-			<div class="logo-container">
-				<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt></img>
-				<div class="logo-text">Xane.com</div>
-			</div>
-			<a class="navigation" id="nav1"></a>
-			<a class="navigation" id="nav2"></a>
-			<a class="navigation" id="nav3"></a>
+			<a class="logo-link" href="index.html">
+				<div class="logo-container">
+					<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt></img>
+					<div class="logo-text" href="../index.html">Xane.com</div>
+				</div>
+			</a>
+			<a class="navigation" id="nav1" href="pages/links.html"></a>
+			<a class="navigation" id="nav2" href="pages/games.html"></a>
 		</div>
+		<center class="header" onload="SetPageTitle();">AHHHHHHHHHHHHHH</center>
+		<div class="header-divider"></div>
 		
-		<center class="header">The Test Page</center>
+		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
 		<div class="wrapper">
 			<div class="content">
 				<h1>New design!</h1>
