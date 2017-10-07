@@ -8,7 +8,7 @@
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
 		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
-		<title>Offline</title>
+		<title>Xane.com</title>
 		<!-- SECTION: COMMON SETTINGS FOR WEBSITE -->
 		<meta name="apple-mobile-web-app-capable" content="yes"><!-- iOS Safari -->
 		<link rel="manifest" href="/manifest.json"><!--For webapps-->
@@ -36,6 +36,9 @@
 		<meta name="msapplication-wide310x150logo" content="https://i.imgur.com/ML2rAyu.png" />
 		<meta name="msapplication-square310x310logo" content="https://i.imgur.com/L2gjAqe.png" />
 		<script src="scripts/common.js"></script>
+		<script>
+			function testFunction() {if(getURLParameter('testing') == "yes") alert('Javascript test successful! Xane knows JS to an extent!');}
+		</script>
 	</head>
 	
 	<!-- SECTION: HEADER -->
@@ -43,7 +46,7 @@
 		<div class="navbar">
 			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
-					<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt alt="Website logo: a 3D, blue sphere with an orange X on it."></img>
+					<img onload="TtestFunction();" src=https://i.imgur.com/zXu238W.png width=42pt height=42pt alt="Website logo: a 3D, blue sphere with an orange X on it."></img>
 					<div class="logo-text" href="../index.html">Xane.com</div>
 				</div>
 			</a>
