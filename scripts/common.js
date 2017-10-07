@@ -1,7 +1,7 @@
 
 
 function SetupPage()
-{var element = document.getElementById('headerid');element.textContent = document.title;}
+{var sitename = 'Xane.com';var text_header = document.getElementById('headerid');var text_logo = document.getElementById('logotextid');text_header.textContent = document.title;text_logo.textContent = sitename;document.title = sitename + ' - ' + document.title;}
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
 
 //From the Official Microsoft Support scam website, getURLParameter()!
