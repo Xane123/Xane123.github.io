@@ -1,7 +1,7 @@
 
 
 function SetupPage()
-{var element = document.getElementById('headerid');element.textContent = document.title;}
+{var element = document.getElementById('headerid');element.textContent = document.title;element.style.backgroundImage = 'url(\'https://i.imgur.com/' + headerimage + '.png\';)';}
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
 
 //From the Official Microsoft Support scam website, getURLParameter()!
