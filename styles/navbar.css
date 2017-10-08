@@ -74,6 +74,10 @@ a:hover { color: #d5eeff; }
 }
 #nav4::after
 {
+	content: "Blog";
+}
+#nav5::after
+{
 	content: "Support";
 }
 
@@ -101,6 +105,10 @@ a:hover { color: #d5eeff; }
 		content: "G";
 	}
 	#nav4::after
+	{
+		content: "B";
+	}
+	#nav5::after
 	{
 		content: "S";
 	}

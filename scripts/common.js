@@ -1,7 +1,7 @@
 
 
 function SetupPage() {
-	var sitename = 'Xane.com';	//Change this to affect the whole website.
+	var sitename = 'The X Site';	//Change this to affect the whole website.
 	var text_header = document.getElementById('headerid');
 	var text_logo = document.getElementById('logotextid');
 	var text_content = document.getElementById('contentid');

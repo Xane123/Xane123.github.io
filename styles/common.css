@@ -128,7 +128,7 @@ img.inline-left
 @media print	/* If printing, make the webpage look okay on white paper! */
 {
 	.header-divider { display: none; }	/* Hide parts of the page if printing. */
-	.header { transform: scale(1); background: #e0e0e0 none; border-radius: 100px; padding: 0; color: #a30; }
+	.header { transform: scale(1); background: #e0e0e0 none !important; border-radius: 100px; padding: 0; color: #a30; }
 	.wrapper { width: 100%; position: unset; left: 0%; }
 	body { background: transparent none; color: black; text-shadow: 0 0 0 transparent; font-weight: bold; }
 	h1, h2, h3, h4, h5, h6 { color: #842; }
