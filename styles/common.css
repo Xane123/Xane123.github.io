@@ -106,6 +106,7 @@ code
 	font-size: large;
 	text-shadow: 1.5px 1.5px 0.5px #482 !important;
 	border-radius: 5px;
+	word-wrap: break-word;
 }
 
 img.inline-left
