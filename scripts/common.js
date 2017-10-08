@@ -1,7 +1,7 @@
 
 
 function SetupPage() {
-	var sitename = 'Xane.com';
+	var sitename = 'Xane.com';	//Change this to affect the whole website.
 	var text_header = document.getElementById('headerid');
 	var text_logo = document.getElementById('logotextid');
 	var text_content = document.getElementById('contentid');
@@ -11,7 +11,7 @@ function SetupPage() {
 	document.title = sitename + ' - ' + document.title;
 	
 	var temp_content = text_content.innerHTML;
-	temp_content = temp_content.replace(/SiteName/g, sitename);
+	temp_content = temp_content.replace(/SiteName/g, sitename);	//Replace SiteName to ensure this website is always called the correct name.
 	text_content.innerHTML = temp_content;
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}

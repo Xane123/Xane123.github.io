@@ -1,31 +1,25 @@
-body	/* Default style. This CSS file only includes what all pages will use. */
+body
 {
 	font-family: XPinball, 'Trebuchet MS', Trebuchet, sans-serif;
 	color: #fc8;
 	text-shadow: 1.5px 1.5px 0.5px #842;
 	overflow-x:hidden;
-	background-image: url(https://i.imgur.com/I6oihTNh.png);
+	background-color: #546;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	background-color: black;
 	margin: 0;
 }
+
+a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
+a, a:focus, a:active, a:visited { color: #adf; }
+a:hover { color: #d5eeff; }
 
 iframe
 {
 	border: none !important;
 	border-width: 0px;
 	transition: height 0.75s ease-in-out;
-}
-
-@media screen	/* If on a screen, move the page down for the navbar. */
-{
-	.header, .wrapper
-	{
-		position: relative;
-		top: 62px;
-	}
 }
 
 .header
@@ -88,6 +82,16 @@ noscript
 	color: white !important;
 }
 
+/* Header labels for normal screens */
+#nav1::after
+{
+	content: "Links";
+}
+#nav2::after
+{
+	content: "Games";
+}
+
 /* Page content */
 h1, h2, h3, h4, h5, h6
 {
@@ -118,6 +122,11 @@ img.inline-left
 	position: relative;
 	left: -4px;
 }
+
+/* Scrollbar customization - time to remove modern Windows' sorta-ugly scrollbars! */
+::-webkit-scrollbar { width: 15px; background-color: #147; }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-button, ::-webkit-scrollbar-corner { display: none; }
+::-webkit-scrollbar-thumb { border-radius: 1em; background-color: #ca8; }
 
 @media screen and (max-width: 639px)	/* Smaller screens and mobile */
 {

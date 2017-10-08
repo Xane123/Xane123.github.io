@@ -4,13 +4,12 @@
 	<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
 		<!--Customize the page's title, stylesheets, and header image (online-only) here.-->
-		<link rel="stylesheet" type="text/css" href="styles/common.css">
 		<link rel="stylesheet" type="text/css" href="styles/navbar.css">
 		<!--Website color-->
-		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
-		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
-		<title>Welcome to Xane.com!</title>
-		<!-- SECTION: COMMON SETTINGS FOR WEBSITE -->
+		<meta name="theme-color" content="#7722cc" /><!-- Chrome, Firefox OS and Opera --> 
+		<meta name="msapplication-navbutton-color" content="#7722cc" /><!-- Windows Phone -->
+		<title>Mary's Magical Adventure Guide</title>
+		<!-- SECTION: COMMON SETTINGS FOR WHOLE WEBSITE -->
 		<meta name="apple-mobile-web-app-capable" content="yes"><!-- iOS Safari -->
 		<link rel="manifest" href="/manifest.json"><!--For webapps-->
 		<meta name="twitter:site" content="@Xane_Xanecom" />
@@ -37,13 +36,21 @@
 		<meta name="msapplication-wide310x150logo" content="https://i.imgur.com/ML2rAyu.png" />
 		<meta name="msapplication-square310x310logo" content="https://i.imgur.com/L2gjAqe.png" />
 		<script src="scripts/common.js"></script>
-		<!--<script>
-			function testFunction() {if(getURLParameter('testing') == 'yes') alert('Javascript test successful! Xane knows JS to an extent!');}
-		</script>-->
+		<style>
+			body { margin: 0 !important; background-color: #537; color: purple; } iframe { padding: 0 !important; margin: 0 !important; border: 0 solid transparent !important; }
+			.title { background-color: rgba(255,255,255,0.5); font-size: xx-large; font-family: 'Cooper', 'Cooper Black', 'Roboto Slab'; font-weight: bold; border-radius: 1em; text-align: center; display: block; }
+			.item { background-color: lightgrey; padding: 0.625em 0; font-size: x-large; color: #888; border: 3px solid; border-top-color: #eee; border-left-color: #eee; border-bottom-color: #aaa; border-right-color: #aaa; }
+			.navbar { background-color: #72c; border-top-color: #84e; border-left-color: #84e; border-right-color: #60a; border-bottom-color: #60a; }
+		</style>
+		<script>
+			function ResizeItems() {
+				var frame_list = document.getElementById('list');
+				frame_list.style = 'height: ' + (innerHeight - 74) + 'px; width: 25%; position: relative; top: 73px; float: left;';
+			}
+		</script>
 	</head>
 	
-	<!-- SECTION: HEADER -->
-	<body onload="SetupPage();">
+	<body onload="ResizeItems(); SetupPage();">
 		<div class="navbar">
 			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
@@ -51,25 +58,22 @@
 					<div class="logo-text" id="logotextid" href="../index.html">Loading...</div>
 				</div>
 			</a>
-			<a class="navigation" id="nav1" alt="about navigation link" href="pages/about.html"></a>
-			<a class="navigation" id="nav2" alt="links navigation link" href="pages/links.html"></a>
-			<a class="navigation" id="nav3" alt="games navigation link" href="pages/games.html"></a>
-			<a class="navigation" id="nav4" alt="support navigation link" href="pages/support.html"></a>
+			<a class="navigation" id="nav1" alt="links navigation link" href="pages/links.html"></a>
+			<a class="navigation" id="nav2" alt="games navigation link" href="pages/games.html"></a>
 		</div>
-		<center class="header" id="headerid" style="background-image: url('https://i.imgur.com/faI7pPoh.png');"></center> <!--Insert an image into the style here.-->
-		<noscript>It seems Javascript is disabled. Please enable it for this website if possible.</noscript>
-		<div class="header-divider"></div>
 		
-		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
-		<div class="wrapper">
-			<div class="content" id="contentid">
-				<h1>The new design is here!</h1>
-				<p>Welcome to Xane.com's new design! The games page has been ported but may break when working on it due to the &lt;base&gt; HTML tag. being used to make it easy to copy/paste the HTML code between pages.</p>
-				<p>Yes, both pages have to be up to date as it's all standalone now. Let's hope Google can crawl this website properly now.</p>
-				<p>Anyways, SiteName is mostly incomplete for now, so visit <a href="https://sites.google.com/view/xanem1" rel="noopener">the Google Sites version</a> of SiteName for now.</p>
-			</div>
-			<div class="footer">Xane.com is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>. Content not made by Xane Myers is owned by their respective owners.</div>
+		<div id=list>
+			<i class="title" id="headerid">Please Enable Javascript!</i>
+			<center class="item">Test 1</center>
+			<center class="item">Test 2</center>
+			<center class="item">Test 3</center>
+			<center class="item">1-1: Hell City</center>
+			<center class="item">1-2: Rooftops</center>
+			<center class="item">1-3: Streets</center>
 		</div>
-			
+		
+		</div>
+	
+	<div id="contentid"></div>
 	</body>
 </html>
