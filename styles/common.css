@@ -119,10 +119,13 @@ img.inline-left
 	position: relative;
 	left: -4px;
 }
-
-@media screen and (max-width: 639px)	/* Smaller screens and mobile */
+@media screen and (max-width: 749px)
 {
 	.wrapper { width: 100%; left: 0%; }
+}
+@media screen and (max-width: 639px)	/* Smaller screens and mobile */
+{
+	/* Nothing here yet. */
 }
 
 @media print	/* If printing, make the webpage look okay on white paper! */

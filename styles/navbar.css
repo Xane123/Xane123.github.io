@@ -80,7 +80,74 @@ a:hover { color: #d5eeff; }
 {
 	content: "Support";
 }
+#nav1::before
+{
+	font-family: WebIcons;
+	font-size: 75%;
+	content: "I";
+}
+#nav2::before
+{
+	font-family: WebIcons;
+	font-size: 75%;
+	content: "L";
+}
+#nav3::before
+{
+	font-family: WebIcons;
+	font-size: 75%;
+	content: "G";
+}
+#nav4::before
+{
+	font-family: WebIcons;
+	font-size: 75%;
+	content: "B ";
+}
+#nav5::before
+{
+	font-family: WebIcons;
+	font-size: 75%;
+	content: "S";
+}
 
+@media screen and (max-width: 1279px)	/* Resize #1 */
+{
+	#nav1::before
+	{
+		content: "";
+	}
+	#nav2::before
+	{
+		content: "";
+	}
+	#nav3::before
+	{
+		content: "";
+	}
+	#nav4::before
+	{
+		content: "";
+	}
+	#nav5::before
+	{
+		content: "";
+	}
+}
+@media screen and (max-width: 959px)	/* Resize #2 */
+{
+	.navigation
+	{
+		font-size: 20pt;
+	}
+}
+@media screen and (max-width: 749px)	/* Resize #3 */
+{
+	.navigation
+	{
+		font-size: 13pt;
+	}
+}
 @media screen and (max-width: 639px)	/* Smaller screens and mobile */
 {
 	.logo-text { display: none; }	/* Hide the website title. */
