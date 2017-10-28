@@ -1,11 +1,11 @@
 {
-  "short_name": "Xane.com",
-  "name": "Xane.com",
+  "short_name": "The X Site",
+  "name": "The X Site",
   "icons": [
     {
-      "src": "android-chrome-192x192.png",
+      "src": "https://i.imgur.com/BUaWuf8.png",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "192x192"
     }
   ],
   "background_color": "#325aa9",
