@@ -5,6 +5,7 @@ function SetupPage() {
 	var text_header = document.getElementById('headerid');
 	var text_logo = document.getElementById('logotextid');
 	var text_content = document.getElementById('contentid');
+	var text_footer = document.getElementById('footerid');
 	
 	text_header.textContent = document.title;
 	text_logo.textContent = sitename;
@@ -13,6 +14,8 @@ function SetupPage() {
 	var temp_content = text_content.innerHTML;
 	temp_content = temp_content.replace(/SiteName/g, sitename);	//Replace SiteName to ensure this website is always called the correct name.
 	text_content.innerHTML = temp_content;
+	
+	text_footer.innerHTML = 'The X Site is &#169; Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.';
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
 
