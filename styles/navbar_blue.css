@@ -1,0 +1,21 @@
+.navbar
+{
+	background-color: #25c;
+    border-top-color: #47e;
+    border-left-color: #47e;
+    border-right-color: #03a;
+    border-bottom-color: #03a;
+}
+
+.navigation
+{
+	text-shadow: 1.5px 1.5px 0.5px #248;
+}
+.navigation, .navigation:focus, .navigation:active, .navigation:visited
+{
+	color: #adf;
+}
+.navigation:hover
+{
+	color: #d5eeff;
+}
