@@ -37,7 +37,7 @@ iframe
 	background-size: cover;
 	background-position: bottom;
 	background-attachment: fixed;
-	padding: calc(100% - 87.5%) 0;
+	padding: calc(100% - 90%) 0;
 	vertical-align: middle;
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -98,13 +98,11 @@ noscript
 /* Page content */
 h1, h2, h3, h4, h5, h6
 {
-	padding: 0.25em 0;
-	margin: 0 0;
+	margin: 5px 4px 0 4px;
 }
 p
 {
-	margin-top: 0.75em;
-	margin-bottom: 0em;
+	margin: 6.5px 4px 3px 4px;
 }
 code
 {
@@ -120,11 +118,8 @@ img.inline-left
 {
 	opacity: 0.75;
 	border: 1px solid rgba(128,128,128,0.5);
-	box-shadow: -2px -2px 0 white;
-	filter: drop-shadow(2px 2px 0 black);
+	box-shadow: 0 0 2px white;
 	float: left;
-	position: relative;
-	left: -4px;
 }
 
 table
