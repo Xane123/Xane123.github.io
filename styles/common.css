@@ -90,6 +90,9 @@ code
 
 table
 {
+	position: relative;
+	left: 12.5%;
+	width: 75%;
 	background-color: rgba(255,255,255,0.13);
 }
 table, th, td
@@ -103,6 +106,10 @@ th
 tr
 {
 	background-color: rgba(48,108,224,0.5);
+}
+td
+{
+	max-width: 0;
 }
 
 /* Glossy Blue Google Chrome scrollbars */
