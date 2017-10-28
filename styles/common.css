@@ -25,7 +25,7 @@ iframe
 
 @media screen	/* If on a screen, move the page down for the navbar. */
 {
-	.header, .wrapper
+	.header
 	{
 		position: relative;
 		top: 62px;
@@ -68,33 +68,6 @@ noscript
 	border-bottom-color: #620
 }
 
-.wrapper
-{
-	width: 66%;
-    position: relative;
-    left: 17%;
-}
-.content
-{
-	background-color: rgba(96,96,96,0.9);
-	border: 1px solid rgba(192,192,192,0.65);
-	border-top-left-radius: 1em;
-	border-top-right-radius: 1em;
-}
-
-.footer
-{
-	padding: 0.5em 1em;
-	text-align: center;
-	background-color: rgba(32,32,32,0.34);
-	border: 1px solid rgba(64,64,64,0.5);
-	border-bottom-left-radius: 1em;
-	border-bottom-right-radius: 1em;
-	color: white;
-	border-radius: 5px;
-	color: white !important;
-}
-
 /* Page content */
 h1, h2, h3, h4, h5, h6
 {
@@ -114,13 +87,6 @@ code
 	word-wrap: break-word;
 }
 
-img.inline-left
-{
-	opacity: 0.75;
-	border: 1px solid rgba(128,128,128,0.5);
-	box-shadow: 0 0 2px white;
-	float: left;
-}
 
 table
 {
@@ -144,23 +110,3 @@ tr
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
 ::-webkit-scrollbar-thumb { border-radius: 3px; background: linear-gradient(to right, #6c89ad 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); }
 ::-webkit-scrollbar-button { height: 17px; background: radial-gradient(ellipse at center, #e0eeff 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); border-radius: 2px; }
-
-@media screen and (max-width: 749px)
-{
-	.wrapper { width: 100%; left: 0%; }
-}
-@media screen and (max-width: 639px)	/* Smaller screens and mobile */
-{
-	/* Nothing here yet. */
-}
-
-@media print	/* If printing, make the webpage look okay on white paper! */
-{
-	.header-divider { display: none; }	/* Hide parts of the page if printing. */
-	.header { transform: scale(1); background: #e0e0e0 none !important; border-radius: 100px; padding: 0; color: #a30; }
-	.wrapper { width: 100%; position: unset; left: 0%; }
-	body { background: transparent none; color: black; text-shadow: 0 0 0 transparent; font-weight: bold; }
-	h1, h2, h3, h4, h5, h6 { color: #842; }
-	code { color: darkgreen; border: 1px dashed green; background-color: transparent; text-shadow: 0 0 0 none; }
-	
-}

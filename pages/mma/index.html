@@ -3,15 +3,16 @@
 	<!--<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
 	<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
-		<!--Customize the page's title and stylesheets here.-->
+		<!--Customize the page's title, stylesheets, and header image (online-only) here.-->
 		<link rel="stylesheet" type="text/css" href="styles/common.css">
-		<link rel="stylesheet" type="text/css" href="styles/page_standard.css">
+		<link rel="stylesheet" type="text/css" href="styles/page_mma.css">
 		<link rel="stylesheet" type="text/css" href="styles/navbar.css">
-		<link rel="stylesheet" type="text/css" href="styles/navbar_blue.css">
+		<link rel="stylesheet" type="text/css" href="styles/navbar_purple.css">
+		<link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
 		<!--Website color-->
-		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
-		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
-		<title>Support Xane</title>
+		<meta name="theme-color" content="#cc2255" /><!-- Chrome, Firefox OS and Opera --> 
+		<meta name="msapplication-navbutton-color" content="#cc2255" /><!-- Windows Phone -->
+		<title>Mary's Magical Adventure</title>
 		<!-- SECTION: COMMON SETTINGS FOR WEBSITE -->
 		<meta name="apple-mobile-web-app-capable" content="yes"><!-- iOS Safari -->
 		<link rel="manifest" href="/manifest.json"><!--For webapps-->
@@ -44,13 +45,10 @@
 		<meta name="msapplication-wide310x150logo" content="https://i.imgur.com/ML2rAyu.png" />
 		<meta name="msapplication-square310x310logo" content="https://i.imgur.com/L2gjAqe.png" />
 		<script src="scripts/common.js"></script>
-		<!--<script>
-			function testFunction() {if(getURLParameter('testing') == 'yes') alert('Javascript test successful! Xane knows JS to an extent!');}
-		</script>-->
 	</head>
 	
 	<!-- SECTION: HEADER -->
-	<body onload="SetupPage();">
+	<body onload="SetupPage();" style="background-image: url('https://i.imgur.com/za2bgnk.png'); background-size: 50%;">
 		<div class="navbar">
 			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
@@ -64,14 +62,24 @@
 			<a class="navigation" id="nav4" alt="blog navigation link" href="pages/blogiframe.html"></a>
 			<a class="navigation" id="nav5" alt="support navigation link" href="pages/support.html"></a>
 		</div>
-		<center class="header" id="headerid" style="background-image: url('https://i.imgur.com/M5gn2h.jpg')"></center>
+		<center class="header" id="headerid" style="background-image: url('https://i.imgur.com/bMbpnX2.png')"></center>
 		<noscript>It seems Javascript is disabled. Please enable it for this website if possible.</noscript>
 		<div class="header-divider"></div>
 		
 		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
 		<div class="wrapper">
 			<div class="content" id="contentid">
-		<p>If you'd like to support Xane, you can send Monero to wallet address <code>4522bqvwUF2RBkARVP5hZpWnXaynh4PQEHFy63cBqUTMdB1goag6deuUgUWjCNubdnjmPFNzNZg9AaYq5gRvGP7u7mQDSSe</code> or buy products from his shop on Shapeways, <a href="https://www.shapeways.com/shops/the-x-shop">the X Shop</a>. Xane has no Patreon or other way of support yet as he isn't popular enough for it to work yet.</p>
+				<div class="wrapper-topcontent">
+					<div class="content-half"><iframe width="100%" height="320px" src="https://www.youtube-nocookie.com/embed/lTgMpZkFyk4?rel=0" frameborder="0" style="border-radius: 0.33em;" allowfullscreen></iframe></div>
+					<div class="content-half">
+						<p>Mary's Magical Adventure is a first person platforming game where a seemingly ordinary little girl named Mary must escape Hell City, her home, after seeing a giant human-like silhouette who calls himself the Origin Master appear and throw a fireball too close to her home!</p>
+						<p>See the <a href=https://worldofkirbycraft.miraheze.org>World of Kirbycraft Wiki</a> for gameplay details.
+						<li>Run through areas, killing monsters, finding special coins with unique temporary bonuses, and discover secret areas.</li>
+						<li>Find Special Stage entrances and collect 7 Chaos Bridges.</li>
+						<li>Eight worlds of four levels each planned!</li>
+					</div>
+				</div>
+				
 			</div>
 			<div class="footer" id="footerid"></div>
 		</div>
