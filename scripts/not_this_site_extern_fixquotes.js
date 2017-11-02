@@ -1,1 +1,0 @@
-javascript:var quotething = "'";var bodaey = document.body.innerHTML; var temp_content = bodaey; temp_content = temp_content.replace(/â€™/g, "'"); temp_content = temp_content.replace(/â€œ/g, "“"); temp_content = temp_content.replace(/â€/g, "”"); document.body.innerHTML = temp_content; 
