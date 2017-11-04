@@ -16,6 +16,7 @@ function SetupPage() {
 	text_content.innerHTML = temp_content;
 	
 	text_footer.innerHTML = 'The X Site is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.';
+	console.log('Successfully finished OnLoad Javascript text replacement.');
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
 

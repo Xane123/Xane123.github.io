@@ -1,9 +1,10 @@
-.header-divider { display: none; }	/* Hide parts of the page if printing. */
+.header-divider { display: none; }
 .header { transform: scale(1); background: #e0e0e0 none !important; border-radius: 100px; padding: 0; color: #a30; }
 .wrapper { width: 100%; position: unset; left: 0%; }
 body { background: transparent none !important; color: black; text-shadow: 0 0 0 transparent; font-family: 'Trebuchet MS', sans-serif; }
 h1, h2, h3, h4, h5, h6 { color: #842; }
 code { color: darkgreen; border: 1px dashed green; text-shadow: 0 0 0 transparent !important; background-color: transparent; text-shadow: 0 0 0 none; }
+img.inline-left, img.inline-right { opacity: 1; }
 .content { background-color: transparent; border: 0 solid transparent; border-radius: 0; }
 .footer { color: #666 !important; background-color: transparent; border: 0 solid transparent; border-radius: 0; margin: 0; padding: 5px 0 0 0; }
 .footer a { color: #666; text-decoration: none; text-shadow: 0 0 0 transparent; }
