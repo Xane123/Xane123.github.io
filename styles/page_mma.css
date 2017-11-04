@@ -16,12 +16,13 @@ body
 	height: 320px;
 	display: flex;
 }
-.content .content-half
+.content, .content-half
 {
 	background-color: rgba(192,144,184,0.5);
 	border: 1px solid rgba(192,144,184,0.65);
 	border-radius: 0.33em;
 }
+.content { margin: 6px; }
 .content-half
 {
 	width: 50%;
@@ -29,6 +30,30 @@ body
 	margin: 0 0.13em;
 	font-size: 133%;
 }
+.section-title
+{
+	font-family: 'Roboto Slab';
+	font-size: 24pt;
+}
+
+.screenshot
+{
+	width: 320px;
+	height: 200px;
+}
+.download-icon
+{
+	width: 20%;
+	padding: 2.25%;
+	display: inline-block;
+	font-family: 'Roboto Slab';
+	font-size: 16pt;
+}
+.download-labels
+{
+	background-color: rgba(192,128,255,0.5);
+}
+
 .footer
 {
 	padding: 0.5em 1em;
@@ -58,6 +83,7 @@ body
 @media screen and (max-width: 1525px)
 {
 	.content-half { font-size: 100%; }
+	.screenshot { width: 32% !important; height: auto !important; }
 }
 @media screen and (max-width: 950px)
 {
