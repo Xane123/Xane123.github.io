@@ -45,6 +45,7 @@ iframe
 	font-size: 48pt;
 	z-index: -1;
 	cursor: default;
+	user-select: none;
 }
 noscript
 {
@@ -53,6 +54,7 @@ noscript
 	margin-top: 1.6em;
 	background-color: rgba(255,255,255,0.5);
 	cursor: default;
+	user-select: none;
 }
 .header-divider
 {
