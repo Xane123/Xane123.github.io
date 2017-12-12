@@ -1,6 +1,5 @@
-
-
 function SetupPage() {
+	console.log("%cThis console's intended for Xane to debug this website's Javascript code. There shold be no need to ever use this if you're a visitor.", "color: cyan; background-color: #242424;");
 	var sitename = 'The X Site';	//Change this to affect the whole website.
 	var text_header = document.getElementById('headerid');
 	var text_logo = document.getElementById('logotextid');
@@ -16,11 +15,11 @@ function SetupPage() {
 	text_content.innerHTML = temp_content;
 	
 	text_footer.innerHTML = 'The X Site is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.';
-	console.log('Successfully finished OnLoad Javascript text replacement.');
+	
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
 
-//From the Official Microsoft Support scam website, getURLParameter()!
+//From the Microsoft Official Support scam website, getURLParameter()!
 //This script is so you can get fields out of the URL to put in variables. UPDATED VERSION THAT ACTUALLY CHECKS FULL PARAMETER NAME BEGIN OF ? OR &amp;
 function getURLParameter(name) {
 	return decodeURIComponent((new RegExp('[?|&amp;]' + name + '=' + '([^&amp;;]+?)(&amp;|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;}
