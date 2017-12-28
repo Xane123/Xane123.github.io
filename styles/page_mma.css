@@ -27,13 +27,13 @@ body
 	border: 1px solid rgba(192,144,184,0.65);
 	border-radius: 0.33em;
 }
-.content { margin: 6px; }
-.content-quarter, .content-half, .content-threequarters { margin: 0 0.13em; }
+.content { margin: 3px 6px; }
+.content-quarter, .content-half, .content-threequarters { margin: 0.065em 0.13em; }
 .content-half
 {
 	width: 50%;
 	height: 100%;
-	font-size: 133%;
+	font-size: 119%;
 }
 .content-quarter { width: 25%; }
 .content-threequarters { width: 75%; }
@@ -88,7 +88,7 @@ body
 		top: 62px;
 	}
 }
-@media screen and (max-width: 749px)
+@media screen and (max-width: 850px)
 {
 	.mobile-info { display: block; }
 	.wrapper { width: 100%; left: 0%; }
@@ -101,8 +101,13 @@ body
 	.screenshot { width: 32% !important; height: auto !important; }
 	.download-icon { font-size: 16pt; }
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1200px)
 {
 	.content-half { font-size: 85%; }
+	.screenshot { width: 32% !important; height: auto !important; }
+	.download-icon { font-size: 16pt; }
+}
+@media screen and (max-width: 1000px)
+{
 	.download-icon { width: 19.75%; font-size: 12pt; }
 }
