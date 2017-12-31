@@ -14,7 +14,7 @@ function SetupPage() {
 	temp_content = temp_content.replace(/SiteName/g, sitename);	//Replace SiteName to ensure this website is always called the correct name.
 	text_content.innerHTML = temp_content;
 	
-	text_footer.innerHTML = 'The X Site is &#169;2017 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.';
+	text_footer.innerHTML = 'The X Site is &#169;2017-2018 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.';
 	
 }
 //{var element = document.getElementById('headerid');element.innerHTML = element.innerText || element.textContent;document.title = element.innerHTML;}
