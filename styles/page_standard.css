@@ -30,6 +30,14 @@ img.inline-left
 	box-shadow: 0 0 2px white;
 	float: left;
 }
+h1, h2, h3, h4, h5, h6
+{
+	background: -webkit-linear-gradient(top,#f1d6b3,#a0632e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 0 0 0 transparent !important;
+	filter: drop-shadow(1.5px 1.5px 0.5px #842);
+}
 @media screen	/* If on a screen, move the page down for the navbar. */
 {
 	.wrapper
