@@ -78,8 +78,6 @@ body
 	color: white !important;
 }
 
-.content[id="mobile-instructions"] { display: none; }
-
 @media screen	/* If on a screen, move the page down for the navbar. */
 {
 	.wrapper
@@ -90,8 +88,6 @@ body
 }
 @media screen and (max-width: 850px)
 {
-	.content[id="mobile-instructions"] { display: block; }
-	.content[id="pc-instructions"] { display: none; }	/* Hide the PC instructions.*/
 	.wrapper { width: 100%; left: 0%; }
 	.wrapper-topcontent, .wrapper-mod { width: 100%; display: block; height: auto; }
 	.content-quarter, .content-half, .content-threequarters { width: 100%; height: auto; margin: 0.13em 0; font-size: 100%; }
