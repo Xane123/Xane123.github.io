@@ -83,7 +83,7 @@
 			function hasPlugins() {
 				return navigator.plugins && navigator.plugins.length > 0;
 			}
-			if (isDesktopPlatform() || hasNotOrientation())
+			if ((isDesktopPlatform() || hasNotOrientation()) && getURLParameter('stay') != 'true')
 			{ window.location.replace('/pages/mma/index.html'); }
 		</script>
 		
