@@ -63,6 +63,8 @@
 		<meta property="og:type" content="website">
 		<meta content="Mary's Magical Adventure is a first person platforming game where a seemingly ordinary little girl named Mary must escape Hell City, her home, after seeing a giant human-like silhouette who calls himself the Origin Master appear and throw a fireball too close to her home!" property="og:description">
 		
+		<script src="scripts/common.js"></script>
+		
 		<script>
 			function isTouchDevice() {
 				return 'ontouchstart' in window || 'onmsgesturechange' in window;
@@ -86,8 +88,6 @@
 			if ((isDesktopPlatform() || hasNotOrientation()) && getURLParameter('stay') != 'true')
 			{ window.location.replace('/pages/mma/index.html'); }
 		</script>
-		
-		<script src="scripts/common.js"></script>
 
 		<!-- VK -->
 		<script type="text/javascript" src="//vk.com/js/api/openapi.js?151"></script>
