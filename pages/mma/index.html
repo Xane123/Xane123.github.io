@@ -64,9 +64,6 @@
 		<meta content="Mary's Magical Adventure is a first person platforming game where a seemingly ordinary little girl named Mary must escape Hell City, her home, after seeing a giant human-like silhouette who calls himself the Origin Master appear and throw a fireball too close to her home!" property="og:description">
 		
 		<script>
-			function isTouchDevice() {
-				return 'ontouchstart' in window || 'onmsgesturechange' in window;
-			}
 			function isDesktopPlatform() {
 				return (
 					navigator.platform == "Win32" 
@@ -77,13 +74,7 @@
 					|| navigator.platform == "Mac68K"
 				);
 			}
-			function hasNotOrientation() {
-				return typeof window.orientation == 'undefined';
-			}
-			function hasPlugins() {
-				return navigator.plugins && navigator.plugins.length > 0;
-			}
-			if (!isDesktopPlatform() || !hasNotOrientation())
+			if (!isDesktopPlatform())
 			{ window.location.replace('/pages/mma/mobile.html'); }
 		</script>
 		

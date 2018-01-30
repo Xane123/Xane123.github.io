@@ -66,9 +66,6 @@
 		<script src="scripts/common.js"></script>
 		
 		<script>
-			function isTouchDevice() {
-				return 'ontouchstart' in window || 'onmsgesturechange' in window;
-			}
 			function isDesktopPlatform() {
 				return (
 					navigator.platform == "Win32" 
@@ -79,13 +76,7 @@
 					|| navigator.platform == "Mac68K"
 				);
 			}
-			function hasNotOrientation() {
-				return typeof window.orientation == 'undefined';
-			}
-			function hasPlugins() {
-				return navigator.plugins && navigator.plugins.length > 0;
-			}
-			if (isDesktopPlatform() || hasNotOrientation())
+			if (isDesktopPlatform())
 			{ window.location.replace('/pages/mma/index.html'); }
 		</script>
 
