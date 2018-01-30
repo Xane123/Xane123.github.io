@@ -121,6 +121,11 @@ td
 	max-width: 0;
 }
 
+@media screen and (max-width: 749px)
+{
+	.table { width: 100%; left: 0%; }
+}
+
 /* Glossy Blue Google Chrome scrollbars */
 ::-webkit-scrollbar { width: 17px; background: linear-gradient(to right, #395577 0%,#2d4561 50%,#395577 100%); }
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
