@@ -84,7 +84,7 @@
 				return navigator.plugins && navigator.plugins.length > 0;
 			}
 			if (isDesktopPlatform() || hasNotOrientation())
-			{ window.location.replace('/pages/mma/index.html'); }
+			{ window.location.replace('javascript:void();'); }	// /pages/mma/index.html
 		</script>
 		
 		<script src="scripts/common.js"></script>
@@ -147,21 +147,23 @@
 			
 			<center class="section-title">Downloads</center>
 			<div class="content">
-				<p>You appear to be on a mobile device. Ignore the downloads below and follow these steps if you haven't done them before but would rather play on a phone or tablet over a computer.</p>
-				<li><a href="mailto:support@beloko.com" rel=nofollow>Contact Beloko Games</a>. Ask him if you can become a beta tester for Delta Touch. If you're accepted into the Google+ community, purchase Delta Touch on Google Play for ~$3.</li>
-				<li>Install Delta Touch and switch to GZDoom 3.2 by tapping the arrow icon in the upper-right corner.</li>
-				<li>Choose <b>Freedoom: Phase 2</b> from the menu then tap the play button. When offered to download soundfonts and the Freedoom IWAD, accept. Connect to Wi-Fi if on a limited mobile data connection.</li>
-				<li>Download the <a href="https://drive.google.com/open?id=17zZx2bl4mrS1grFK6hdEEDZNHTKtTiR3" rel=nofollow>mobile game data</a> and extract the files to <b>OpenTouch/Delta/mods</b>.</li>
-				<li>Return to Delta Touch and tap the button in te lower right corner, which displays your mods. Select all three files which start with "mma".</li>
-				<li>Make sure Freedoom: Phase 2 is selected then tap the play button. If a video displaying a spinning blue cube or the letter "A" appears in the upper left corner, you have successfully downlaoded this game.
-				<p>If you're on a computer and are seeing this message by mistake, zoom out this page or increase your resolution. If neither work, just download the executable and computer game data below for your OS.
+				<p>Although Mary's Magical Adventure is designed to be played on a computer, you can play it on Android. It requires more steps and a single purchase, however; Follow these instructions to play MMA on the go:</p>
+				<li class=step>Visit Google Play and search for Delta Touch by Open Touch Games, which costs $3.49. After purchasing it, install it on your mobile device.</li>
+				<li class=step>Open Delta Touch and use the arrow in the upper-right corner of the screen to switch to <b>GZDoom v3.3pre</b>.</li>
+				<li class=step>Download the game data from the link below along with the mobile mod, which tweaks things for touch controls and lower-end mobile devices.</li>
+				<li class=step>Once those are downloaded, use a file manager app to extract the files from both ZIP files. (In FX, you have to select each file in each ZIP file then choose "Download" from the upper-right menu.)</li>
+				<li class=step><img src=https://i.imgur.com/qKzbuR9b.jpg class="inline-left"/>If prompted for a location to extract to, choose SD card/OpenTouch/Delta/mods. If the last folder doesn't exist, create it. (In FX, select all of the files that were "downloaded" to the Downloads folder, choose "cut" at the top of the screen", then navigate to the aforementioned "mods" folder.)</li>
+				<li class=step>Return to Delta Touch. Tap "Freedoom: Phase 2" from the IWAD list, then tap the three-line button at the bottom right corner of the screen.</li>
+				<li class=step>A dialog box will appear. Select the game data files in any order, as long as <b>mma_data.pk3</b> comes before the others.</li>
+				<li class=step>Exit the dialog box then tap the play button in the lower-right corner. You will be asked to download the audio files, Freedoom: Phase 2, and to allow it to veerify your license on Google Play. Allow all of those and connect to Wi-Fi if on a limited data plan.</li>
+				<li class=step>After those files all download, if the game doesn't start, tap the play button again. If Freedoom: Phase 2's title screen appears instead of the Xane Corp. logo, stop the game then re-select the game data/mods again using the three-line button as before.</li>
 			</div>
-			<a href="https://drive.google.com/file/d/0Bx2t_-Mbdk3yQ2FsYVNKTUdPQlU/view?usp=sharing" rel=nofollow><img src="https://i.imgur.com/gQOEWzF.png" alt="Windows logo" title="Click or tap to download the Windows executable." class="download-icon" /></a>
-			<a href="https://drive.google.com/open?id=0Bx2t_-Mbdk3ycl9mVktHQjVtZHM" rel=nofollow><img src="https://i.imgur.com/7gEtjoA.png" alt="Mac OS logo" title="Click or tap to download the Mac OS app." class="download-icon" /></a>
-			<a href="https://drive.google.com/open?id=0Bx2t_-Mbdk3ycWxfb2tkRGpvT3M" rel=nofollow><img src="https://i.imgur.com/ztQfvvq.png" alt="Ubuntu logo" title="Click or tap to download the Ubuntu executable." class="download-icon" /></a>
+			<a href="https://drive.google.com/file/d/0Bx2t_-Mbdk3yQ2FsYVNKTUdPQlU/view?usp=sharing" rel=nofollow><img src="https://i.imgur.com/I2j3gkh.png" alt="Windows logo" title="Tap to visit Delta Touch on Google Play." class="download-icon" /></a>
+			<a href="https://drive.google.com/open?id=0Bx2t_-Mbdk3ycl9mVktHQjVtZHM" rel=nofollow><img src="https://i.imgur.com/7gEtjoA.png" alt="Mac OS logo" title="Click or tap to INVALID~!" class="download-icon" /></a>
+			<a href="https://drive.google.com/open?id=0Bx2t_-Mbdk3ycWxfb2tkRGpvT3M" rel=nofollow><img src="https://i.imgur.com/ztQfvvq.png" alt="Ubuntu logo" title="Click or tap to INVALID~!" class="download-icon" /></a>
 			<a href="https://docs.google.com/document/d/1AJ36hflz8xsG798_G_d_K6mk_RJcYFu87yuogJfilI4/edit?usp=sharing" rel=nofollow><img src="https://i.imgur.com/UUusQVT.png" alt="Open box icon" title="Click or tap to view the full list of download options in a new tab." class="download-icon" /></a>
 			<div class="content">
-				<center class="download-icon">Windows x64</center>
+				<center class="download-icon">Android</center>
 				<center class="download-icon">MacOS</center>
 				<center class="download-icon">Ubuntu</center>
 				<center class="download-icon">All Options</center>

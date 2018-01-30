@@ -43,6 +43,16 @@ body
 	font-size: 32pt;
 }
 
+li.step { display: inline-block; }
+li.step:before { content: "• "; }
+img.inline-left
+{
+	opacity: 0.75;
+	border: 1px solid rgba(128,128,128,0.5);
+	box-shadow: 0 0 2px white;
+	float: left;
+}
+
 .screenshot
 {
 	width: 320px;
