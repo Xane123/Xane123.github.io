@@ -138,7 +138,8 @@
 @media screen and (max-width: 639px)	/* Smaller screens and mobile */
 {
 	.logo-text { display: none; }	/* Hide the website title. */
-	.logo-container { border-radius: 99em; padding: 0; }
+	.logo-container { border-radius: 99em; padding: 0; width: 1em; }
+	.logo-container img { position: relative; left: 4px; }
 	.navigation	/* Change each navigation link into an icon. */
 	{
 		font-family: WebIcons;
