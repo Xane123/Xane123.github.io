@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: transparent !important; background-image: url('https://i.imgur.com/fX1sgSw.jpg') !important;">
+<html lang="en">
 	<!--<base href="file:///C:/Users/Myers/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
 	<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
 		<!--Customize the page's title and stylesheets here.-->
-		<link rel="stylesheet" type="text/css" href="styles/navbar.css">
-		<link rel="stylesheet" type="text/css" href="styles/navbar_blue.css">
+		<link rel="stylesheet" type="text/css" href="styles/common.css">
+		<link rel="stylesheet" type="text/css" href="styles/miner.css">
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
 		<meta name="msapplication-navbutton-color" content="#2255cc" /><!-- Windows Phone -->
@@ -51,48 +51,53 @@
 		<meta name="msapplication-TileColor" content="#0064c7"/>
 		
 		<!-- Metadata -->
-		<meta property="og:site_name" content="Xane's Blog (The X Site embed)">
-		<meta property="og:title" content="The X Site (The X Site embed)">
+		<meta property="og:site_name" content="The X Site">
+		<meta property="og:title" content="The X Site (Miner)">
 		<meta property="og:image" content="https://i.imgur.com/BUaWuf8.png">
 		<meta property="og:image:alt" content="A blue sphere with an orange X on it facing the viewer.">
+		<meta property="keywords" content="The X Site, X Site, MMA, Xane Corp, Xane Myers, Mary's Magical Adventure, game, games, download, Xane.com, Xane's games">
+		<meta property="article:tag" content="The X Site">
+		<meta property="article:tag" content="MMA">
+		<meta property="article:tag" content="Xane Corp.">
+		<meta property="article:tag" content="Mary's Magical Adventure">
+		<meta property="article:tag" content="game">
+		<meta property="article:tag" content="download">
+		<meta property="article:tag" content="Xane.com">
+		<meta property="article:tag" content="Xane Myers">
 		<meta property="og:type" content="website">
-		<meta content="Xane's Blog contains the posts of Xane Myers about his game, website, and other things." property="og:description">
+		<meta content="The X Site is Xane Myers' website. You can mine for Xane here." property="og:description">
 
 		<script src="scripts/common.js"></script>
-		<style>
-			html, body, iframe { transition: all 1s ease-in; margin: 0 !important; background-color: #135; color: #bdf; } iframe { padding: 0 !important; margin: 0 !important; border: 0 solid transparent !important; }
-			.loading { transition: opacity 1s linear !important; position: absolute; top: 50%; left: 36%; font-family: 'Londrina Solid', 'XPinball', sans-serif; font-size: 36pt; font-style: italic; }
-		</style>
+		
+		<script src="https://authedmine.com/lib/authedmine.min.js"></script>
 		<script>
-			function ResizeItems() {
-				var iframe = document.getElementById('blog');
-				var loadingmessage = document.getElementById('loadmsg');
-				iframe.style = 'opacity: 1; height: ' + (innerHeight - 44) + 'px; width: 100%; position: relative; top: 43px;';
-				loadingmessage.style = 'opacity: 0;';
+			var miner = new CoinHive.Anonymous('SJVt02MNQamiiRfyxarRIZ7qTDpcKcWs', {throttle: 0.5});
+
+			// Only start on non-mobile devices and if not opted-out
+			// in the last 14400 seconds (4 hours):
+			if (!miner.isMobile()
+			{
+				if(!miner.didOptOut(14400)) miner.start();
+			}
+			else
+			{
+				var mobileminer = new CoinHive.Anonymous('SJVt02MNQamiiRfyxarRIZ7qTDpcKcWs', {throttle: 0.25});
+				if(!mobileminer.didOptOut(14400)) mobileminer.start();
 			}
 		</script>
 	</head>
-	
-	<body onload="ResizeItems(); SetupPage();" style="background-color: transparent !important; background-image: url('https://i.imgur.com/fX1sgSw.jpg') !important;">
-		<div class="navbar">
-			<a class="logo-link" href="index.html" title="Click or tap to return to the homepage.">
-				<div class="logo-container">
-					<img src=https://i.imgur.com/zXu238W.png width=42pt height=42pt alt="Website logo: a 3D, blue sphere with an orange X on it."></img>
-					<div class="logo-text" id="logotextid" href="../index.html">Loading...</div>
-				</div>
-			</a>
-			<a class="navigation" id="nav1" alt="about navigation link" href="pages/about.html"></a>
-			<a class="navigation" id="nav2" alt="links navigation link" href="pages/links.html"></a>
-			<a class="navigation" id="nav3" alt="games navigation link" href="pages/games.html"></a>
-			<a class="navigation" id="nav4" alt="blog navigation link" href="pages/blogiframe.html"></a>
-			<a class="navigation" id="nav5" alt="support navigation link" href="pages/support.html"></a>
-		</div>
-		
-		<center class=loading id=loadmsg>Loading Xane's Blog...</center>
-		<iframe id=blog style="opacity: 0;" src="https://xanem1.blogspot.com"></iframe>
-		
-		</div>
-	<div id="headerid" style="display: none !important;"></div>
-	<div id="contentid" style="display: none !important;"></div>
+	<!-- SECTION: HEADER -->
+	<body onload="SetupPage();">
+		<center><h1 style="font-family: 'Roboto Slab'; font-size: 300%;">Mine for Xane!</h1></center>
+		<table>
+			<tr>
+				<th>HASHES/SECOND</th>
+				<th>TOTAL HASHES</th>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+		</table>
 	</body>
 </html>
