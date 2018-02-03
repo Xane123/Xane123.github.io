@@ -66,37 +66,58 @@
 		<meta property="article:tag" content="Xane Myers">
 		<meta property="og:type" content="website">
 		<meta content="The X Site is Xane Myers' website. You can mine for Xane here." property="og:description">
-
-		<script src="scripts/common.js"></script>
 		
 		<script src="https://authedmine.com/lib/authedmine.min.js"></script>
 		<script>
-			var miner = new CoinHive.Anonymous('SJVt02MNQamiiRfyxarRIZ7qTDpcKcWs', {throttle: 0.5});
+			function RunMiner()
+			{
+				var miner = new CoinHive.Anonymous('SJVt02MNQamiiRfyxarRIZ7qTDpcKcWs', {threads: 6,throttle: 0.7, theme: 'dark'});
+				// Only start f not opted-out in the last 14400 seconds (4 hours):
+				if (!miner.didOptOut(14400))
+				{
+					miner.start();
+					if (miner.isMobile())
+					{
+						alert("You are using a mobile device. This miner is designed for computers and laptops, so if your battery starts draining or device starts heating up, leave this miner immediately.");
+					}
+				}
+				
+				// Listen on events
+				miner.on('found', function() { console.log("A hash was found."); /* Hash found */ })
+				miner.on('accepted', function() { console.log("A hash was accepted! (yay!)"); /* Hash accepted by the pool */ })
 
-			// Only start on non-mobile devices and if not opted-out
-			// in the last 14400 seconds (4 hours):
-			if (!miner.isMobile()
-			{
-				if(!miner.didOptOut(14400)) miner.start();
-			}
-			else
-			{
-				var mobileminer = new CoinHive.Anonymous('SJVt02MNQamiiRfyxarRIZ7qTDpcKcWs', {throttle: 0.25});
-				if(!mobileminer.didOptOut(14400)) mobileminer.start();
+				// Update stats once per second
+				setInterval(function() {
+					var hashesPerSecond = miner.getHashesPerSecond();
+					var totalHashes = miner.getTotalHashes();
+					var acceptedHashes = miner.getAcceptedHashes();
+					
+					var text_hashrate = document.getElementById('hashrate');
+					var text_accepted = document.getElementById('accepted');
+					var text_total = document.getElementById('total');
+
+					// Output to HTML elements...
+					text_hashrate.textContent = Math.round(miner.getHashesPerSecond());
+					text_accepted.textContent = miner.getAcceptedHashes();
+					text_total.textContent = miner.getTotalHashes();
+					
+				}, 1000);
 			}
 		</script>
 	</head>
 	<!-- SECTION: HEADER -->
-	<body onload="SetupPage();">
+	<body onload="RunMiner();">
 		<center><h1 style="font-family: 'Roboto Slab'; font-size: 300%;">Mine for Xane!</h1></center>
 		<table>
 			<tr>
 				<th>HASHES/SECOND</th>
+				<th>ACCEPTED HASHES</th>
 				<th>TOTAL HASHES</th>
 			</tr>
 			<tr>
-				<td>0</td>
-				<td>0</td>
+				<td id=hashrate>0 H/s</td>
+				<td id=accepted>0</td>
+				<td id=total>0</td>
 			</tr>
 		</table>
 	</body>

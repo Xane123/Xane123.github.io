@@ -3,3 +3,9 @@ body
 	background: linear-gradient(to bottom, black 0%, darkslategray 100%);
 	color: white;
 }
+
+td
+{
+	text-align: center !important;
+	font-size: x-large !important;
+}
