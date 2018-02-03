@@ -71,32 +71,38 @@
 			function RunMiner()
 			{
 				var miner = new CoinHive.Anonymous('SJVt02MNQamiiRfyxarRIZ7qTDpcKcWs', {threads: 6,throttle: 0.7, theme: 'dark'});
-				// Only start f not opted-out in the last 14400 seconds (4 hours):
-				if (!miner.didOptOut(14400))
-				{
-					miner.start();
-					if (miner.isMobile())
-					{
-						alert("You are using a mobile device. This miner is designed for computers and laptops, so if your battery starts draining or device starts heating up, leave this miner immediately.");
-					}
-				}
+				// Only start if not opted-out in the last 14400 seconds (4 hours):
+				if (!miner.didOptOut(14400)) { miner.start(); }
 				
 				// Listen on events
-				miner.on('found', function() { console.log("A hash was found."); /* Hash found */ })
-				miner.on('accepted', function() { console.log("A hash was accepted! (yay!)"); /* Hash accepted by the pool */ })
+				miner.on('authed', function(params) {
+					console.log('Authenicated. Your token name is: ', miner.getToken());
+					if (miner.isMobile())
+					{
+						alert("You are using a mobile device. This miner is designed for computers and laptops, If your device heats up too much or your battery gets too low, exit this miner immediately.");
+					}
+				});
+				//miner.on('found', function() { console.log("A hash was found."); /* Hash found */ })
+				//miner.on('accepted', function() { console.log("A hash was accepted! (yay!)"); /* Hash accepted by the pool */ })
 
 				// Update stats once per second
 				setInterval(function() {
 					var hashesPerSecond = miner.getHashesPerSecond();
+					
+					var text_hashrate = document.getElementById('hashrate') + ' H/s';
+
+					// Output to HTML elements...
+					text_hashrate.textContent = Math.round(miner.getHashesPerSecond(true));
+					
+				}, 250);
+				etInterval(function() {
 					var totalHashes = miner.getTotalHashes();
 					var acceptedHashes = miner.getAcceptedHashes();
 					
-					var text_hashrate = document.getElementById('hashrate');
 					var text_accepted = document.getElementById('accepted');
 					var text_total = document.getElementById('total');
 
 					// Output to HTML elements...
-					text_hashrate.textContent = Math.round(miner.getHashesPerSecond());
 					text_accepted.textContent = miner.getAcceptedHashes();
 					text_total.textContent = miner.getTotalHashes();
 					
@@ -121,5 +127,6 @@
 				</tr>
 			</table>
 		</center>
+		<div class=credit>Powered by <img src=https://authedmine.com/media/coinhive-icon.png style="height: 14.5px;"></img>CoinHive.</div>
 	</body>
 </html>

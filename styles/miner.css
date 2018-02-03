@@ -26,3 +26,10 @@ table { text-align: center; }
 .bubble[id="hashrate"] { background-position: left; }
 .bubble[id="accepted"] { background-position: center; }
 .bubble[id="total"] { background-position: right; }
+
+.credit
+{
+	position: absolute;
+	right: 2.5px;
+	bottom: 2.5px;
+}
