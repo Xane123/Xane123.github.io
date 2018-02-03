@@ -89,10 +89,10 @@
 				setInterval(function() {
 					var hashesPerSecond = miner.getHashesPerSecond();
 					
-					var text_hashrate = document.getElementById('hashrate') + ' H/s';
+					var text_hashrate = document.getElementById('hashrate');
 
 					// Output to HTML elements...
-					text_hashrate.textContent = Math.round(miner.getHashesPerSecond(true));
+					text_hashrate.textContent = Math.round(miner.getHashesPerSecond(true))  + ' H/s';
 					
 				}, 250);
 				setInterval(function() {
