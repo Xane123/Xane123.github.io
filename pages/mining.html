@@ -94,7 +94,7 @@
 					// Output to HTML elements...
 					text_hashrate.textContent = Math.round(miner.getHashesPerSecond(true))  + ' H/s';
 					
-				}, 250);
+				}, 125);
 				setInterval(function() {
 					var totalHashes = miner.getTotalHashes();
 					var acceptedHashes = miner.getAcceptedHashes();
@@ -106,7 +106,7 @@
 					text_accepted.textContent = miner.getAcceptedHashes();
 					text_total.textContent = miner.getTotalHashes();
 					
-				}, 1000);
+				}, 500);
 			}
 		</script>
 	</head>
