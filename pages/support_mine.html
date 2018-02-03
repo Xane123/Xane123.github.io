@@ -4,7 +4,6 @@
 	<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
 		<!--Customize the page's title and stylesheets here.-->
-		<link rel="stylesheet" type="text/css" href="styles/common.css">
 		<link rel="stylesheet" type="text/css" href="styles/miner.css">
 		<!--Website color-->
 		<meta name="theme-color" content="#2255cc" /><!-- Chrome, Firefox OS and Opera --> 
@@ -107,18 +106,20 @@
 	</head>
 	<!-- SECTION: HEADER -->
 	<body onload="RunMiner();">
-		<center><h1 style="font-family: 'Roboto Slab'; font-size: 300%;">Mine for Xane!</h1></center>
-		<table>
-			<tr>
-				<th>HASHES/SECOND</th>
-				<th>ACCEPTED HASHES</th>
-				<th>TOTAL HASHES</th>
-			</tr>
-			<tr>
-				<td id=hashrate>0 H/s</td>
-				<td id=accepted>0</td>
-				<td id=total>0</td>
-			</tr>
-		</table>
+		<center>
+			<h1 style="font-family: 'Roboto Slab'; font-size: 300%;">Monero Miner</h1>
+			<table border=0>
+				<tr>
+					<td><div class=bubble id=hashrate>22 H/s</div></td>
+					<td><div class=bubble id=accepted>512</div></td>
+					<td><div class=bubble id=total>1024</div></td>
+				</tr>
+				<tr>
+					<td><div class=label>Hashrate</div></td>
+					<td><div class=label>Accepted</div></td>
+					<td><div class=label>Total</div></td>
+				</tr>
+			</table>
+		</center>
 	</body>
 </html>

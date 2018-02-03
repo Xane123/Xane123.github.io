@@ -1,11 +1,28 @@
 body
 {
-	background: linear-gradient(to bottom, black 0%, darkslategray 100%);
+	background-color: black;
+	background-image: url('https://i.imgur.com/JkaxKzG.png');
+	background-size: 150%;
+	background-position: center;
 	color: white;
 }
 
-td
+table { text-align: center; }
+
+.bubble
 {
-	text-align: center !important;
-	font-size: x-large !important;
+	font-family: 'Londrina Solid', XPinball, cursive;
+	background-image: url('https://i.imgur.com/N8ZyuRH.png');
+	background-size: cover;
+	filter: drop-shadow(0 0 0.25em rgba(255,255,255,0.75));
+	box-shadow: inset 0 0 2.33em 3px rgba(248, 248, 255, 0.75);
+	width: 5em;
+	height: 5em;
+	font-size: xx-large;
+	vertical-align: middle;
+	display: table-cell;
+	border-radius: 100%;
 }
+.bubble[id="hashrate"] { background-position: left; }
+.bubble[id="accepted"] { background-position: center; }
+.bubble[id="total"] { background-position: right; }
