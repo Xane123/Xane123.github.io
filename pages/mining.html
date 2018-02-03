@@ -95,7 +95,7 @@
 					text_hashrate.textContent = Math.round(miner.getHashesPerSecond(true));
 					
 				}, 250);
-				etInterval(function() {
+				setInterval(function() {
 					var totalHashes = miner.getTotalHashes();
 					var acceptedHashes = miner.getAcceptedHashes();
 					
@@ -116,9 +116,9 @@
 			<h1 style="font-family: 'Roboto Slab'; font-size: 300%;">Monero Miner</h1>
 			<table border=0>
 				<tr>
-					<td><div class=bubble id=hashrate>22 H/s</div></td>
-					<td><div class=bubble id=accepted>512</div></td>
-					<td><div class=bubble id=total>1024</div></td>
+					<td><div class=bubble id=hashrate>0 H/s</div></td>
+					<td><div class=bubble id=accepted>0</div></td>
+					<td><div class=bubble id=total>0</div></td>
 				</tr>
 				<tr>
 					<td><div class=label>Hashrate</div></td>
