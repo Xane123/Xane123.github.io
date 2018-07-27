@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<manialink version="3">
+<frame><textedit pos="-49 -2" z-index="0" size="64 59" default="Testing ManiaLink" /><gauge pos="-44 11" z-index="0" size="50 10" color="E17F3E8E" clan="0"/></frame>
+</manialink>
