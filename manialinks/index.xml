@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<manialink version="3">
+<label pos="-145 40" z-index="0" size="289 10" text="Welcome to The X Site, Xane's website. Here, you'll find all information on Xane Myers, such as his games like Mary's Magical Adventure, Xane's Blog, and other websites he's on." autonewline="1" textemboss="1"/><label pos="-0.5 -70" z-index="0" size="289 10" text="(C)2018 Xane Myers. This website is hosted by GitHub Pages. This is a ManiaLink port of a page on The X Site. It may refer to things that are not available in ManiaLink form. For the intended experience, please visit https://thex.site in your web browser." autonewline="1" textemboss="1" halign="center" textid="legal"/>
+<label pos="-0.5 74.5" z-index="0" size="309 19" text="$wWelcome to The X Site!" textsize="9" halign="center" textcolor="EBB9A3FF" name="page-title" valign="center" textemboss="1"/>
+<label pos="-0.5 50.5" z-index="0" size="309 19" text="$wThe new design is here!" textsize="6" halign="center" textcolor="FFFFFFFF" name="page-title" valign="center" textemboss="1"/>
+<quad pos="-155 60" z-index="0" size="309 145" bgcolor="124A"/>
+<quad pos="-155 85" z-index="0" size="309 20" bgcolor="248A"/>
+</manialink>
