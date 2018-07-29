@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="3">
 <!-- Common stuff -->
-<quad pos="-159 68" z-index="-1" size="318 18" bgcolor="FFFA" style="Bgs1" substyle="ProgressBarSmall"/>
+<quad pos="-166 68" z-index="-1" size="332 18" bgcolor="FFFA" style="Bgs1" substyle="ProgressBarSmall"/>
 <quad pos="-159 54" z-index="-1" size="318 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2"/>
-<quad pos="-155 51" z-index="-1" size="309 134" style="Bgs1" substyle="NavButtonBlink"/>
+<quad pos="-155 50" z-index="-1" size="310 135" style="Bgs1" substyle="NavButtonBlink"/>
 <quad pos="-155 85" z-index="-1" size="309 20" bgcolor="248A" style="Bgs1" substyle="BgTitle3_5"/>
 
 <label pos="-0.5 75" z-index="0" size="301 16" text="$wThe X Site" textsize="9" halign="center" textcolor="EBB9A3FF" name="page-title" valign="center" textemboss="1" manialink="TheXSite"/>
@@ -17,7 +17,7 @@
 <!-- Content -->
 <label pos="-145 35" z-index="0" size="289 10" text="Welcome to The X Site's TrackMania 2 downloads area! Here, you can easily download Xane's tracks without leaving the game! If you want to visit The X Site proper, $l[thex.site]please click here$l." autonewline="1" style="FrameTransitionFromLeft" textemboss="1"/>
 <label pos="-145 24" z-index="0" size="289 10" text="Choose which TrackMania game you'd like to view tracks for above; You can test or download any track you see. If a track seems incomplete, wait a few days then try again to see if the track is more complete." autonewline="1" style="FrameTransitionFromLeft" textemboss="1"/>
-<video  pos="-61 14" data="https://thex.site/manialinks/SecludedForest.webm" size="120 68" play="1"/>
+
 
 <label pos="-0.5 45" z-index="0" size="309 10" text="$wWelcome to the TM2 download area!" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
 </manialink>
