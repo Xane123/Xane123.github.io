@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<manialink version="3">
+<!-- Common stuff -->
+<quad pos="-159 68" z-index="-1" size="318 18" bgcolor="FFFA" style="Bgs1" substyle="ProgressBarSmall"/>
+<quad pos="-159 54" z-index="-1" size="318 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2"/>
+<quad pos="-155 51" z-index="-1" size="309 134" style="Bgs1" substyle="NavButtonBlink"/>
+<quad pos="-155 85" z-index="-1" size="309 20" bgcolor="248A" style="Bgs1" substyle="BgTitle3_5"/>
+
+<label pos="-0.5 75" z-index="0" size="301 16" text="$wThe X Site" textsize="9" halign="center" textcolor="EBB9A3FF" name="page-title" valign="center" textemboss="1" manialink="TheXSite"/>
+
+<label pos="0 58.5" z-index="0" size="20 5" text="|" style="TextRaceMessage" textsize="3" halign="center" valign="center2"/>
+<label pos="-20 58.5" z-index="0" size="20 5" text="Valley" style="TextRaceMessage" textsize="3" manialink="https://thex.site/manialinks/dir_valley.xml" halign="center" valign="center2"/>
+<label pos="20 58.5" z-index="0" size="20 5" text="Lagoon" style="TextRaceMessage" textsize="3" manialink="https://thex.site/manialinks/dir_lagoon.xml" halign="center" valign="center2"/>
+
+<label pos="-0.5 -76" z-index="0" size="289 6" text="©2018 Xane Myers. This website is hosted by GitHub Pages." autonewline="1" textemboss="1" halign="center" textid="legal" style="TextTips"/>
+
+<!-- Content -->
+<label pos="-0.5 35" z-index="0" size="289 10" text="These are all of the tracks $48cXane $zhas created using the valley environment. These tracks usually take place in beautiful forests with lush trees everywhere. The tracks here are displayed in order of creation." autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
+
+
+
+<label pos="-0.5 45" z-index="0" size="309 10" text="$wTrackMania 2 Valley Tracks" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
+
+<!-- Now, time for the choices! -->
+<quad pos="-125 20" z-index="0" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/rdELUGph.jpg"/>
+<label pos="-100 -12.5" z-index="0" size="50 5" text="Interstate 22" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/Interstate22.xml"/>
+<quad pos="-65 20" z-index="0" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/A14oxr4h.jpg"/>
+<label pos="-40 -12.5" z-index="0" size="50 5" text="Fog Forest" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/FogForest.xml"/>
+<quad pos="-5 20" z-index="0" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/c1YDarGh.jpg"/>
+<label pos="20 -12.5" z-index="0" size="50 5" text="Secluded Forest" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/SecludedForest.xml"/>
+<quad pos="55 20" z-index="0" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/G5wsjpth.jpg"/>
+<label pos="80 -12.5" z-index="0" size="50 5" text="Wheel Tunnel" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/WheelTunnel.xml"/>
+</manialink>
