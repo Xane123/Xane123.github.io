@@ -7,7 +7,7 @@
 		<cell width=2 bgcolor='248F'>
 			<icon halign=center valign=bottom width=0.25 height=0.25> https://i.imgur.com/vYRWUTC.png </icon>
 			<text halign=center valign=center textsize=6 textcolor='FCAF'>$s$wWelcome to $iThe X Site!</text>
-			<text halign=center valign=center textcolor='FCAF'>$iTo visit the proper, $h[https://thex.site/manialinks/Valley.Challenge.Gbx]non-TrackMania$h website, $l[[https://thex.site]please click here$l.</text>
+			<text halign=center valign=center textcolor='FCAF'>$iTo visit the proper, $h[thex.site/manialinks/download.xml]non-TrackMania$h website, $l[[https://thex.site]please click here$l.</text>
 		</cell>
 	</line>
 	<line height=0.25>
