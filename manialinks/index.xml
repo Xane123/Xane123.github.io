@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="3">
-<timeout>0</timeout>
+<include url="https://thex.site/manialinks/common.xml" />
+
 <label pos="-145 35" z-index="0" size="289 10" text="Welcome to The X Site's TrackMania 2 downloads area! Here, you can easily download Xane's tracks without leaving the game! If you want to visit The X Site proper, $l[thex.site]please click here$l." autonewline="1" textemboss="1"/>
-<video  pos="-100 22" data="https://thex.site/manialinks/SecludedForest.webm" play="1"/>
-<video  pos="-12 22" data="./test.webm" play="1"/>
-<label pos="-0.5 -76" z-index="0" size="289 6" text="(C)2018 Xane Myers. This website is hosted by GitHub Pages." autonewline="1" textemboss="1" halign="center" textid="legal"/>
-<label pos="-0.5 74.5" z-index="0" size="309 19" text="$wWelcome to The X Site!" textsize="9" halign="center" textcolor="EBB9A3FF" name="page-title" valign="center" textemboss="1"/>
-<label pos="-0.5 45" z-index="0" size="309 10" text="$wTrackMania 2 - Valley Downloads" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
-<label pos="-10 61" z-index="0" size="20 5" text="Test Download" style="TextRaceMessage" textsize="3" manialink="https://thex.site/manialinks/download.xml"/>
-<quad pos="-159 68" z-index="0" size="318 18" bgcolor="FFFA" style="Bgs1" substyle="ProgressBarSmall"/>
-<quad pos="-159 54" z-index="0" size="318 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2"/>
-<quad pos="-155 51" z-index="0" size="309 134" style="Bgs1" substyle="NavButtonBlink"/>
-<quad pos="-155 85" z-index="0" size="309 20" bgcolor="248A" style="Bgs1" substyle="BgTitle3_5"/>
+<video  pos="-59 14" data="https://thex.site/manialinks/SecludedForest.webm" size="120 68"/>
+
+<label pos="-0.5 45" z-index="0" size="309 10" text="$wWelcome to the TM2 download area!" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
 </manialink>
