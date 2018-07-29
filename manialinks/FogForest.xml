@@ -22,7 +22,7 @@
 <label pos="82 44.5" z-index="0" size="144 10" text="$wFog Forest" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
 <label pos="82 -59.5" z-index="0" size="144 10" text="$wTrack Options" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
 
-<quad pos="153 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonMediumSpecial" manialink="https://thex.site/manialinks/FogForest_Download.xml"/>
+<quad pos="153 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonMediumSpecial" url="https://thex.site/manialinks/FogForest.Map.Gbx"/>
 <label pos="121 -77" z-index="0" size="60 10" text="Download" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
 <quad pos="74.75 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonSmall" manialink="https://thex.site/manialinks/FogForest_Try.xml"/>
 <label pos="42.75 -77" z-index="0" size="60 10" text="Try It" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
