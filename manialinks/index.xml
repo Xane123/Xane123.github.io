@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="3">
+<timeout>0</timeout>
 <include url="https://thex.site/manialinks/common.xml" />
 
 <label pos="-145 35" z-index="0" size="289 10" text="Welcome to The X Site's TrackMania 2 downloads area! Here, you can easily download Xane's tracks without leaving the game! If you want to visit The X Site proper, $l[thex.site]please click here$l." autonewline="1" textemboss="1"/>
