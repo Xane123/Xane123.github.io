@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manialink>
+	<background bgcolor='248F'></background>
+	<line height=64>
+		<cell width=64 bgcolor='F00F'>
+			<text textcolor='FFFF'>Hello world.</text>
+		</cell>
+	</line>
+</manialink>
