@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="3">
 <!-- Common stuff -->
-<quad pos="0 75" z-index="-2" size="32 32" bgcolor="FFFA" halign="center" valign="center" image="https://i.imgur.com/vYRWUTC.png" keepratio="Fit" opacity="0.5" manialink="TheXSite"/>
+<quad pos="0 75" z-index="-2" size="32 32" bgcolor="FFFA" halign="center" valign="center" image="https://i.imgur.com/vYRWUTC.png" keepratio="Fit" opacity="0.66" manialink="TheXSite"/>
 <quad pos="-165 68" z-index="-1" size="332 18" bgcolor="FFFA" style="Bgs1" substyle="ProgressBarSmall"/>
 <quad pos="158 54" z-index="-1" size="153 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2" halign="right"/>
-<quad pos="158 -50" z-index="-1" size="153 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2" halign="right"/>
+<quad pos="158 8" z-index="-1" size="153 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2" halign="right"/>
+<quad pos="158 -54" z-index="-1" size="153 19" bgcolor="FFFA" style="Bgs1" substyle="BgGlow2" halign="right"/>
 <quad pos="154 50" z-index="-1" size="145 42" style="Bgs1" substyle="NavButtonBlink" halign="right"/>
-<quad pos="154 -85" z-index="-1" size="145 31" style="Bgs1" substyle="NavButtonBlink" halign="right" valign="bottom"/>
+<quad pos="154 -25" z-index="-1" size="145 58" style="Bgs1" substyle="NavButtonBlink" halign="right" valign="center"/>
+<quad pos="154 -85" z-index="-1" size="145 27" style="Bgs1" substyle="NavButtonBlink" halign="right" valign="bottom"/>
 <quad pos="-155 85" z-index="-3" size="309 20" bgcolor="248A" style="Bgs1" substyle="BgTitle3_5"/>
 
 <label pos="-0.5 75" z-index="0" size="301 16" text="$wThe    Site" textsize="9" halign="center" textcolor="EBB9A3FF" name="page-title" valign="center" textemboss="1"/>
@@ -17,13 +19,39 @@
 
 <!-- Content -->
 <quad pos="-152.5 82.5" z-index="0" size="15 15" bgcolor="FFFA" style="Copilot" substyle="LeftWrong" halign="left" valign="top" opacity="0.75" manialink="https://thex.site/manialinks/dir_valley.xml"/>
-<label pos="82 35" z-index="0" size="135 40" text="Driving a vehicle at night is already a risky move, with how little visibility you have, but what could possibly go wrong? The moon's in the sky at night to help out, after all! Well, anyone who enters the forests in this area summons thick fog, and the path you must take goes through two of those forests!" autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
-<video  pos="-155 40" data="https://thex.site/manialinks/FogForest.webm" size="160 90"/>
-<label pos="82 44.5" z-index="0" size="144 10" text="$wFog Forest" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
-<label pos="82 -59.5" z-index="0" size="144 10" text="$wTrack Options" textsize="6" halign="center" name="page-title" valign="center" style="TextRaceChronoWarning" translate="0"/>
+<label pos="82 35" z-index="0" size="135 25" text="Driving a vehicle at night is already a risky move, with how little visibility you have, but what could possibly go wrong? The moon's in the sky at night to help out, after all! Well, anyone who enters the forests in this area summons thick fog, and the path you must take goes through two of those forests!" autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
+<quad pos="-152.5 -37.5" z-index="0" size="40 20" bgcolor="FFFA" halign="left" valign="bottom" style="TitleLogos" substyle="Title" opacity="0.5"/>
+<video  pos="-155 50" data="https://thex.site/manialinks/FogForest.webm" size="160 90"/>
+<label pos="82 44.5" z-index="0" size="144 10" text="$wFog Forest" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
+<label pos="82 -1.5" z-index="0" size="144 10" text="$wMedal Requirements" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
+<label pos="82 -63.5" z-index="0" size="144 10" text="$wTrack Options" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
 
 <quad pos="153 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonMediumSpecial" url="https://thex.site/manialinks/FogForest.Map.Gbx"/>
 <label pos="121 -77" z-index="0" size="60 10" text="Download" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
 <quad pos="74.75 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonSmall" manialink="https://thex.site/manialinks/FogForest_Try.xml"/>
 <label pos="42.75 -77" z-index="0" size="60 10" text="Try It" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
+<quad pos="10 -15" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalGold" halign="left" valign="center"/>
+<label pos="25 -15" z-index="0" size="64 10" text="$w$iGold:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="FD8F"/>
+<label pos="152 -15.5" z-index="0" size="48 10" text="$w2:53.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="FD8F"/>
+<quad pos="10 -30" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalSilver" halign="left" valign="center"/>
+<label pos="25 -30" z-index="0" size="64 10" text="$w$iSilver:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="DDDF"/>
+<label pos="152 -30.5" z-index="0" size="48 10" text="$w3:16.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="DDDF"/>
+<quad pos="10 -45" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalBronze" halign="left" valign="center"/>
+<label pos="25 -45" z-index="0" size="64 10" text="$w$iBronze:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="C84F"/>
+<label pos="152 -45.5" z-index="0" size="48 10" text="$w4:05.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="C84F"/>
+
+<!-- Video/screenshots border -->
+<quad pos="-150 -51" z-index="0" size="10 10" valign="bottom" halign="left" style="Bgs1" substyle="ArrowUp" colorize="36CF" keepratio="Fit"/>
+<label pos="-140 -46.5" z-index="0" size="32 10" text="$wVideo" style="TextTitle3" halign="left" textemboss="1" valign="center2" textcolor="48CF" textsize="3"/>
+<label pos="-12.5 -46.5" z-index="0" size="64 10" text="$wScreenshots" style="TextTitle3" textemboss="1" valign="center2" textcolor="48CF" textsize="3" halign="right"/>
+<quad pos="-2.5 -51" z-index="0" size="10 10" valign="bottom" style="Bgs1" substyle="ArrowDown" colorize="36CF" keepratio="Fit" halign="right"/>
+<quad pos="-159 54" z-index="-1" size="168 108" halign="left" style="Bgs1" substyle="BgTitle3_1" valign="top" opacity="0.33"/>	<!-- Frame -->
+
+<!-- Screenshots -->
+<quad pos="-158.5 -88.5" z-index="-1" size="55 37" halign="left" valign="bottom" style="Bgs1" substyle="BgTitle3_5"/>	<!-- Frame -->
+<quad pos="-155 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/A14oxr4h.jpg" manialink="https://thex.site/manialinks/FogForest_Screen1.xml"/>	<!-- Picture -->
+<quad pos="-102.5 -88.5" z-index="-1" size="55 37" halign="left" valign="bottom" style="Bgs1" substyle="BgTitle3_5"/>	<!-- Frame -->
+<quad pos="-99 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/KsAS22Hh.jpg" manialink="https://thex.site/manialinks/FogForest_Screen2.xml"/>	<!-- Picture -->
+<quad pos="-46.5 -88.5" z-index="-1" size="55 37" halign="left" valign="bottom" style="Bgs1" substyle="BgTitle3_5"/>	<!-- Frame -->
+<quad pos="-43 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/y2D1QJmh.jpg" manialink="https://thex.site/manialinks/FogForest_Screen3.xml"/>	<!-- Picture -->
 </manialink>
