@@ -19,26 +19,26 @@
 
 <!-- Content -->
 <quad pos="-152.5 82.5" z-index="0" size="15 15" bgcolor="FFFA" style="Copilot" substyle="LeftWrong" halign="left" valign="top" opacity="0.75" manialink="https://thex.site/manialinks/dir_valley.xml"/>
-<label pos="82 35" z-index="0" size="135 25" text="My first track made in this game, possibly the night I got the game! Get out of the forest you start in and use a high vantage point to crash onto the interstate. Once there, unleash your inner speeder, flying down it at speeds too fast for the cops! Don't forget to get off at your exit, or you'll have to recalculate your entire route." autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
+<label pos="82 35" z-index="0" size="135 25" text="Do you want to cruise around a natural environment? This large, beautiful forest is the best place you could be, with very little obstacles to slow you down. The path here goes up onto a mountain, too! This track is best played with Mitsuda's beautiful song $ff8Secret of the Forest$z playing in the background." autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
 <quad pos="-152.5 -37.5" z-index="0" size="40 20" bgcolor="FFFA" halign="left" valign="bottom" style="TitleLogos" substyle="Title" opacity="0.5"/>
-<video  pos="-155 50" data="https://thex.site/manialinks/Interstate22.webm" size="160 90"/>
-<label pos="82 44.5" z-index="0" size="144 10" text="$wInterstate 22" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
+<video  pos="-155 50" data="https://thex.site/manialinks/SecludedForest.webm" size="160 90"/>
+<label pos="82 44.5" z-index="0" size="144 10" text="$wSecluded Forest" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
 <label pos="82 -1.5" z-index="0" size="144 10" text="$wMedal Requirements" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
 <label pos="82 -63.5" z-index="0" size="144 10" text="$wTrack Options" textsize="6" halign="center" name="page-title" valign="center2" style="TextRaceChronoWarning" translate="0"/>
 
-<quad pos="153 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonMediumSpecial" url="https://thex.site/manialinks/Interstate22.Map.Gbx"/>
+<quad pos="153 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonMediumSpecial" url="https://thex.site/manialinks/SecludedForest.Map.Gbx"/>
 <label pos="121 -77" z-index="0" size="60 10" text="Download" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
-<quad pos="74.75 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonSmall" manialink="https://thex.site/manialinks/Interstate22_Try.xml"/>
+<quad pos="74.75 -85" z-index="-1" size="64 15" halign="right" valign="bottom" style="BgsButtons" substyle="BgButtonSmall" manialink="https://thex.site/manialinks/SecludedForest_Try.xml"/>
 <label pos="42.75 -77" z-index="0" size="60 10" text="Try It" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
 <quad pos="10 -15" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalGold" halign="left" valign="center"/>
 <label pos="25 -15" z-index="0" size="64 10" text="$w$iGold:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="FD8F"/>
-<label pos="152 -15.5" z-index="0" size="48 10" text="$w2:14.37" style="TextRaceChrono" halign="right" valign="center2" textcolor="FD8F"/>
+<label pos="152 -15.5" z-index="0" size="48 10" text="$w1:57.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="FD8F"/>
 <quad pos="10 -30" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalSilver" halign="left" valign="center"/>
 <label pos="25 -30" z-index="0" size="64 10" text="$w$iSilver:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="DDDF"/>
-<label pos="152 -30.5" z-index="0" size="48 10" text="$w2:06.52" style="TextRaceChrono" halign="right" valign="center2" textcolor="DDDF"/>
+<label pos="152 -30.5" z-index="0" size="48 10" text="$w2:13:00" style="TextRaceChrono" halign="right" valign="center2" textcolor="DDDF"/>
 <quad pos="10 -45" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalBronze" halign="left" valign="center"/>
 <label pos="25 -45" z-index="0" size="64 10" text="$w$iBronze:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="C84F"/>
-<label pos="152 -45.5" z-index="0" size="48 10" text="$w2:06.52" style="TextRaceChrono" halign="right" valign="center2" textcolor="C84F"/>
+<label pos="152 -45.5" z-index="0" size="48 10" text="$w2:46.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="C84F"/>
 
 <!-- Video/screenshots border -->
 <quad pos="-150 -51" z-index="0" size="10 10" valign="bottom" halign="left" style="Bgs1" substyle="ArrowUp" colorize="36CF" keepratio="Fit"/>
@@ -49,9 +49,9 @@
 
 <!-- Screenshots -->
 <quad pos="-158.5 -88.5" z-index="-1" size="55 37" halign="left" valign="bottom" style="Bgs1" substyle="BgTitle3_5"/>	<!-- Frame -->
-<quad pos="-155 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/rdELUGph.jpg" manialink="https://thex.site/manialinks/Interstate22_Screen1.xml"/>	<!-- Picture -->
+<quad pos="-155 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/c1YDarGh.jpg" manialink="https://thex.site/manialinks/SecludedForest_Screen1.xml"/>	<!-- Picture -->
 <quad pos="-102.5 -88.5" z-index="-1" size="55 37" halign="left" valign="bottom" style="Bgs1" substyle="BgTitle3_5"/>	<!-- Frame -->
-<quad pos="-99 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/p432Rlah.jpg" manialink="https://thex.site/manialinks/Interstate22_Screen2.xml"/>	<!-- Picture -->
+<quad pos="-99 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/U0DbaEjh.jpg" manialink="https://thex.site/manialinks/SecludedForest_Screen2.xml"/>	<!-- Picture -->
 <quad pos="-46.5 -88.5" z-index="-1" size="55 37" halign="left" valign="bottom" style="Bgs1" substyle="BgTitle3_5"/>	<!-- Frame -->
-<quad pos="-43 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/VVBWN8Fh.jpg" manialink="https://thex.site/manialinks/Interstate22_Screen3.xml"/>	<!-- Picture -->
+<quad pos="-43 -85" z-index="0" size="48 30" bgcolor="FFFA" halign="left" valign="bottom" image="https://i.imgur.com/ivV6Bz6h.jpg" manialink="https://thex.site/manialinks/SecludedForest_Screen3.xml"/>	<!-- Picture -->
 </manialink>
