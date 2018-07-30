@@ -32,13 +32,13 @@
 <label pos="42.75 -77" z-index="0" size="60 10" text="Try It" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
 <quad pos="10 -15" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalGold" halign="left" valign="center"/>
 <label pos="25 -15" z-index="0" size="64 10" text="$w$iGold:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="FD8F"/>
-<label pos="152 -15.5" z-index="0" size="48 10" text="$w2:14.37" style="TextRaceChrono" halign="right" valign="center2" textcolor="FD8F"/>
+<label pos="152 -15.5" z-index="0" size="48 10" text="$w2:08.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="FD8F"/>
 <quad pos="10 -30" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalSilver" halign="left" valign="center"/>
 <label pos="25 -30" z-index="0" size="64 10" text="$w$iSilver:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="DDDF"/>
-<label pos="152 -30.5" z-index="0" size="48 10" text="$w2:06.52" style="TextRaceChrono" halign="right" valign="center2" textcolor="DDDF"/>
+<label pos="152 -30.5" z-index="0" size="48 10" text="$w2:25.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="DDDF"/>
 <quad pos="10 -45" z-index="0" size="15 15" bgcolor="FFFA" style="MedalsBig" substyle="MedalBronze" halign="left" valign="center"/>
 <label pos="25 -45" z-index="0" size="64 10" text="$w$iBronze:" style="TextTitle3" halign="left" textsize="5" textemboss="1" valign="center2" textcolor="C84F"/>
-<label pos="152 -45.5" z-index="0" size="48 10" text="$w2:06.52" style="TextRaceChrono" halign="right" valign="center2" textcolor="C84F"/>
+<label pos="152 -45.5" z-index="0" size="48 10" text="$w3:01.00" style="TextRaceChrono" halign="right" valign="center2" textcolor="C84F"/>
 
 <!-- Video/screenshots border -->
 <quad pos="-150 -51" z-index="0" size="10 10" valign="bottom" halign="left" style="Bgs1" substyle="ArrowUp" colorize="36CF" keepratio="Fit"/>
