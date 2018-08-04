@@ -17,7 +17,7 @@
 <label pos="-0.5 -76" z-index="0" size="289 6" text="©2018 Xane Myers. This website is hosted by GitHub Pages." autonewline="1" textemboss="1" halign="center" textid="legal" style="TextTips"/>
 
 <!-- Content -->
-<label pos="-0.5 35" z-index="0" size="289 10" text="These are all of the tracks $48cXane $zhas created using the valley environment. These tracks usually take place in beautiful forests with lush trees everywhere. The tracks here are displayed in order of creation." autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
+<label pos="-0.5 35" z-index="0" size="289 10" text="These are $acfXane$z's best tracks made for TrackMania 2: Valley. To view info about one, click on it. You can try them out without downloading them to your collection. If you want a track, either download through the ManiaLink, or click the button below to download all tracks at once." autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center"/>
 
 
 
@@ -36,4 +36,9 @@
 <quad pos="52.5 22.5" z-index="0" size="55 35" bgcolor="FFFA" style="Bgs1" substyle="BgButtonGlow"/>
 <quad pos="55 20" z-index="1" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/G5wsjpth.jpg"/>
 <label pos="80 -12.5" z-index="1" size="50 5" text="Wheel Tunnel" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/WheelTunnel.xml"/>
+
+<quad pos="0 -47.5" size="192 55" style="BgsPlayerCard" substyle="BgActivePlayerCard" halign="center" valign="center"/>
+<label pos="0 -40" z-index="1" size="184 30" text="Want all of Xane's tracks, complete with their music and MediaTracker sounds? Click the button below then extract the ZIP file to your $ffcDocuments\ManiaPlanet$z folder." autonewline="1" style="FrameTransitionFromLeft" textemboss="1" halign="center" valign="center2" textsize="5"/>
+<quad pos="0 -60" z-index="2" size="65 15" style="BgsButtons" substyle="BgButtonSmall" url="https://thex.site/manialinks/XaneTM2Tracks.zip" halign="center" valign="center"/>
+<label pos="0 -60" z-index="3" size="60 10" text="Download All" halign="center" name="page-title" valign="center2" style="TextTitle3" translate="0" textsize="5" textemboss="1"/>
 </manialink>
