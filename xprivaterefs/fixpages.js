@@ -27,8 +27,11 @@ temp_content = temp_content.replace(/PISS/g, "DA YELLOW STUFF");
 temp_content = temp_content.replace(/Sanic/g, "Sonikku~!");
 temp_content = temp_content.replace(/SANIC/g, "SONIC-A~!");
 
-//For people on Kickstarter that can't realize they're quoting an outdated terms of service from six years ago.
-temp_content = temp_content.replace(/invoke my rights/g, "copy and paste this outdated ToS (because I'm weird)");
-temp_content = temp_content.replace(/Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill./g, "Fart! Cancel the poop! Outdated ToS from 2012!");
+//Remove outdated, useless Kickstarter "invoking".
+temp_content = temp_content.replace(/have not received my reward. Please refund./g, "");
+temp_content = temp_content.replace(/I invoke my rights under Kickstarter's Terms of Use:/g, "");
+temp_content = temp_content.replace(/https://www.kickstarter.com/terms-of-use/oct2012 ./g, "");
+temp_content = temp_content.replace(/"Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill."/g, "Fart! Cancel the poop! Outdated ToS from 2012!");
+temp_content = temp_content.replace(/I demand a full refund for my pledge amount./g, "Fart! Cancel the poop! Outdated ToS from 2012!");
 
 document.body.innerHTML = temp_content; 
