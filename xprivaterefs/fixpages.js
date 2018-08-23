@@ -30,7 +30,7 @@ temp_content = temp_content.replace(/SANIC/g, "SONIC-A~!");
 //Remove outdated, useless Kickstarter "invoking".
 temp_content = temp_content.replace(/have not received my reward. Please refund./g, " ");
 temp_content = temp_content.replace(/I invoke my rights under Kickstarter's Terms of Use:/g, " ");
-temp_content = temp_content.replace(/https://www.kickstarter.com/terms-of-use/oct2012/g, " ");
+temp_content = temp_content.replace(/terms-of-use/g, " ");
 temp_content = temp_content.replace(/"Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill."/g, " ");
 temp_content = temp_content.replace(/I demand a full refund for my pledge amount./g, " ");
 
