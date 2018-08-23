@@ -7,7 +7,7 @@ temp_content = temp_content.replace(/â€™/g, "'");
 temp_content = temp_content.replace(/â€œ/g, "“");
 temp_content = temp_content.replace(/â€/g, "”");
 
-//Next, fix some other things.
+//Next, fix bad language.
 temp_content = temp_content.replace(/ cunt/g, " Runt");
 temp_content = temp_content.replace(/ fuck/g, " fart");
 temp_content = temp_content.replace(/Fuck/g, "Y'know who needs to be shot from a cannon?");
@@ -28,10 +28,10 @@ temp_content = temp_content.replace(/Sanic/g, "Sonikku~!");
 temp_content = temp_content.replace(/SANIC/g, "SONIC-A~!");
 
 //Remove outdated, useless Kickstarter "invoking".
-temp_content = temp_content.replace(/have not received my reward. Please refund./g, "");
-temp_content = temp_content.replace(/I invoke my rights under Kickstarter's Terms of Use:/g, "");
-temp_content = temp_content.replace(/https://www.kickstarter.com/terms-of-use/oct2012 ./g, "");
-temp_content = temp_content.replace(/"Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill."/g, "Fart! Cancel the poop! Outdated ToS from 2012!");
-temp_content = temp_content.replace(/I demand a full refund for my pledge amount./g, "Fart! Cancel the poop! Outdated ToS from 2012!");
+temp_content = temp_content.replace(/have not received my reward. Please refund./g, " ");
+temp_content = temp_content.replace(/I invoke my rights under Kickstarter's Terms of Use:/g, " ");
+temp_content = temp_content.replace(/https://www.kickstarter.com/terms-of-use/oct2012/g, " ");
+temp_content = temp_content.replace(/"Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill."/g, " ");
+temp_content = temp_content.replace(/I demand a full refund for my pledge amount./g, " ");
 
 document.body.innerHTML = temp_content; 
