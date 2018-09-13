@@ -57,7 +57,7 @@
 }
 #nav3::after
 {
-	content: "Games";
+	content: "Downloads";
 }
 #nav4::after
 {
@@ -83,7 +83,7 @@
 {
 	font-family: WebIcons;
 	font-size: 75%;
-	content: "G";
+	content: "D";
 }
 #nav4::before
 {
@@ -157,7 +157,7 @@
 	}
 	#nav3::after
 	{
-		content: "G";
+		content: "D";
 	}
 	#nav4::after
 	{
