@@ -1,0 +1,67 @@
+::selection	/* Selected content; Slightly MacOS-esque if it's just me. */
+{
+	background-color: rgba(255, 169, 129, 0.5);
+	color: white;
+}
+
+body	/* Default style. This CSS file only includes what all pages will use. */
+{
+	font-family: 'Segoe UI', 'Trebuchet MS', Trebuchet, sans-serif;
+	font-size: 16pt;
+	color: #def;
+	text-shadow: 1.5px 1.5px 0.5px #842;
+	overflow-x:hidden;
+	background: linear-gradient(to bottom, #012, #124);
+	background-attachment: fixed;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
+a, a:focus, a:active, a:visited { color: #adf; }
+a:hover { color: #d5eeff; }
+
+/* Page content */
+.wrapper
+{
+	position: relative;
+	top: 10em;
+	margin: 0em 7.5em;
+}
+h1
+{
+	font-size: 72pt;
+	font-family: 'Segoe UI', 'Helvetica Neue', 'Roboto Slab', XPinball, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+a, a:focus, a:visited
+{	/* The "I AGREE" button */
+	background-color: #48c;
+	color: white;
+	text-decoration: none;
+	padding: 0.25em 1em;
+	display: table;
+}
+a:hover
+{
+	background-color: #59d;
+}
+a:active
+{
+	background-color: #37b;
+	color: #ddd;
+}
+small
+{
+	font-size: 12pt;
+}
+
+/* Glossy Blue Google Chrome scrollbars */
+::-webkit-scrollbar { width: 17px; background: linear-gradient(to right, #395577 0%,#2d4561 50%,#395577 100%); }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
+::-webkit-scrollbar-thumb { border-radius: 3px; background: linear-gradient(to right, #6c89ad 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); }
+::-webkit-scrollbar-button { height: 17px; background: radial-gradient(ellipse at center, #e0eeff 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); border-radius: 2px; }
