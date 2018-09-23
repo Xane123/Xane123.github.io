@@ -128,25 +128,14 @@
 		font-size: 20pt;
 	}
 }
-@media screen and (max-width: 749px)	/* Resize #3 */
+@media screen and (max-width: 824px)	/* Resize #3: Text becomes icons. */
 {
-	.navigation
-	{
-		font-size: 13pt;
-	}
-}
-@media screen and (max-width: 639px)	/* Smaller screens and mobile */
-{
-	.logo-text { display: none; }	/* Hide the website title. */
-	.logo-container { border-radius: 99em; padding: 0; width: 1em; }
-	.logo-container img { position: relative; left: 4px; }
 	.navigation	/* Change each navigation link into an icon. */
 	{
 		font-family: WebIcons;
 		font-size: 28pt;
 		vertical-align: text-bottom;
 	}
-	.header { font-size: 36pt; }
 	#nav1::after
 	{
 		content: "I";
@@ -167,6 +156,13 @@
 	{
 		content: "S";
 	}
+}
+@media screen and (max-width: 649px)	/* Smaller screens and mobile */
+{
+	.logo-text { display: none; }	/* Hide the website title. */
+	.logo-container { border-radius: 99em; padding: 0; width: 1em; }
+	.logo-container img { position: relative; left: 4px; }
+	.header { font-size: 36pt; }
 }
 
 @media print	/* If printing, make the webpage look okay on white paper! */
