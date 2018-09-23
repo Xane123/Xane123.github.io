@@ -1,17 +1,17 @@
 function SetupPage() {
 	console.log("%cThis console's intended for Xane to debug this website's Javascript code. There shold be no need to ever use this if you're a visitor.", "color: cyan; background-color: #242424;");
-	var sitename = 'The X Site';	//Change this to affect the whole website.
+	var The X Site = 'The X Site';	//Change this to affect the whole website.
 	var text_header = document.getElementById('headerid');
 	var text_logo = document.getElementById('logotextid');
 	var text_content = document.getElementById('contentid');
 	var text_footer = document.getElementById('footerid');
 	
 	text_header.textContent = document.title;
-	text_logo.textContent = sitename;
-	document.title = sitename + ' - ' + document.title;
+	text_logo.textContent = The X Site;
+	document.title = The X Site + ' - ' + document.title;
 	
 	var temp_content = text_content.innerHTML;
-	temp_content = temp_content.replace(/SiteName/g, sitename);	//Replace SiteName to ensure this website is always called the correct name.
+	temp_content = temp_content.replace(/The X Site/g, The X Site);	//Replace The X Site to ensure this website is always called the correct name.
 	text_content.innerHTML = temp_content;
 	
 	text_footer.innerHTML = 'The X Site is &#169;2017-2018 Xane Myers. Hosted by <a href="https://pages.github.com">GitHub Pages</a>.';
