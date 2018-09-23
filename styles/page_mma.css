@@ -88,6 +88,14 @@ img.inline-left
 	color: white !important;
 }
 
+summary	/* Security warning section header */
+{
+	text-align: center;
+	color: gold;
+	font-size: larger;
+	margin: 0.5em 0;
+}
+
 @media screen	/* If on a screen, move the page down for the navbar. */
 {
 	.wrapper
