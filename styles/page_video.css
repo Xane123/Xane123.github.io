@@ -6,6 +6,13 @@
 		top: 62px;
 	}
 }
+
+body
+{
+	background-size: 100% 75%;
+	background-position: bottom;
+}
+
 .header
 {
 	background-size: cover;
@@ -18,12 +25,35 @@
 	z-index: -1;
 	cursor: default;
 	user-select: none;
+	border-bottom: #941 6px ridge;
+	margin-bottom: 5px;
+}
+.gradient
+{
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.825));
+	width: 100%;
+	height: 128px;
+	position: absolute;
+	top: 256px;
+	display: flex;
+	align-items: center;
 }
 .title
 {
 	font-family: 'Roboto Slab', serif;
-	
+	font-size: xx-large;
+	color: white;
 }
+.description
+{
+	padding-top: 5px;
+	font-size: small;
+	color: white;
+}
+
+/* These are the sides of the header's gradient area. Change this to affect all video pages. */
+td.left-side { width: 90%; padding-left: 1em; }
+td.right-side { width: 10%; padding-right: 1em; }
 	
 .header-divider
 {
@@ -41,14 +71,10 @@
 
 .wrapper
 {
-	width: 66%;
-    position: relative;
-    left: 17%;
+	width: 100%;
 }
 .content
 {
-	background-color: rgba(96,96,96,0.9);
-	border: 1px solid rgba(192,192,192,0.65);
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 }
@@ -80,7 +106,11 @@ h1, h2, h3, h4, h5, h6
 	filter: drop-shadow(1.5px 1.5px 0.5px #842);
 }
 
-@media screen and (max-width: 749px)
+table, tr, td	/* Tables are transparent and full-sized on video pages. */
 {
-	.wrapper { width: 100%; left: 0%; }
+	position: unset !important;
+	width: 100%;
+	background-color: transparent;
+	border: 0 transparent;
+	max-width: unset;
 }

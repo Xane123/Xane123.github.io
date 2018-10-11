@@ -13,9 +13,9 @@
 }
 .navigation, .navigation:focus, .navigation:active, .navigation:visited
 {
-	color: #adf;
+	color: #ccc;
 }
 .navigation:hover
 {
-	color: #d5eeff;
+	color: white;
 }
