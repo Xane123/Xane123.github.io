@@ -114,3 +114,14 @@ table, tr, td	/* Tables are transparent and full-sized on video pages. */
 	border: 0 transparent;
 	max-width: unset;
 }
+
+@media screen and (max-width: 899px)	/* Fix the broken-looking page on smaller screens. */
+{
+	video { width: 100%; height: auto; }
+	.header { padding: 1.5em 0; }
+	.gradient { height: 64px; top: 128px; align-items: flex-end; }
+	td.left-side { width: 100%; }
+	td.right-side { display: none; width: 0%; }
+	.title { font-size: large; }
+	.description { display: none; }
+}

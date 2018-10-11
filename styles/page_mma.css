@@ -165,3 +165,8 @@ summary	/* Security warning section header */
 {
 	.download-icon { width: 19.75%; font-size: 12pt; }
 }
+
+@media screen and (max-width: 649px)	/* Smaller screens and mobile */
+{
+	.header { font-size: 36pt; }
+}

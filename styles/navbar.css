@@ -162,7 +162,6 @@
 	.logo-text { display: none; }	/* Hide the website title. */
 	.logo-container { border-radius: 99em; padding: 0; width: 1em; }
 	.logo-container img { position: relative; left: 4px; }
-	.header { font-size: 36pt; }
 }
 
 @media print	/* If printing, make the webpage look okay on white paper! */
