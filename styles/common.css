@@ -29,54 +29,6 @@ iframe
 	transition: height 0.75s ease-in-out;
 }
 
-@media screen	/* If on a screen, move the page down for the navbar. */
-{
-	.header
-	{
-		position: relative;
-		top: 62px;
-	}
-}
-
-.header
-{
-	background-size: cover;
-	background-position: bottom;
-	background-attachment: fixed;
-	padding: calc(100% - 90%) 0;
-	vertical-align: middle;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	font-family: 'Roboto Slab', serif;
-	font-size: 48pt;
-	z-index: -1;
-	cursor: default;
-	user-select: none;
-}
-noscript
-{
-	position: relative;
-	top: 48px;
-	padding: 3px 3px 3px 2em;
-	margin-top: 1.6em;
-	background-color: rgba(0,0,0,0.5);
-	cursor: default;
-	user-select: none;
-}
-.header-divider
-{
-	width: calc(100% - 4px);
-	height: 8px;
-	border: 2px solid;
-	position: relative;
-	top: 52px;
-	border-top-color: #e74;
-	background-color: #a30;
-	border-left-color: #c52;
-	border-right-color: #c52;
-	border-bottom-color: #620
-}
-
 /* Page content */
 h1, h2, h3, h4, h5, h6
 {
