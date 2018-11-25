@@ -90,7 +90,7 @@ noscript
 	font-size: 32pt;
 }
 
-.center, .header, .section-title, .download-icon
+.center, .header, .section-title, .download-icon, .button	/* This replaces the deprecated "center" HTML element. /*
 {
 	text-align: center;
 	margin-left:auto;
@@ -128,6 +128,26 @@ img.inline-left
 .download-labels
 {
 	background-color: rgba(192,128,255,0.5);
+}
+
+.button
+{
+	display: block;
+	background-color: orchid;
+	width: fit-content;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	text-shadow: 1.5px 1.5px 0.5px #713272;
+	font-family: 'Roboto Slab';
+	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+}
+
+.button:hover, .button:active
+{
+	color: #ffc;
+	background-color: #f9e;
 }
 
 .footer
