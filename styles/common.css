@@ -26,7 +26,6 @@ iframe
 {
 	border: none !important;
 	border-width: 0px;
-	transition: height 0.75s ease-in-out;
 }
 
 /* Page content */
