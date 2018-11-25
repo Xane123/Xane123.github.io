@@ -4,6 +4,12 @@ body
 	text-shadow: 1.5px 1.5px 0.5px #713272;
 }
 
+:focus
+{
+	background-color: rgba(224, 192, 255, 0.25);
+	outline: rgba(255, 255, 255, 0.33) auto 5px;
+}
+
 @media screen	/* If on a screen, move the page down for the navbar. */
 {
 	.page
@@ -84,17 +90,25 @@ noscript
 }
 .content-quarter { width: 25%; }
 .content-threequarters { width: 75%; }
+.center-content { background: transparent; border: 0; }	/* Centered content is only for the screenshots section, so it has no background. */
 .section-title
 {
-	font-family: 'Roboto Slab';
+	font-family: 'Roboto Slab', serif;
 	font-size: 32pt;
 }
 
-.center, .header, .section-title, .download-icon, .button	/* This replaces the deprecated "center" HTML element. */
+.center, .header, .section-title, .download-icon, .button, .screenshot, p.desclist	/* This replaces the deprecated "center" HTML element. */
 {
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+.desclist
+{
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start: 20px;
 }
 
 li.step { display: inline-block; }
@@ -109,8 +123,9 @@ img.inline-left
 
 .screenshot
 {
-	width: 320px;
+	width: auto;
 	height: 200px;
+	margin: 0 2px;	/* Unsure of what's causing vertical margins, so let's pad it out sideways to match. */
 }
 .mod-image
 {
@@ -178,7 +193,7 @@ summary	/* Security warning section header */
 	.content-quarter, .content-half, .content-threequarters { width: 100%; height: auto; margin: 0.13em 0; font-size: 100%; }
 	.button { width: unset; }
 }
-@media screen and (max-width: 1525px)
+@media screen and (max-width: 1600px)
 {
 	.content-half { font-size: 100%; }
 	.screenshot { width: 32% !important; height: auto !important; }

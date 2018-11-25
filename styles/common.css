@@ -1,7 +1,12 @@
-::selection	/* Selected content; Slightly MacOS-esque if it's just me. */
+::selection	/* Selected content. I prefer macOS's look for selections. */
 {
 	background-color: rgba(255, 169, 129, 0.5);
 	color: white;
+}
+:focus
+{
+	background-color: rgba(128, 192, 255, 0.25);
+	outline: rgba(255, 160, 128, 0.33) auto 5px;
 }
 
 body	/* Default style. This CSS file only includes what all pages will use. */
