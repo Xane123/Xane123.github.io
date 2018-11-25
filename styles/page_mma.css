@@ -90,7 +90,7 @@ noscript
 	font-size: 32pt;
 }
 
-.center .header .section-title .download-icon
+.center, .header, .section-title, .download-icon
 {
 	text-align: center;
 	margin-left:auto;
