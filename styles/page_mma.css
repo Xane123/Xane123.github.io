@@ -68,7 +68,7 @@ noscript
 	width: 100%;
 	display: flex;
 }
-.content, .content-half, .content-quarter, .content-threequarters .div class="center"-content
+.content, .content-half, .content-quarter, .content-threequarters .center-content
 {
 	background-color: rgba(192,144,184,0.5);
 	border: 1px solid rgba(192,144,184,0.65);
@@ -90,7 +90,7 @@ noscript
 	font-size: 32pt;
 }
 
-.div class="center" .header .section-title .download-icon
+.center .header .section-title .download-icon
 {
 	text-align: center;
 	margin-left:auto;

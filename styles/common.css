@@ -82,4 +82,4 @@ td
 ::-webkit-scrollbar { width: 17px; background: linear-gradient(to right, #395577 0%,#2d4561 50%,#395577 100%); }
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
 ::-webkit-scrollbar-thumb { border-radius: 3px; background: linear-gradient(to right, #6c89ad 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); }
-::-webkit-scrollbar-button { height: 17px; background: radial-gradient(ellipse at div class="center", #e0eeff 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); border-radius: 2px; }
+::-webkit-scrollbar-button { height: 17px; background: radial-gradient(ellipse at center, #e0eeff 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); border-radius: 2px; }
