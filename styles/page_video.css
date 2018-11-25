@@ -84,7 +84,7 @@ td.right-side { width: 10%; padding-right: 1em; }
 .footer
 {
 	padding: 0.5em 1em;
-	text-align: div class="center";
+	text-align: center;
 	background-color: rgba(32,32,32,0.34);
 	border: 1px solid rgba(64,64,64,0.5);
 	border-bottom-left-radius: 1em;

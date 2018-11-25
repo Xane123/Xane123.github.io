@@ -133,7 +133,7 @@ img.inline-left
 .footer
 {
 	padding: 0.5em 1em;
-	text-align: div class="center";
+	text-align: center;
 	background-color: rgba(64,32,56,0.34);
 	border: 1px solid rgba(64,32,56,0.5);
 	border-bottom-left-radius: 1em;
@@ -145,7 +145,7 @@ img.inline-left
 
 summary	/* Security warning section header */
 {
-	text-align: div class="center";
+	text-align: center;
 	color: gold;
 	font-size: larger;
 	margin: 0.5em 0;
