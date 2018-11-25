@@ -20,9 +20,6 @@
 	z-index: -1;
 	cursor: default;
 	user-select: none;
-	text-align: center;
-	margin-left:auto;
-	margin-right:auto;
 }
 noscript
 {
@@ -83,10 +80,17 @@ img.inline-left
 h1, h2, h3, h4, h5, h6
 {
 	background: linear-gradient(to bottom,#f1d6b3,#a0632e);
-	background-clip: text;
+	-webkit-background-clip: text;	/* Unfortunately, this is vendor-specific. Normal "background-clip" doesn't work the same way. */
 	-webkit-text-fill-color: transparent;
 	text-shadow: 0 0 0 transparent !important;
 	filter: drop-shadow(1.5px 1.5px 0.5px #842);
+}
+
+.center, .header, h1, h2, h3, h4, h5, h6
+{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 @media screen and (max-width: 749px)
