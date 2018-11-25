@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!--<base href="file:///D:/UserFiles/Documents/GitHub/Xane123.github.io/" /> -->	<!-- Offline testing -->
-	<base href="https://xane123.github.io/" />	<!-- Online -->
 	<head>
+		<meta charset="UTF-8">
+		<!--<base href="file:///D:/UserFiles/Documents/GitHub/Xane123.github.io/" /> -->	<!-- Offline testing -->
+		<base href="https://xane123.github.io/" />	<!-- Online -->
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92022913-2"></script>
 		<script>
@@ -34,8 +36,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
-		<link rel="stylesheet" href="styles/fonts/xpinball.css" type="text/css" charset="utf-8" />
-		<link rel="stylesheet" href="styles/fonts/webicons.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="styles/fonts/xpinball.css" type="text/css" />
+		<link rel="stylesheet" href="styles/fonts/webicons.css" type="text/css" />
 		<link rel="icon" type="image/png" href="https://i.imgur.com/vYRWUTC.png" sizes="512x512">
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -64,7 +66,6 @@
 		<meta property="article:tag" content="Xane.com">
 		<meta property="article:tag" content="Xane Myers">
 		<meta property="og:type" content="website">
-		<meta name = "pinterest" content = "nopin" description = "Sorry, the images on this page would be too small to pin to Pinterest; Please click one then pin that to your boards." />
 		<meta content="Mary's Magical Adventure is a first person platforming game where a...what...?" property="og:description">
 		
 		<script>
@@ -89,62 +90,66 @@
 	</head>
 	
 	<!-- SECTION: HEADER -->
-	<body <!--onload="SetupPage();"--> style="background-image: url('https://i.imgur.com/za2bgnk.png'); background-size: 50%;">
+	<body style="background-image: url('https://i.imgur.com/za2bgnk.png'); background-size: 50%;">
 		<div class="navbar">
 			<a class="logo-link" href="pages/index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
-					<img src=https://i.imgur.com/vYRWUTC.png width=42pt height=42pt alt="Website logo: a 3D, blue sphere with an orange X on it.">
+					<img src=https://i.imgur.com/vYRWUTC.png width=42 height=42 alt="Website logo: a 3D, blue sphere with an orange X on it.">
 					<div class="logo-text" id="logotextid">The X Site</div>
 				</div>
 			</a>
-			<a class="navigation" id="nav1" alt="about navigation link" href="pages/about.html"></a>
-			<a class="navigation" id="nav2" alt="links navigation link" href="pages/links.html"></a>
-			<a class="navigation" id="nav3" alt="downloads navigation link" href="pages/games.html"></a>
-			<a class="navigation" id="nav4" alt="blog navigation link" href="https://blog.thex.site"></a>
-			<a class="navigation" id="nav5" alt="support navigation link" href="pages/support.html"></a>
+			<a class="navigation" id="nav1" href="pages/about.html"></a>
+			<a class="navigation" id="nav2" href="pages/links.html"></a>
+			<a class="navigation" id="nav3" href="pages/games.html"></a>
+			<a class="navigation" id="nav4" href="https://blog.thex.site"></a>
+			<a class="navigation" id="nav5" href="pages/support.html"></a>
 		</div>
-		<center class="header" id="headerid" style="background-image: url('https://i.imgur.com/bMbpnX2.png')">Mary's Magical Adventure</center>
+		<div class="header" id="headerid" style="background-image: url('https://i.imgur.com/bMbpnX2.png')">Mary's Magical Adventure</div>
 		<noscript>Javascript is currently disabled in your browser.</noscript>
 		<div class="header-divider"></div>
 		
 		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
 		<div class="wrapper" id=contentid>
-			<center class="section-title">Release Trailer</center>
+			<div class="section-title">Release Trailer</div>
 			<div class="wrapper-topcontent">
-				<div class="content-half"><iframe width="100%" height="320px" src="https://www.youtube-nocookie.com/embed/JxUdxpnBWas?rel=0" frameborder="0" style="border-radius: 0.33em;" allowfullscreen></iframe></div>
+				<div class="content-half"><iframe width="569" height="320" src="https://www.youtube-nocookie.com/embed/JxUdxpnBWas?rel=0" style="border: 0 transparent solid; border-radius: 0.33em;" allowfullscreen></iframe></div>
 				<div class="content-half">
 					<p>Mary's Magical Adventure is a first person platforming game where you can experience a father and his daughter's attempts to eliminate two evil men that have tried to get rid of him in the past.</p>
 					<p>See the <a href=https://worldofkirbycraft.miraheze.org>Xane Wiki</a> for more details.</p>
-					<li>Are you skilled enough? Quickly speed through areas, clearing them of enemies and finding hidden areas! Earn the rewards.</li>
-					<li>Find entrances to the mysterious six Special Stages, which are said to store the powerful Chaos Bridges, should you be quick about it!</li>
-					<li>Four worlds with four levels in each are planned, each with their own boss!</li>
+					<ul>
+						<li>Are you skilled enough? Quickly speed through areas, clearing them of enemies and finding hidden areas! Earn the rewards.</li>
+						<li>Find entrances to the mysterious six Special Stages, which are said to store the powerful Chaos Bridges, should you be quick about it!</li>
+						<li>Four worlds with four levels in each are planned, each with their own boss!</li>
+					</ul>
 					<p>Additionally, to listen to the soundtrack, <a href=https://soundcloud.com/xane-myers/sets/mary-magical-adventure>visit Xane's SoundCloud</a>.</p>
 				</div>
 			</div>
 			
-			<center class="section-title">Screenshots</center>
-			<center class="content">
+			<div class="section-title">Screenshots</div>
+			<div class="center-content">
 				<p>
 					<a href="https://imgur.com/yQsriAL" rel=nofollow target="_blank"><img src="https://i.imgur.com/yQsriALb.png" class="screenshot" title="Screenshot #1 (click or tap to view in a new tab)" alt="A hallway at sunrise, orange light spreading to the ceiling and floor, fading." /></a>
 					<a href="https://imgur.com/bMbpnX2" rel=nofollow target="_blank"><img src="https://i.imgur.com/bMbpnX2b.png" class="screenshot" title="Screenshot #2 (click or tap to view in a new tab)" alt="An aerial shot of Hell City, with the park, buildings, and beaches visible. The Electric Lounge is close to the viewer." /></a>
 					<a href="https://imgur.com/I6oihTN" rel=nofollow target="_blank"><img src="https://i.imgur.com/I6oihTNb.png" class="screenshot" title="Screenshot #3 (click or tap to view in a new tab)" alt="A dark, circular room lit by a bright light above a oversized restaurant cup from Bob's Drinks." /></a>
 				</p>
 				<p>
-					<a href="https://imgur.com/d8RREjg" rel=nofollow target="_blank"><img src="https://i.imgur.com/d8RREjgb.png" class="screenshot" title="Screenshot #4 (click or tap to view in a new tab)" alt="An aerial shot from the upper, rock/hill area looking down at the destroyed area and beach." />
+					<a href="https://imgur.com/d8RREjg" rel=nofollow target="_blank"><img src="https://i.imgur.com/d8RREjgb.png" class="screenshot" title="Screenshot #4 (click or tap to view in a new tab)" alt="An aerial shot from the upper, rock/hill area looking down at the destroyed area and beach." /></a>
 					<a href="https://imgur.com/U6q7EjX" rel=nofollow target="_blank"><img src="https://i.imgur.com/U6q7EjXb.png" class="screenshot" title="Screenshot #5 (click or tap to view in a new tab)" alt="Hell City at night. Buildings with their lights on, a red light, and a blue object on a rooftop can be seen." /></a>
 					<a href="https://imgur.com/Ao97RNO" rel=nofollow target="_blank"><img src="https://i.imgur.com/Ao97RNOb.png" class="screenshot" title="Screenshot #6 (click or tap to view in a new tab)" alt="A colorful floating area with many coins. Distorted rocks can be seen in the distance." /></a>
 				</p>
-			</center>
+			</div>
 			
-			<center class="section-title">Downloads</center>
+			<div class="section-title">Downloads</div>
 			<div class="content">
 				<p>Mary's Magical Adventure is in early alpha but you can play and try out the game! If you're on Windows (pre-compiled builds are 32-bit), MacOS, or Ubuntu/a compatible Linux variant, click its logo below to download its compiled executable. Also, don't forget to download the game data below that. Once both are downloaded, extract both to the same directory then run the executable named "Mary's Magical Adventure".</p>
-				<li>If you're on a variant of Linux that isn't based on Ubuntu or a derivative or just want to compile the source yourself, click the box below, find the source link, then clone/fork the repository or download it as a ZIP, then compile using <a rel=nofollow href=https://zdoom.org/wiki/Compile_GZDoom_on_Linux>the instructions found on ZDoom's wiki</a>. Don't forget to move the game data to the compiled app's folder after it compiles!</li>
-				<details><summary>Info about security warnings</summary
+				<p>If you're on a variant of Linux that isn't based on Ubuntu or a derivative or just want to compile the source yourself, click the box below, find the source link, then clone/fork the repository or download it as a ZIP, then compile using <a rel=nofollow href=https://zdoom.org/wiki/Compile_GZDoom_on_Linux>the instructions found on ZDoom's wiki</a>. Don't forget to move the game data to the compiled app's folder after it compiles!</p>
+				<details><summary>Info about security warnings</summary>
 					<p>Mary's Magical Adventure is not well-known and doesn't have a security certificate to sign officially-released executable files with. Also, anti-viruses are quick to declare unpopular apps as viruses without second thought, so this sectuion will tell you the possible problems you may encounter when initially getting Mary's Magical Adventure to run.</p>
-					<li>If you're using Norton, it may detect this game as a virus named WS.Reputation1. If it does, tell it to restore the game's executable file. Viruses would never be inserted into this game by Xane, which can be verified online using something like VirusTotal!</li>
-					<li>Windows SmartScreen will warn you about the app/program not having a publisher when you first run it. To avoid this, right-click play.exe and in properties check the checkbox that disables blocking. If greeted with SmartScreen, choose "more info" then "Run Anyways".</li>
-					<li>If MacOS's Gatekeeper prevents the game from running, temporarily disable it in System Preferences. Apple has made it harder to disable in recent versions, so you may need to look up terminal commands to bypass Gatekeeper. Xane isn't a fan of Apple so he won't do anything specifically for them, such as having the game on the App Store with a developer certificate.</li>
+					<ul>
+						<li>If you're using Norton, it may detect this game as a virus named WS.Reputation1. If it does, tell it to restore the game's executable file. Viruses would never be inserted into this game by Xane, which can be verified online using something like VirusTotal!</li>
+						<li>Windows SmartScreen will warn you about the app/program not having a publisher when you first run it. To avoid this, right-click play.exe and in properties check the checkbox that disables blocking. If greeted with SmartScreen, choose "more info" then "Run Anyways".</li>
+						<li>If MacOS's Gatekeeper prevents the game from running, temporarily disable it in System Preferences. Apple has made it harder to disable in recent versions, so you may need to look up terminal commands to bypass Gatekeeper. Xane isn't a fan of Apple so he won't do anything specifically for them, such as having the game on the App Store with a developer certificate.</li>
+					</ul>
 				</details>
 			</div>
 			<a href="https://storage.googleapis.com/marys-magical-adventure/downloads/engine-windows.zip" rel=nofollow><img src="https://i.imgur.com/gQOEWzF.png" alt="Windows logo" title="Click or tap to download the Windows executable." class="download-icon" /></a>
@@ -152,43 +157,39 @@
 			<a href="https://storage.googleapis.com/marys-magical-adventure/downloads/engine-ubuntu.zip" rel=nofollow><img src="https://i.imgur.com/ztQfvvq.png" alt="Ubuntu logo" title="Click or tap to download the Ubuntu executable." class="download-icon" /></a>
 			<a href="https://docs.google.com/document/d/1AJ36hflz8xsG798_G_d_K6mk_RJcYFu87yuogJfilI4/edit?usp=sharing" rel=nofollow><img src="https://i.imgur.com/UUusQVT.png" alt="Open box icon" title="Click or tap to view the full list of download options in a new tab." class="download-icon" /></a>
 			<div class="content">
-				<center class="download-icon">Windows (XP+)</center>
-				<center class="download-icon">macOS</center>
-				<center class="download-icon">Ubuntu</center>
-				<center class="download-icon">All Options</center>
-				<center><a href="https://storage.googleapis.com/marys-magical-adventure/downloads/game-data.zip" rel=nofollow style="font-family: 'Roboto Slab'; text-decoration: none; font-size: 20pt;">Download game data…</a></center>
+				<div class="download-icon">Windows (XP+)</div>
+				<div class="download-icon">macOS</div>
+				<div class="download-icon">Ubuntu</div>
+				<div class="download-icon">All Options</div>
+				<div class="center"><a href="https://storage.googleapis.com/marys-magical-adventure/downloads/game-data.zip" rel=nofollow style="font-family: 'Roboto Slab'; text-decoration: none; font-size: 20pt;">Download game data…</a></div>
 			</div>
 			
-			<center class="section-title">Mods</center>
+			<div class="section-title">Mods</div>
 			<div class="content">
 				<p>Mary's Magical Adventure accepts optional downloads developed by Xane which add or change things in-game! Click/tap the picture beside the mod you want to download.</p>
 				<p>If a mod doesn't work correctly, re-download the game data and the mods. Make sure the mod is in the same folder as the game data and application, too! It will automatically load any official mods placed in the game directory.</p>
 			</div>
 			<div class="wrapper-mod">
-				<div class="content-quarter"><center><a href="https://drive.google.com/open?id=1sot4vJ8AhOSAKJZv3yrUQjQV_6_02JJB" rel=nofollow target="_blank"><img src="https://i.imgur.com/QDRuk0p.png" width=100% height=100% class="mod-image" /></a></center></div>
+				<div class="content-quarter"><div class="center"><a href="https://drive.google.com/open?id=1sot4vJ8AhOSAKJZv3yrUQjQV_6_02JJB" rel=nofollow target="_blank"><img src="https://i.imgur.com/QDRuk0p.png" class="mod-image" alt="A phone with the word mobile overlaid over it. Its lock screen is visible on its screen." /></a></div></div>
 				<div class="content-threequarters">
 					<h1>Mobile Modifications</h1>
 					<p>Changes some text and sounds for more accurate touchscreen control instructions. Go to <b>Options (F4) > Display Options</b> then change the low-end settings to suit your lower-end devices.</p>
+				</div>
 			</div>
 			<div class="wrapper-mod">
-				<div class="content-quarter"><center><a href="https://drive.google.com/open?id=1_G9vTV8EbexQWOEQQMqQSWg8cpCAkvBg" rel=nofollow target="_blank"><img src="https://i.imgur.com/QDRuk0p.png" width=100% height=100% class="mod-image" /></a></center></div>
+				<div class="content-quarter"><div class="center"><a href="https://drive.google.com/open?id=1_G9vTV8EbexQWOEQQMqQSWg8cpCAkvBg" rel=nofollow target="_blank"><img src="https://i.imgur.com/QDRuk0p.png" class="mod-image" alt="A phone with the word mobile overlaid over it. Its lock screen is visible on its screen." /></a></div></div>
 				<div class="content-threequarters">
 					<h1>Materials</h1>
 					<p>Adds shiny metal and wood surfaces that reflect nearby lights to the game. Only use this if you have a recent graphics card that can handle them. Delta Touch/Android doesn't display these correctly, so only use this mod on a computer.</p>
 				</div>
 			</div>
 			<div class="wrapper-mod">
-				<div class="content-quarter"><center><a href="https://drive.google.com/open?id=1GWNThtr0iR66hZH6G2o9yTyWnUee-BGC" rel=nofollow target="_blank"><img src="https://i.imgur.com/QDRuk0p.png" width=100% height=100% class="mod-image" /></a></center></div>
+				<div class="content-quarter"><div class="center"><a href="https://drive.google.com/open?id=1GWNThtr0iR66hZH6G2o9yTyWnUee-BGC" rel=nofollow target="_blank"><img src="https://i.imgur.com/QDRuk0p.png" class="mod-image" alt="A phone with the word mobile overlaid over it. Its lock screen is visible on its screen." /></a></div></div>
 				<div class="content-threequarters">
 					<h1>Hi-res Textures</h1>
 					<p>Increases the resolution of textures and weapon sprites. Recommended in most scenarios.</p>
 				</div>
 			</div>
-				<center class="facebook">
-					<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fxane123.github.io%2Fpages%2Fmma%2Findex.html&width=106&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="106" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-					<a href="https://twitter.com/Xane_Xanecom?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @Xane_Xanecom</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/111690317247940971301" data-rel="publisher"></div>
-				</center>
 
 			<div class="footer" id="footerid">The X Site is &#169;2017-2018 Xane Myers. This website is hosted by <a href="https://pages.github.com">GitHub Pages</a> and some of its content is stored in <a href="https://cloud.google.com/storage">Google Cloud Storage</a>.</div>
 		</div>

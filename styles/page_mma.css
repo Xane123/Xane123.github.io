@@ -68,7 +68,7 @@ noscript
 	width: 100%;
 	display: flex;
 }
-.content, .content-half, .content-quarter, .content-threequarters
+.content, .content-half, .content-quarter, .content-threequarters .div class="center"-content
 {
 	background-color: rgba(192,144,184,0.5);
 	border: 1px solid rgba(192,144,184,0.65);
@@ -90,6 +90,13 @@ noscript
 	font-size: 32pt;
 }
 
+.div class="center" .header .section-title .download-icon
+{
+	text-align:div class="center";
+	margin-left:auto;
+	margin-right:auto;
+}
+
 li.step { display: inline-block; }
 li.step:before { content: "• "; }
 img.inline-left
@@ -108,6 +115,7 @@ img.inline-left
 .mod-image
 {
 	max-width: 300px;
+	width: 100%;
 }
 .download-icon
 {
@@ -125,7 +133,7 @@ img.inline-left
 .footer
 {
 	padding: 0.5em 1em;
-	text-align: center;
+	text-align: div class="center";
 	background-color: rgba(64,32,56,0.34);
 	border: 1px solid rgba(64,32,56,0.5);
 	border-bottom-left-radius: 1em;
@@ -137,7 +145,7 @@ img.inline-left
 
 summary	/* Security warning section header */
 {
-	text-align: center;
+	text-align: div class="center";
 	color: gold;
 	font-size: larger;
 	margin: 0.5em 0;

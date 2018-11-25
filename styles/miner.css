@@ -3,11 +3,11 @@ body
 	background-color: black;
 	background-image: url('https://i.imgur.com/C6zxDLo.png');
 	background-size: cover;
-	background-position: center;
+	background-position: div class="center";
 	color: white;
 }
 
-table { text-align: center; }
+table { text-align: div class="center"; }
 
 .bubble
 {
@@ -24,7 +24,7 @@ table { text-align: center; }
 	border-radius: 100%;
 }
 .bubble[id="hashrate"] { background-position: left; }
-.bubble[id="accepted"] { background-position: center; }
+.bubble[id="accepted"] { background-position: div class="center"; }
 .bubble[id="total"] { background-position: right; }
 
 .credit

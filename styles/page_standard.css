@@ -20,6 +20,9 @@
 	z-index: -1;
 	cursor: default;
 	user-select: none;
+	text-align:div class="center";
+	margin-left:auto;
+	margin-right:auto;
 }
 noscript
 {
@@ -61,7 +64,7 @@ noscript
 .footer
 {
 	padding: 0.5em 1em;
-	text-align: center;
+	text-align: div class="center";
 	background-color: rgba(32,32,32,0.34);
 	border: 1px solid rgba(64,64,64,0.5);
 	border-bottom-left-radius: 1em;
