@@ -82,8 +82,8 @@ img.inline-left
 }
 h1, h2, h3, h4, h5, h6
 {
-	background: -webkit-linear-gradient(top,#f1d6b3,#a0632e);
-	-webkit-background-clip: text;
+	background: linear-gradient(to bottom,#f1d6b3,#a0632e);
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-shadow: 0 0 0 transparent !important;
 	filter: drop-shadow(1.5px 1.5px 0.5px #842);
