@@ -176,6 +176,7 @@ summary	/* Security warning section header */
 	.wrapper { width: 100%; left: 0%; }
 	.wrapper-topcontent, .wrapper-mod { width: 100%; display: block; height: auto; }
 	.content-quarter, .content-half, .content-threequarters { width: 100%; height: auto; margin: 0.13em 0; font-size: 100%; }
+	.button { width: unset; }
 }
 @media screen and (max-width: 1525px)
 {
