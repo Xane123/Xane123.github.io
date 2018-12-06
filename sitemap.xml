@@ -4,8 +4,8 @@
 		<loc>http://www.thex.site</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.75</priority>
-   </url>
-   
+	</url>
+	
 	<url>
 		<loc>http://www.thex.site/pages/index.html</loc>
 		<changefreq>weekly</changefreq>
