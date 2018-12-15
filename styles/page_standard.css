@@ -8,8 +8,7 @@
 }
 .header
 {
-	background-size: cover;
-	background-position: bottom;
+	background-size: contain;
 	background-attachment: fixed;
 	padding: calc(100% - 90%) 0;
 	vertical-align: middle;
