@@ -26,7 +26,7 @@
 <!-- Now, time for the choices! -->
 <quad pos="-127.5 22.5" z-index="0" size="55 35" bgcolor="FFFA" style="Bgs1" substyle="BgButtonGlow"/>	<!-- Glow -->
 <quad pos="-125 20" z-index="1" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/rdELUGph.jpg"/>	<!-- Picture, then title -->
-<label pos="-100 -12.5" z-index="1" size="50 5" text="Interstate 22" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/Interstate22.xml"/>
+<label pos="-100 -12.5" z-index="1" size="50 5" text="Interstate 22" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/Interstate24.xml"/>
 <quad pos="-67.5 22.5" z-index="0" size="55 35" bgcolor="FFFA" style="Bgs1" substyle="BgButtonGlow"/>
 <quad pos="-65 20" z-index="1" size="50 30" bgcolor="FFFA" image="https://i.imgur.com/A14oxr4h.jpg"/>
 <label pos="-40 -12.5" z-index="1" size="50 5" text="Fog Forest" halign="center" valign="center2" style="TextTitle3" textemboss="1" autonewline="1" textsize="3" manialink="https://thex.site/manialinks/FogForest.xml"/>
