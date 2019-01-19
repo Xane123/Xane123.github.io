@@ -22,7 +22,7 @@ body
 {
 	background-size: contain;
 	background-attachment: fixed;
-	padding: calc(100% - 90%) 0;
+	padding: calc(100% - 95%) 0;
 	vertical-align: middle;
 	white-space: pre-wrap;
 	word-wrap: break-word;
