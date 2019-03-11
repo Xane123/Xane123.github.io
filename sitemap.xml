@@ -37,12 +37,6 @@
 		<changefreq>monthly</changefreq>
 	</url>
 	
-		<url>
-			<loc>http://www.thex.site/pages/mining.html</loc>
-			<changefreq>monthly</changefreq>
-			<priority>0.33</priority>
-		</url>
-	
 	<url>
 		<loc>http://www.thex.site/pages/videos.html</loc>
 		<changefreq>weekly</changefreq>
@@ -50,18 +44,18 @@
 	
 		<url>
 			<loc>http://www.thex.site/pages/videos/dangerous-moment.html</loc>
-			<changefreq>weekly</changefreq>
+			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>http://www.thex.site/pages/videos/sims-2-haunting.html</loc>
-			<changefreq>weekly</changefreq>
+			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>http://www.thex.site/pages/videos/wok-1.html</loc>
-			<changefreq>weekly</changefreq>
+			<changefreq>monthly</changefreq>
 		</url>
 		<url>
 			<loc>http://www.thex.site/pages/videos/wok-2.html</loc>
-			<changefreq>weekly</changefreq>
+			<changefreq>monthly</changefreq>
 		</url>
 </urlset>
