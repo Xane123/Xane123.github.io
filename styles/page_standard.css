@@ -9,7 +9,8 @@
 
 .header
 {
-	background-size: contain;
+	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 	padding: calc(100% - 90%) 0;
 	vertical-align: middle;

@@ -20,7 +20,8 @@ body
 }
 .header
 {
-	background-size: contain;
+	background-size: cover;
+	background-position: bottom;
 	background-attachment: fixed;
 	padding: calc(100% - 95%) 0;
 	vertical-align: middle;
@@ -138,7 +139,7 @@ img.inline-left
 {
 	display: block;
 	background-color: orchid;
-	width: fit-content;
+	width: max-content;
 	padding: 0.5em 1em;
 	text-decoration: none;
 	color: white;
