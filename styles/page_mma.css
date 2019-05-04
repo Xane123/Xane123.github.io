@@ -32,16 +32,6 @@ body
 	cursor: default;
 	user-select: none;
 }
-noscript
-{
-	position: relative;
-	top: 48px;
-	padding: 3px 3px 3px 2em;
-	margin-top: 1.6em;
-	background-color: rgba(0,0,0,0.5);
-	cursor: default;
-	user-select: none;
-}
 .header-divider
 {
 	width: calc(100% - 4px);
