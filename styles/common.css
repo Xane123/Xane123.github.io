@@ -1,3 +1,10 @@
+:root
+{
+	--color-link1: #adf;
+	--color-link2: #d5eeff;
+	--shadow-link: 1.5px 1.5px 0.5px #248;
+}
+
 ::selection	/* Selected content. I prefer macOS's look for selections. */
 {
 	background-color: rgba(255, 169, 129, 0.5);
@@ -24,8 +31,8 @@ body	/* Default style. This CSS file only includes what all pages will use. */
 }
 
 a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
-a, a:focus, a:active, a:visited { color: #adf; }
-a:hover { color: #d5eeff; }
+a, a:focus, a:active, a:visited { color: var(--color-link1) }
+a:hover { color: var(--color-link2) }
 
 iframe
 {
@@ -51,7 +58,6 @@ code
 	border-radius: 5px;
 	word-wrap: break-word;
 }
-
 
 table
 {
@@ -82,7 +88,17 @@ td
 	table { width: 100% !important; left: 0% !important; }
 }
 
-/* Glossy Blue Google Chrome scrollbars */
+@media (prefers-color-scheme: light)
+{
+	:root
+	{
+		--color-link1: #257;	/*adf*/
+		--color-link2: #5d6677;	/*d5eeff*/
+		--shadow-link: 1.5px 1.5px 0.5px #124;
+	}
+}
+
+/* Glossy Blue Google Chrome scrollbars. Sadly doesn't work in Firefox. */
 ::-webkit-scrollbar { width: 17px; background: linear-gradient(to right, #395577 0%,#2d4561 50%,#395577 100%); }
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
 ::-webkit-scrollbar-thumb { border-radius: 3px; background: linear-gradient(to right, #6c89ad 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); }
