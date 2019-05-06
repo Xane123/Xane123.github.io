@@ -4,6 +4,7 @@
 	--color-sectionbg: #723868;
 	--color-sectionborder: #b163a4;
 	--color-yellowtext: gold;
+	--color-iconglow: lightpink;
 	--shadow-primary: 1.5px 1.5px 0.5px #713272;
 	--image-background: url('https://i.imgur.com/XbLtytF.png');
 }
@@ -16,6 +17,8 @@
 		--color-sectionbg: #ead;
 		--color-sectionborder: #b7a;
 		--color-yellowtext: #8f6d1d;
+		--color-iconglow: lightpink;
+		--color-iconglow: #736;
 		--shadow-primary: unset;
 		--image-background: url('https://i.imgur.com/GuflKdC.png');
 	}
@@ -154,6 +157,7 @@ img.inline-left
 	display: inline-block;
 	font-family: 'Roboto Slab';
 	font-size: 26pt;
+	filter: drop-shadow(0 0 0.5em var(--color-iconglow));
 }
 .download-labels
 {
