@@ -1,0 +1,7 @@
+body
+{
+	background-color: #88f;
+	color: #404;
+}
+a, a:hover, a:focus { color: blue; }
+a:visited { color: purple; }

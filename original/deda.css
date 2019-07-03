@@ -1,0 +1,362 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}{\f1\fswiss\fcharset0 Arial;}}
+\viewkind4\uc1\pard\f0\fs20 /* Style sheet optimized for IE4x - Last updated 6/8/99 */\par
+\par
+body    \tab\tab\{ color: #000000;\par
+\tab\tab background: #FFFFFF;  \tab\par
+\tab\tab font-size: 70%;    \tab\tab\par
+\tab\tab font-family: Verdana, Arial, Sans Serif; \}\par
+\par
+\par
+a:link, a:visited \tab\{ color: "#0000FF"; text-decoration:"underline";\}\par
+\par
+a:active, a:hover \tab\{ color: "#FF0000";  cursor:hand; text-decoration:"underline";\}\par
+\par
+h1\par
+\tab\tab\{ font-size: 125%; \par
+\tab\tab margin-bottom:" .5em"; clear:both; \}\par
+\par
+h2\par
+\tab\tab\{ font-size: 110%;  \par
+\tab\tab margin-top: "1.5em";\par
+\tab\tab margin-bottom:" .5em"; clear:both; \}\par
+\par
+h3\par
+\tab\tab\{ font-size: 100%; \par
+\tab\tab margin-top: "1.2em";  \par
+\tab\tab margin-bottom: ".5em"; clear:both; \}\par
+\par
+h4\par
+\tab\tab\{ font-size: 100%; \par
+\tab\tab margin-top: "1.2em";  \par
+\tab\tab margin-bottom: ".5em"; clear:both; \}\par
+\par
+h5\par
+\tab\tab\{ font-size: 100%; \par
+\tab\tab margin-top: "1.2em";  \par
+\tab\tab margin-bottom: ".5em"; clear:both; \}\par
+\par
+p\par
+\tab\tab\{ margin-top:" .6em"; \par
+\tab\tab margin-bottom: ".6em"; \}\par
+\tab\tab\tab\par
+ol\par
+\tab\tab\{ margin-top: ".5em"; \par
+\tab\tab margin-bottom: 0; \par
+\tab\tab margin-left: "2.1em"; \par
+\tab\tab padding-left: "0em";\par
+\tab\tab margin-right:"2.1em" \}\par
+\tab\par
+ul\par
+\tab\tab\{ margin-top: ".6em"; \tab\par
+\tab\tab margin-bottom: 0;\par
+\tab\tab list-style-type: disc;\par
+\tab\tab margin-left: "1.5em";\par
+\tab\tab padding-left: "0em";\par
+\tab\tab margin-right: "1.5em"; \}\par
+\tab\tab\par
+li\par
+\tab\tab\{ margin-bottom: ".7em"; clear:both; \}\par
+\par
+dd\par
+\tab\tab\{ margin-bottom: 0; \par
+\tab\tab margin-left: "1.5em"; \} \par
+\par
+/* for defined terms, follow the "Document Conventions" listing in the Microsoft Manual of Style: */\par
+/* Keywords, functions, and anything else the user must enter exactly as shown are bold--add "font-weight: bold;" to the dt tag */\par
+/* Variables, book titles, and placeholders the user must provide are italic--add "font-style: italic;" to the dt tag */\par
+/* pre-defined arguments are bold and italic--add "font-weight: bold;" and "font-style: italic;" to the dt tag */\par
+\par
+dt\par
+\tab\tab\{ margin-top: "1em"; \}\par
+\par
+pre\par
+\tab\tab\{ margin-top: ".5em";\par
+\tab\tab margin-bottom: ".5em"; \}\par
+\par
+code\par
+\tab\tab\{ font-family: Courier New; \par
+\tab\tab font-size: "1.1em"; \}\par
+\par
+table\par
+\tab\tab\{ font-size: 100%;\par
+\tab\tab margin-top: "1em"; \par
+\tab\tab margin-bottom: "1em"; \par
+\tab\tab padding: "2"; \}\par
+\tab\tab\par
+th\par
+\tab\tab\{ text-align: left;\par
+\tab\tab background: #DDDDDD;\par
+\tab\tab vertical-align: bottom;\}\par
+\tab\tab\par
+tr\par
+\tab\tab\{ vertical-align: top; \}\par
+\par
+td\par
+\tab\tab\{ background: #EEEEEE;\par
+\tab\tab vertical-align: top; \}\par
+\par
+\par
+/****      extended class styles ************************/\par
+/*                       \tab\tab\tab\tab\tab */\par
+/* add comment tags to disable the style \tab\tab */\par
+\par
+p.indent\tab\tab\{ margin-left: "2em"; \}       /* this class style is used to indent text for notes and warnings; use this instead of the blockquote tag */\par
+\par
+p.indent2\tab\tab\{ margin-left: "3.5em"; \}   /* this class style is used to indent text a second level under the first  indent */\par
+\tab\tab\par
+p.proclabel\tab\{ font-size: 100%; \tab\par
+\tab\tab font-weight: bold; clear: both; \}\par
+\tab\tab\par
+p.uatshoot\tab\{ font-weight: bold; margin-bottom: "-.5em"; margin-top: "1em"; \}\par
+\par
+/***********************************************/\par
+/* these class styles are used for the expanding and collapsing text files (expand function in shared.js)  */\par
+\par
+#expand \tab\tab\tab\{margin-bottom: "0.6em"; margin-left: "1.5em"; margin-right: "1.5em";\}\par
+\par
+a:link.expandToggle, a:visited.expandToggle \tab\{color:"#000000"; font-weight: bold;  text-decoration:none;\}\par
+\par
+a:hover.expandToggle, a:active.expandToggle \tab\{color:"#0000FF";\}\par
+ \par
+img.expand \tab\tab\{ border: none; margin-right: "0.5em"; width:".8em";\}\par
+\tab\tab\par
+div.expand\tab\tab\{ margin-left: "1.5em"; margin-right: "1.5em";margin-bottom: "1em"; display:none;\}\par
+\par
+\par
+\par
+/***********************************************/\par
+/* this class for expand collapse appearing in a table  */\par
+\par
+table.uatshoot\tab\tab\{background-color: #FFFFFF; width: 90% \}\par
+\par
+table.uatshoot td\tab\tab\{ padding: 0px 0px 0px 5px \}\par
+\par
+a:link.uatshoot, a:visited.uatshoot \tab\{color:"#000000"; font-weight: normal;  text-decoration:none;\}\par
+\par
+a:hover.uatshoot, a:active.uatshoot \tab\{color:"#0000FF"; text-decoration: none \}\par
+\par
+\par
+/*******************************************/\par
+/*  these classes are for thumbnail art      */\par
+\par
+a:link img.thumbnail\tab\tab\{border-color: "#0000FF";\}\par
+\par
+a:active img.thumbnail\tab\{ border-color: "#FF0000";\}\par
+\par
+a:hover img.thumbnail\tab\{border-color: "#FF0000";\}\par
+\par
+img.thumbnail\tab\tab\{vertical-align: top; margin-left: 0;\par
+\tab\tab\tab  width:90; border-width:1;\}\par
+\tab\tab  \par
+div.thumbnail\tab\tab\{float:left; width: 105; margin-top: "1em"; margin-bottom: "-0.3em"; \par
+\tab\tab\tab  clear: both;  \}\par
+\par
+/*********************************************/\tab\tab\tab\tab\par
+/* this class style is used for the navigation tree in MMC */\par
+\tab\tab\par
+p.navTree\tab\tab\{ margin-top:" .2em"; \}\par
+\par
+ul.navTree \tab\{  list-style-type: none; \}\par
+\par
+li.branch\tab\tab\{ margin-top:" -.5em"; margin-bottom: ".6em";\}\par
+\par
+a.where\tab\tab\tab\{\}\tab /* use for the expand <a> tag */\par
+\par
+/***************************************************************/\par
+/* these class styles are used for <span> tags  simulating buttons & their div */\par
+\par
+#buttonMenu\tab\{ padding:  0.5em 0.3em 0.1em 0.3em;\par
+\tab\tab\tab   padding-left:6px;\par
+\tab\tab\tab   border-bottom: thin solid #999999;\par
+\tab\tab\tab   background: #BBBBBB;\par
+\tab\tab\tab   vertical-align:top;\par
+\tab\tab\tab   z-index:2;\par
+\tab\tab\tab   visibility:visible;\par
+\tab\tab\tab   left:0; top:0; \par
+\tab\tab\tab   text-align:left;\par
+\tab\tab\tab   margin:"0 1em 0 0"; \par
+\tab\tab\tab   position:absolute;\par
+\tab\tab\tab   width: "100%";\par
+\tab\tab\tab   \}\par
+\tab\tab\tab\tab\tab\tab   \par
+a:link.button, a:visited.button, span.button \{\par
+\tab\tab\tab   border-top-color: #EEEEEE ;\par
+\tab\tab\tab   border-left-color: #EEEEEE ;\par
+\tab\tab\tab   border-bottom-color: #666666 ;\par
+\tab\tab\tab   border-right-color: #666666 ;\par
+\tab\tab\tab   background-color: #DDDDDD ;\par
+\tab\tab\tab   color:#0000FF;\par
+\tab\tab\tab   text-decoration: "none";\par
+\tab\tab\tab   text-align: "center";\par
+\tab\tab\tab   font-weight: "bold" ;\par
+\tab\tab\tab   height:"1.5em"; width:"17px"; cursor:"hand";\par
+\tab\tab\tab   border-style: "solid"; border-width: 1;\par
+\tab\tab\tab\}\par
+\tab\tab\tab\par
+a:active.button, a:hover.button\tab\{\par
+\tab\tab\tab   border-top-color: #666666 ;\par
+\tab\tab\tab   border-left-color: #666666 ;\par
+\tab\tab\tab   border-bottom-color: #EEEEEE ;\par
+\tab\tab\tab   border-right-color: #EEEEEE;\par
+\tab\tab\tab   background-color: #FFFFFF;\par
+\tab\tab\tab   text-decoration: "none";\par
+\tab\tab\tab   text-align: "center";\par
+\tab\tab\tab   font-weight: "bold" ;\par
+\tab\tab\tab   height:"1.5em"; width:"17px"; cursor:"hand";\par
+\tab\tab\tab   border-style: "solid"; border-width: 1;\par
+\tab\tab\tab   \}\par
+\par
+/* The following span is used to display\par
+items that have no entries  - AMS */\par
+\tab\tab\tab   \par
+span.buttoninactive \{background: #C0C0C0;\par
+\tab\tab\tab\tab\tab border: 1 solid #eeeeee;\par
+\tab\tab\tab\tab\tab height: 1.4em;\par
+\tab\tab\tab\tab\tab width: 1.4em;\par
+\tab\tab\tab\tab\tab text-align: center;\par
+\tab\tab\tab\tab\tab font-weight: bold;\par
+\tab\tab\tab\tab\tab color: #808080;\par
+\tab\tab\tab\tab\tab vertical-align:top;\par
+\tab\tab\tab\tab\tab cursor: default;\par
+\tab\tab\tab\tab\tab\}\par
+\par
+#list\tab\tab\{ padding:.4em 0.3em 100% 0.3em;\par
+\tab\tab\tab   overflow:auto;\par
+\tab\tab\tab   line-height:0.4em;\par
+\tab\tab\tab   height:100%; width: "100%";\par
+\tab\tab\tab   z-index:1;\par
+\tab\tab\tab   left:0; top:0; \par
+\tab\tab\tab   text-align:left;\par
+\tab\tab\tab   margin:0; \par
+\tab\tab\tab   position:absolute;\par
+\tab\tab\tab   margin-left:"1em"; line-height:100%;\par
+\tab\tab\tab   \}\par
+\tab\tab\tab   \par
+p.marker\tab\{ font-weight:bold;\par
+\tab\tab\tab\tab margin-top: "2em";\par
+\tab\tab\tab\tab color:#000000;\par
+\tab\tab\tab\tab font-size:"110%";\par
+\tab\tab\tab\tab\}\tab\tab\tab   \par
+/************************************************/\par
+/* class styles reserved for mouseover/mouseout DHTML   */\par
+\par
+.cold\tab\tab\{\}\par
+.hot\tab\tab\{\}\par
+\par
+/**********************************************************************/\par
+/* ID styles reserved for <a> tags  calling OCX's within HTML Help by creating  OBJECTS */\par
+\par
+\par
+#wPopup\tab\tab\{\}\par
+\par
+a:link#wPopup, a:visited#wPopup\tab\{color: "#006600";\}\par
+a:hover#wPopup, a:active#wPopup\tab\{color: "#FF0000";\}\par
+\par
+\par
+img.popup \tab\{border: none; margin-right: "0.5em"; vertical-align:middle;\}\par
+\par
+#shortcut\tab\tab\{\}\par
+\par
+img.shortcut \tab\{border: none; margin-right: "0.5em"; vertical-align:middle;\}\par
+\par
+#specLoc\tab\tab\{\}\par
+\par
+#relTopics\tab\tab\{\}\par
+\par
+p.relTopics img \tab\{vertical-align:top;\}\tab  /* img is class=alert */\par
+\par
+#altLoc\tab\tab\{\}\par
+\par
+p.note,p.tip, p.important, p.caution, p.warning \par
+\tab\tab\{ font-weight:bold; clear:both;\par
+\tab\tab  margin-top:"1em"; \par
+\tab\tab  margin-bottom:"-.25em"; \}    \par
+\par
+img.alert\tab\tab\{border:none;\} \tab\tab  /* for icon images - note, tip, important, caution, warning*/\par
+\par
+\par
+/***********************************/\par
+/*   Style for print only functionality used with external URL link   coUA_print.css*/\par
+\par
+span.printOnly\tab\{display:none \}\par
+\par
+/***********************************/\par
+/*   Styles for checklists   */\par
+\par
+.userData \tab\tab\{behavior:url(#default#userdata); \}  /*sets persistance*/\par
+\par
+#checklist\tab\tab\{width:100%;  text-align:left; margin:"0.3em 0em";\}\par
+\par
+#checklist li \tab\{text-indent:"0.2em";\}\par
+\par
+/*********************************/\tab\tab\tab\tab\par
+/*  these classes are for previous next navigation     */\par
+\par
+a:hover.navbar, a:active.navbar\tab\tab\{\} /* text in nav */\par
+a:link.navbar, a:visited.navbar\tab\tab\{\}\par
+\tab\tab\tab   \par
+#nav\tab\{ left:0; top:0px;\par
+\tab   text-align:left; \par
+\tab   margin:0; \par
+\tab   position:absolute;\par
+\tab   padding-bottom: 1px; padding-top: 3px;\par
+\tab   padding-right:6px; padding-left:5px;\par
+\tab   align:top;\par
+\tab   visibility:hidden;\par
+\tab   z-index:1;  \}\par
+\par
+#text\tab\{ left:0; top:0px;\par
+\tab    margin:0; \par
+\tab    position:absolute;\par
+\tab    padding:10px;\par
+\tab    overflow:auto;\par
+\tab    height:100%;\par
+\tab    z-index:1; \par
+         \tab    background-repeat:no-repeat;\par
+\tab    background-position: bottom right;\par
+\tab    background-attachment:fixed; \}\par
+\par
+\par
+/***************************************************/\par
+/* STYLES USED IN THE WEB DELIVERABLE ONLY  */\par
+\par
+\par
+/***********************************/\par
+/*   links   */\par
+\par
+#wPopupWeb\tab\{\}\par
+\par
+a:link#wPopupWeb\tab\tab\tab\{color: "#006600";\}\par
+a:hover#wPopupWeb\tab\tab\{color: "#FF0000";\}\par
+a:active#wPopupWeb\tab\tab\{color: "#FF0000";\}\par
+a:visited#wPopupWeb\tab\tab\{color: "#006600";\}\par
+\par
+#shortcutWeb\tab\{\}\par
+\par
+#specLocWeb\tab\{\}\par
+\par
+#relTopicsWeb\tab\{\}\par
+\par
+#altLocWeb\tab\{\}\par
+\par
+\par
+/***********************************/\par
+/*   popups   */\par
+\par
+div.popup\tab\tab\{ visibility:hidden; z-index:3;\par
+\tab\tab\tab\tab  position:absolute; \par
+                 top:200; left:200; \par
+                 width:"250"; padding:"6px"; \par
+                 background-color:#FFFFCC;\par
+                 border-style: solid;\par
+                 border-width: 1;\par
+                 border-color: #666666;\par
+                                      \}\par
+\par
+\par
+\par
+\tab\tab\tab   \par
+\par
+\f1\par
+}
+ 

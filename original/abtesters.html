@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<HTML DIR="LTR">
+
+<HEAD>
+
+<TITLE>Find it fast</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="c:\searchHelp[1].css">
+<link rel="stylesheet" href="common.css">
+<META NAME="MS-IT-LOC" Content="Windows 2000">
+<META NAME="MS.LOCALE" CONTENT="EN-US">
+<META HTTP-EQUIV="PICS-Label" CONTENT='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" 1 comment "RSACi North America Server" by "inet@microsoft.com" r (n 0 s 0 v 0 I 0))'>  
+<SCRIPT LANGUAGE="JScript" SRC="c:\searchHelp[1].js"></SCRIPT>
+<META HTTP-EQUIV="Content-Type" CONTENT="text-html;charset=Windows-1252">
+<META NAME="MS-HAID" CONTENT="searchhelp"> 
+
+<STYLE>
+#searchButton {height: "1em"; width: "7em"; top: "2em"; left: "16em";}
+#intro td	  {text-align: left; width:"30%";	font-size: "75%";}
+table		  {width: "95%";}
+</STYLE>
+<OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+    <PARAM name="Command" value="Splash">
+    <PARAM name="Item1" value="w2khelp.gif">
+    <PARAM name="Item2" value="12000">
+</OBJECT>
+
+</HEAD>
+
+<BODY>
+<bgsound id="talker">
+<DIV  ID="intro">
+    <H1>Find it fast</H1>
+    Using the Search tab, you can locate every occurrence of a word or phrase. To improve the search results, combine multiple words or phrases with AND, OR, NEAR, and NOT.
+
+    <TABLE><TR> 
+	  <!-- To change the size of the font in the td, change the width value in the <style>#intro td</style>  -->
+	  <TD><A  ID="and" HREF="#"><IMG CLASS='ICON' SRC='arrowCold.gif'>AND</A></TD>
+	  <TD><A ID="near" HREF="#"><IMG CLASS='ICON' SRC='arrowCold.gif'>NEAR</A></TD>
+	  <TD><A ID="phrase" HREF="#"><IMG CLASS='ICON' SRC='arrowCold.gif'>&quot;Phrase&quot;</A></TD>
+    </TR><TR>
+	  <TD><A ID="or" HREF="#"><IMG CLASS='ICON' SRC='arrowCold.gif'>OR</A></TD>
+	  <TD><A ID="not" HREF="#"><IMG CLASS='ICON' SRC='arrowCold.gif'>NOT</A></TD>
+	  <TD></TD>
+    </TR></TABLE>
+	
+</DIV>
+
+<DIV ID="msgBox"></DIV>
+<DIV ID="startMsg">Please select one of the above options to see an animated demonstration. </DIV>
+
+<DIV ID="andMsg" CLASS="hide">
+Searching for <B>computer and monitor</B> finds topics that contain both keywords. 
+<P>This narrows your search.</P>
+</DIV>
+
+<DIV ID="nearMsg" CLASS="hide">
+Searching for <B>computer near monitor</B> finds topics that contain both keywords in close proximity to each other. 
+<P>This narrows your search.</P> 
+</DIV>
+
+<DIV ID="phraseMsg" CLASS="hide">
+Searching for <B>&quot;computer monitor&quot;</B> surrounded by quotation marks finds topics that contain this exact phrase.
+</DIV>
+
+<DIV ID="orMsg" CLASS="hide">
+Searching for <B>computer or monitor</B> finds topics that contain either keyword or both keywords. 
+<P>This broadens your search. </P>
+</DIV>
+
+<DIV ID="notMsg" CLASS="hide">	
+Searching for <B>computer not monitor</B> finds topics that contain the keyword computer but don't contain the keyword monitor. 
+<P>This narrows your search.</P>																			
+</DIV>
+
+<DIV  ID="search">Example search:
+    <DIV  ID="searchBox">Type in the words to search for:
+	<!-- If the words "computer" and "monitor" don't fit in the diagram, other words can be chosen -->
+	    <DIV ID="startSearch"></DIV>
+		<DIV ID="andSearch" CLASS="hide">computer and monitor</DIV>
+		<DIV ID="nearSearch" CLASS="hide">computer near monitor</DIV>
+	    <DIV ID="phraseSearch" CLASS="hide">&quot;computer monitor&quot;</DIV>
+		<DIV ID="orSearch" CLASS="hide">computer or monitor</DIV>
+		<DIV ID="notSearch" CLASS="hide">computer not monitor</DIV>
+	    <DIV ID="searchButton">List Topics</DIV>
+		<!-- To change the width of the searchButton,  increase the width in the <style>#searchButton</style> -->
+    </DIV>
+</DIV>
+
+<DIV ID="helpMsg" CLASS="hide">
+This is only a demonstration. To search for words or phrases, click the Search tab in the left pane of the Help viewer.
+</DIV>
+
+<DIV ID="diagram">Diagram of results:
+    <DIV ID="image"><IMG ID="blank" SRC="blank.gif" ALT="diagram"></DIV>
+	<!-- If the words "computer" and "monitor" don't fit in the diagram, other words can be chosen -->
+    <DIV ID="labels">
+	  <TABLE><TR>
+	      <TD ALIGN="right" WIDTH="50%">computer</TD>
+	      <TD WIDTH="100%">monitor</TD>
+	  </TR></TABLE>
+	  </DIV>
+</DIV>
+
+<DIV ID="handDiv"><IMG SRC="handcursor.GIF" BORDER=0 ALT="hand"></DIV>
+
+
+
+</BODY>
+</HTML>
+

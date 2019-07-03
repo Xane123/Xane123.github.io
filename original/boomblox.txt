@@ -1,0 +1,38 @@
+Boom Blox - My Levels...
+
+Level 1: Boss: Robot
+
+Details:
+Time Limit: 1:20
+Weapon: Laser Gun
+
+Medals:
+
+350 points: Bronze
+Approx. 410 points: Silver
+Approx. 700 points: Gold
+
+When the cannons fire, grab the ten-pointers. When at the beginning
+of the entire level, grab the blocks that land from the sky.
+
+Costs:
+
+50 points: 25 point cannon unlock
+
+Level 2: Castle Smash
+
+Details:
+Weapon: Laser Gun
+
+Medals:
+
+There are none in this level.
+
+At the beginning of the level, it the Chemical Blox in front of you, to strike it 
+orward and also to make the entire elevator buiding fall down completely to the right.
+The coins on top will be yours, but you wil need to pay them 60 points in order to do
+this.
+
+Costs:
+
+60 points: To break down middle elevator shaft

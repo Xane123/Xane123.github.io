@@ -1,0 +1,78 @@
+body		{font-size:"65%";
+		font-family: Verdana, Arial, Helvetica, MS Sans Serif;
+                        	}
+
+a		{color:blue; font-weight: bold; text-decoration: underline;}
+
+a:active, a:hover 	{color:red}						
+
+#and, #near, #phrase, #or, #not {hasIcon: true;}			/*hasIcon required by searchHelp.js */		
+
+#phrase		{font-style: italic}
+
+img.icon 		{isIcon: true; margin-right:"0.3em"; border: none;}	/* isIcon required by searchHelp.js */		
+
+h1		{font-size:125%; font-weight: bold; margin-bottom: ".5em";}
+
+#soundFrame	{position:absolute; 
+                        	top:1; left:1; width:1; height:1;
+		}
+#intro		{position: absolute; 
+		top: ".5em"; left: ".5em"; 
+		height:"1.5em"; width: "25em";
+		}
+table		 {padding:0; width: "90%"; 
+                         	margin: .5em;}
+
+#intro td		{text-align: left; width:"30%";
+		font-size: "80%"; font-weight: bold;
+		}
+#msgBox       	{background: FFFFCC; border-width: 1; border-style:solid; border-color:black; 
+							 }
+#msgBox, #startMsg, #andMsg, #nearMsg, #phraseMsg, #notMsg, #orMsg {position: absolute;   z-index:1;  padding: 3; 
+                         	height: "9em"; width: "25em"; top: "12.5em"; left: ".5em";}				 
+
+#search		{position: absolute; 
+              		 width: "10em"; top: "22.5em"; left: ".7em"; 
+		 }			 
+#searchBox		{background: CCCCCC; 
+                         	padding: 2; 
+		position: absolute; 
+		height: "5em"; width: "25em"; top: "1.5em"; left: "0"; 
+                         	}					 
+
+#startSearch, #andSearch, #nearSearch, #phraseSearch, #notSearch, #orSearch{
+		padding: 1; 
+                          	position: absolute;
+		width: "15em";  top: "2.2em"; left: ".5em";
+		pixelHeight: 5;background-color:white;
+		border-width:1px; border-style:solid; border-color:black; }
+		
+#searchButton	{position: absolute;   
+		height: "1em"; width: "7em"; top: "2em"; left: "16em";                        	
+		background: CCCCCC; 
+		padding: 2; 
+		border-width: 2; border-style:solid; 
+		border-top-color: Gainsboro; border-right-color: Gainsboro; 
+		border-bottom-color: SlateGray; border-left-color: SlateGray;
+		}	
+#diagram	{background: white; 
+                         	border: 0; 
+		padding-top: 0; padding-left: 0; 
+		position: absolute; 
+		height: 0; width: "20em"; top: "29.5em"; left: ".7em"; 
+		} 
+#image		{position: absolute;  top: "1.2em"; left: "3em";  width: "15em";}
+#labels		{position: absolute; top: "1.5em"; left: "3.5em";}
+#labels table	{width="100%";}
+#labels td		{font-size: "65%"; text-align: left;}
+
+#handDiv		{position:absolute; z-index:2;
+                         	top:"8em"; left:"0"; width:19; height:24; 
+		visibility: hidden;
+		}
+		
+
+.hide		{visibility:hidden; z-index:2;
+				filter: revealTrans(transition=19 duration=3);
+				}

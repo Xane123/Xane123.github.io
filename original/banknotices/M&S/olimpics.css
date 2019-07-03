@@ -1,0 +1,187 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background: #F1F5F7 url(img/border.gif) 7em 0 repeat-y;
+}
+
+p, pre, table, div, ul {
+	margin-left: 8em;
+	margin-right: 1em;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 0;
+}
+
+h1, h2 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+h2 {
+	padding-left: 0.5em;
+	border-left: 1px solid #1A3566;
+	border-bottom: 1px solid #1A3566;
+	background: #F1F5F7 url(img/header_background.gif) 0% 0% repeat-y;
+	font-size: 100%;
+}
+
+h3 {
+	padding-bottom: 0.2em;
+	background: #F1F5F7 url(img/header_background_2.gif) 0% 100% no-repeat;
+	font-size: 100%;
+}
+
+pre {
+	margin-left: 16em;
+}
+
+li {
+	margin-left: 1em;
+}
+
+hr {
+	clear: both;
+	visibility: hidden;
+}
+
+div#masthead {
+	margin: 0 10% 2.5em 0;
+	padding: 1em 0 1em 0;
+	border: 1px solid #1A3566;
+	border-width: 0 1px 1px 0;
+	color: #1A3566;
+	background: #B5C9ED;
+}
+div#masthead span.subtitle {
+	display: block;
+	margin-right: 22%;
+	margin-left: 2%;
+	padding: 0 0 0 4em;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-variant: small-caps;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+p.indented {
+	text-indent: 1em;
+	text-align: justify;
+}
+
+p img {
+	vertical-align: middle;
+}
+
+h3 img {
+	vertical-align: middle;
+}
+
+div.figure {
+	text-align: center;
+}
+div.figure img {
+	border: 1px solid #1A3566;
+}
+
+div.note {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 8em;
+	color: #1A3566;
+	text-align: right;
+	font: italic 70% Arial, Verdana, Helvetica, sans-serif;
+	background: transparent url(img/border.gif) 50% 15px repeat-x;
+}
+div.note p {
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 0;
+}
+div.caption img {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+div.note h5 {
+	margin: -5px 30px 0 1em;
+	padding: 0;
+	text-align: left;
+	font: bold 100% Arial, Verdana, Helvetica, sans-serif;
+}
+div.toolbutton {
+	border-top: 1em solid #F4C8C8;
+	border-right: 1em solid #F4C8C8;
+	border-bottom: 1em solid #F4C8C8;
+	background: #F4C8C8 url(img/border.gif) 50% 10px repeat-x;
+}
+div.toolbutton img {
+	width: 24px;
+	height: 20px;
+	margin: 0;
+}
+
+span.toolname {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+span.important {
+	font-style: italic;
+	font-weight: bold;
+}
+
+div.animation {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+div.credits {
+	padding: 0.5em;
+	border-top: 1px solid #1A3566;
+}
+div.credits span {
+	display: block;
+}
+div.credits span.title {
+	font-family: Verdana,Arial,Helvetica;
+	font-size: 90%;
+	font-weight: bold;
+}
+div.credits span.copyright {
+	font-family: Verdana,Arial,Helvetica;
+	font-size: 70%;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+a {
+	color: #335B97;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+img.olimpixsign
+{
+	margin-left: 6.5em;
+}
