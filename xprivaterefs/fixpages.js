@@ -1,18 +1,20 @@
 //This makes the internet a bit less "standard adults tryin' to be cool" language-heavy.
 var bodaey = document.body.innerHTML;
 var temp_content = bodaey;
-
+ 
 //Fix all incorrectly-encoded quotation marks.
 temp_content = temp_content.replace(/â€™/g, "'");
 temp_content = temp_content.replace(/â€œ/g, "“");
 temp_content = temp_content.replace(/â€/g, "”");
 
 //Next, fix bad language.
-temp_content = temp_content.replace(/fag /g, "laggy onlnie game player ");
+temp_content = temp_content.replace(/fag /g, "laggy online game player ");
 temp_content = temp_content.replace(/ fag/g, " laggy onlnie game player");
+temp_content = temp_content.replace(/ cock/g, " toilet plunger-");	//That one phrase...sucker.
 temp_content = temp_content.replace(/ cunt/g, " Runt");
 temp_content = temp_content.replace(/ fuck/g, " fart");
-temp_content = temp_content.replace(/Fuck/g, "Y'know who needs to be shot from a cannon? Runn");
+temp_content = temp_content.replace(/Fucking /g, "Y'know who needs to be shot from a cannon? The guy running to ");
+temp_content = temp_content.replace(/Fuck /g, "Y'know who needs to be shot from a cannon? Well, frankly, ");
 temp_content = temp_content.replace(/FUCK/g, "EPIC FART");
 temp_content = temp_content.replace(/ shitty/g, " poop-filled");
 temp_content = temp_content.replace(/Shitty/g, "but it's named Poop Will Fill");
@@ -30,10 +32,10 @@ temp_content = temp_content.replace(/Sanic/g, "Sonikku~!");
 temp_content = temp_content.replace(/SANIC/g, "SONIC-A~!");
 
 //Remove outdated, useless Kickstarter "invoking".
-temp_content = temp_content.replace(/have not received my reward. Please refund./g, " ");
-temp_content = temp_content.replace(/I invoke my rights under Kickstarter's Terms of Use:/g, " ");
-temp_content = temp_content.replace(/terms-of-use/g, " ");
-temp_content = temp_content.replace(/"Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill."/g, " ");
-temp_content = temp_content.replace(/I demand a full refund for my pledge amount./g, " ");
+temp_content = temp_content.replace(/have not received my reward. Please refund./g, "I'm stupid!");
+temp_content = temp_content.replace(/I invoke my rights under Kickstarter's Terms of Use:/g, "I fell for this scam, fully trusting the weirdo that made it!");
+temp_content = temp_content.replace(/terms-of-use/g, " sucks! I hate it!");
+temp_content = temp_content.replace(/"Project Creators are required to fulfill all rewards of their successful fundraising campaigns or refund any Backer whose reward they do not or cannot fulfill."/g, "If only I could have my money back, but I'm too stupid to know this website isn't responsible, the idiot that made this is!");
+temp_content = temp_content.replace(/I demand a full refund for my pledge amount./g, "What a scam... People, don't fall for this.");
 
 document.body.innerHTML = temp_content; 
