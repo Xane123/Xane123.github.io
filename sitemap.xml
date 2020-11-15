@@ -3,7 +3,7 @@
 	<url>
 		<loc>http://www.thex.site</loc>
 		<changefreq>monthly</changefreq>
-		<priority>0.75</priority>
+		<priority>0.66</priority>
 	</url>
 	
 	<url>
@@ -28,7 +28,7 @@
 	</url>
 	
 		<url>
-			<loc>http://www.thex.site/pages/mma/index.html</loc>
+			<loc>http://www.thex.site/pages/games/magicalmary1/index.html</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 	
