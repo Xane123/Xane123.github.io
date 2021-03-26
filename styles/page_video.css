@@ -102,8 +102,6 @@ img.inline-left
 }
 .center	/* This centers the video player, at least. */
 {
-	position: relative;
-	left: 25%;
 	text-align: center;
 }
 h1, h2, h3, h4, h5, h6
