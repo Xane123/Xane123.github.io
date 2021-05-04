@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<!--<base href="file:///D:/UserFiles/Documents/GitHub/Xane123.github.io/" /> -->	<!-- Offline testing -->
+		<!--<base href="file:///D:/UserFiles/Documents/GitHub/Xane123.github.io/" />	<!-- Offline testing -->
 		<base href="https://thex.site/" />	<!-- Online -->
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92022913-2"></script>
@@ -101,7 +101,7 @@
 			<a class="navigation" id="nav4" href="https://blog.thex.site"></a>
 			<a class="navigation" id="nav5" href="pages/support.html"></a>
 		</div>
-		<div class="header" id="headerid" style="background-image: url('https://i.imgur.com/3pbHInv.png')"><img src="https://lh5.googleusercontent.com/A5p0y5S_40qpjJtsTr15FRwtjP7RjEzde5A8DeOe0d3jXKjVadxSE-_J6BUdNtQT79GXjFBj4-Xl_J7AcTQXKcikgu-43CBlIAblAtLzGDybdLrnQAMXPHnxt2-Bs4fUOQD2k5l5" style="width: auto; height: 325px;"></div>
+		<div class="header" id="headerid" style="background-image: url('https://i.ytimg.com/vi/j6VmRqYknUM/2.jpg')"><img src="https://lh4.googleusercontent.com/yAtCKlz_EzKOea4jk0FwKiifDT7CC43v98ygDW3Oz-GGwRqHbMT8EC5lSLNELNwapSfWpOU048VPoEND53gCLeIC914uJ84nuJGoOp5gmh-_3DgRykqjw9mtWdG_H2m6Xbw4-tfu" style="width: auto; height: 325px; position: relative; top: 48px;"></div>
 		<div class="header-divider"></div>
 		
 		<!-- SECTION: PAGE CONTENT. Feel free to edit this. -->
@@ -135,24 +135,73 @@
 				</p>
 			</div>
 			
-			<div class="wrapper">
-			<div class="section-title">Documents</div>
-				<div class="content">
-					<div class="center"><iframe width=480 height=320 src="https://docs.google.com/document/d/e/2PACX-1vSbG7euUx-q8YUH4IAgr_0hoq9paAKJn1COc7j4vrcZGfv5nTCO0skkoa2404MuqRm9nVjGBZmeyOOV/pub?embedded=true"></iframe></div>
-				</div>
-			</div>
-			
 			<div class="section-title">Downloads</div>
 			<div class="content">
 				<p>This game is in its early alpha development part, but you can play and try out the game now! If you're on Windows (pre-compiled builds are 32-bit), MacOS, or Ubuntu/a compatible Linux variant, click its logo below to download its compiled executable. Also, don't forget to download the game data below that. Once both are downloaded, extract both to the same directory then run the executable, "PlayGame.exe" on Windows and either "MagicalMary" or "gzdoom" on other OSes.</p>
 				<p>If you're on a variant of Linux that isn't based on Ubuntu or a derivative or just want to compile the source yourself, click the box below, find the source link, then clone/fork the repository or download it as a ZIP, then compile using <a rel=nofollow href=https://zdoom.org/wiki/Compile_GZDoom_on_Linux>the instructions found on ZDoom's wiki</a>. Don't forget to move the game data to the compiled app's folder after it compiles!</p>
-				<details><summary>Info about security warnings</summary>
-					<p>Magical Mary 1: Redthorn's Family Ransom is not well-known and doesn't have a security certificate to sign officially-released executable files with. Also, anti-viruses are quick to declare unpopular apps as viruses without second thought, so this section will tell you the possible problems you may encounter when initially getting Magical Mary 1: Redthorn's Family Ransom to run.</p>
-					<ul>
-						<li>If you're using Norton, it may detect this game as a virus named WS.Reputation1. If it does, tell it to restore the game's executable file, as that is not a real virus, which only exists due to low reputation in the Norton community. Again, this game is not popular, so it will not have a good reputation. Viruses would never be sneaked into this game, which you can verify by uploading the engine files to VirusTotal or a similar website, or viewing the source code, which is mostly identical to GZDoom's source, excluding changes to the sky and MAPINFO definitions.</li>
-						<li>On Windows, SmartScreen will warn you about the app/program not having a publisher when you first run it. If you're greeted with a dialog that tells you about an "unknown publisher", click "more info" then "Run anyway".</li>
-						<li>If MacOS's Gatekeeper prevents the game from running, temporarily disable it in System Preferences. You may need to use Terminal commands just to bypass it on the app file! You may also compile the app yourself using Xcode. It's probably best to just set up Bootcamp and run the Windows version in it, or boot a Linux distro, though.</li>
-					</ul>
+				<details><summary>(Not) frequently-asked questions</summary>
+					<details><summary>My computer says this is a virus / Windows/MacOS is blocking the game!</summary>
+						<p>Magical Mary 1: Redthorn's Family Ransom is not well-known and doesn't have a security certificate to sign officially-released executable files with. Also, anti-viruses are quick to declare unpopular apps as viruses without second thought, so this section will tell you the possible problems you may encounter when initially getting Magical Mary 1: Redthorn's Family Ransom to run.</p>
+						<ul>
+							<li>If you're using Norton, it may detect this game as a virus named WS.Reputation1. If it does, tell it to restore the game's executable file, as that is not a real virus, which only exists due to low reputation in the Norton community. Again, this game is not popular, so it will not have a good reputation. Viruses would never be sneaked into this game, which you can verify by uploading the engine files to VirusTotal or a similar website, or viewing the source code, which is mostly identical to GZDoom's source, excluding changes to skydome rendering and MAPINFO definitions.</li>
+							<li>On Windows, SmartScreen will warn you about the app/program not having a publisher when you first run it. If you're greeted with a dialog that tells you about an "unknown publisher", click "more info" then "Run anyway".</li>
+							<li>If MacOS's Gatekeeper prevents the game from running, temporarily disable it in System Preferences. You may need to use Terminal commands just to bypass it on the app file! You may also compile the app yourself using Xcode. It's probably best to just set up Bootcamp and run the Windows version in it, or boot a Linux distro, though.</li>
+						</ul>
+					</details>
+					<details><summary>The game is very slow! (lag or low framerate)</summary>
+						<p>This game, to put it simply, is powered by an engine that isn't meant to display open areas or many objects; It's instead designed to optimally render indoor corridors. Due to that, it most likely will not run well on lower-end computers, phones (through Delta Touch), and virtual machines. Despite efforts to reduce the amount of objects rendered at long distances (trees becoming images, flowers disappearing, etc.), your computer may still struggle to run the game at a good framerate, especially if it's not at least a laptop designed for gaming. (Xane's tests and plays this game on his OMEN by HP laptop.)</p>
+						<p>Though the performance problems may not go away if any of these are done, please try this:</p>
+						<p>Press <b>ESC</b> or <b>START</b> (Xbox controller) to open the main menu, then open Options > Performance Settings. In this menu, the following settings should be able to be changed. (For those using the console (tilde/~), the CVars will be shown after each item name. <font size=5>This menu won't exist until after the current refactoring is complete.</font>
+							<table>
+								<tr>
+									<td>Setting</td>
+									<td>CVar</td>
+									<td>Description</td>
+									<td>Explanation</td>
+								</tr>
+								<tr>
+									<td>Additive Lines</td>
+									<td>le_addlines</td>
+									<td>Removes additive-rendered transparent lines if set to <b>Hide</b> (1).
+									<td>Some textures, mainly those under lights in dark areas to simulate extra brightness, use a method of transparency that takes more processing to correctly render. The slowdown causd by this becomes worse if multiple additive textures are shown through another.</td>
+								</tr>
+									<td>Block Distant Areas (Big Areas)</td>
+									<td>le_blockvis</td>
+									<td>Adds lowered ceiling sections in certain levels to hide distant level parts until they are approached if on (1).</td>
+									<td>As stated above this table, the game engine powering Magical Mary 1, GZDoom, is not supposed to display areas as vast as some of the levels in this game. Said engine will only stop rendering if a wall goes from the floor to the ceiling without a gap, so this abuses that quirk to force distant areas to become "invisible".</td>
+								<tr>
+									<td>Effect Quality</td>
+									<td>le_effects</td>
+									<td>Controls a lot of things, from how many flowers appear in grassy areas to if certain levels gain reflective ground when raining. This setting, in a way, gives Magical Mary 1 an idea of how powerful your device is. Set this according to what your device is.<br/><br/>If using the console to set this CVar, positive numbers reduce (1) or completely disable (2) most purely-visual effects. Negative numbers enable otherwise avoided effects such as reflective surfaces, with everything turned on if set to -2.<br/><br/><b>Do not use negative numbers unless your system is at least a "gaming" PC.</b> If your PC runs the game fine at le_effects = 0, you can try -1.</td>
+									<td>Setting this to 1 or 2 will improve performance in levels that use precipitation.</td>
+								</tr>
+								<tr>
+									<td>Draw Distance</td>
+									<td>le_drawdistance</td>
+									<td>Limits how far from the player that levels render.</td>
+									<td>Same as "Block Distant Areas" above, large areas will make it more likely that the game will slow down. Unlike that setting, thi works in all levels, abusing the same engine rendering quirk, only with polyobjects.</td>
+								</tr>
+								<tr>
+									<td>Disable 3D Skyboxes</td>
+									<td>le_skyboxoff</td>
+									<td>Displays pre-rendered 2D skybox images instead of a fully-3D skybox model.</td>
+									<td>Certain levels may use a detailed, completely 3D environment for their sky, which moves with the player for a nice parallax effect. These skyboxes may be graphically-intensive, and may make your game lag. For best performance (but worst appearance), it's best to disable them.</td>
+								</tr>
+								<tr>
+									<td>Precipitation Distance</td>
+									<td>le_precipdist</td>
+									<td>Maximum distance that the more dense, close raindrops fall within, which also affects less-detailed distant rain.</td>
+									<td>Rain may possibly cause lag on weaker hardware, somehow. Dropping this distance will make it more likely that you will see all of the raindrops, but will also make it easier to "outrun" rain, even easier for snow and cherry blossom petals.</td>
+								</tr>
+								<tr>
+									<td>Object Draw Distance</td>
+									<td>r_objdrawdistance</td>
+									<td>A multiplier that determines how far out objects like foliage render. Set this to values lower than 1.0 to shorten it and over that to lenghten it.</td>
+									<td>Decorative objects like flowers and grass are many individual objects, which each run DECORATE code every tic, and trees ae made of multiple tree bark and leaf cluster objects to give them unique appearances that are interactive. Dropping the draw distance of objects may improve performance since there's less obects spawned at any point.</td>
+								</tr>
+							</table>
+						<p>
+					</details>
 				</details>
 			</div>
 			<a href="https://storage.googleapis.com/mary-game-1/downloads/public/engine-windows.zip" rel=nofollow><img src="https://i.imgur.com/gQOEWzF.png" alt="Windows logo" title="Click or tap to download the Windows executable." class="download-icon" /></a>
@@ -166,7 +215,6 @@
 				<div class="download-icon">All Options</div>
 				<div class="center"><span style="font-family: 'Roboto Slab'; text-decoration: none; font-size: 20pt;">Don't forget to <a href="https://thex.site/pages/games/magicalmary1/index.html#data">download the game data</a> below!</span></div>
 			</div>
-			<div class="content">Google Cloud Storage has been activated, so it is now used for downloads again!</div>
 			
 			<div class="section-title"><a id=data></a>Game Data</div>
 			<div class="content">
@@ -182,14 +230,15 @@
 			<div class="content">
 				<p>Magical Mary 1: Redthorn's Family Ransom accepts optional downloads developed by Xane which add or change things in-game! Click/tap the picture beside the mod you want to download.</p>
 				<p>If a mod doesn't work correctly, re-download the game data and the mods. Make sure the mod is in the same folder as the game data and application, too! It will automatically load any official mods placed in the game directory.</p>
-				<p>If you still have the Materials Mod (mod_materials.pk3), please delete it as the game will not notice it in more recent versions. Instead, that mod has been integrated into the game. If your system can't handle reflective surfaces or slows down trying to render them, bring down the console with <b>~</b> then type this command:</p>
+				<p>In the past, there were more mods listed here, but they have since been added to the game itself, including the "Materials Mod". If your system can't handle the reflective materials/surfaces or slows down trying to render them, bring down the console with <b>~</b> then type this command:</p>
 				<p><code>gl_materials 0</code></p>
+				<p>Close and restart the game, and all textures will become flat and overly bright, but may improve performance very slightly. Disable dynamic lights to fix the brightness issue, and use the le_ (low-end) CVars/settings to hopefully make the game run faster.</p>
 			</div>
 			<div class="wrapper-mod">
 				<div class="content-quarter"><div class="center"><a href="https://storage.googleapis.com/mary-game-1/downloads/public/mod_hires.pk3" rel=nofollow target="_blank"><img src="https://i.imgur.com/28NJ9RO.png" class="mod-image" alt="A stylized yellow railing with various diagonal line supports and other shapes under the top rail. It looks very detailed, with unnatural patterns. Half of the visible rail goes behind a transparent swinging door. On top of this is the word Hi-res." /></a></div></div>
 				<div class="content-threequarters">
-					<h1>Hi-res Textures</h1>
-					<p>Increases the resolution of textures and weapon sprites. This isn't needed to play the game, but if you're playing at 4K or higher, you may want this mod to take advantage of those very high resolutions.</p>
+					<h1>Hi-res Mod</h1>
+					<p>Increases the resolution of first-person weapon sprites. This isn't required to play the game, but if you use a 4K+ resolution display and the smudged weapon sprites bother you, it's recommended to use this, given your device has enough memory.</p>
 				</div>
 			</div>
 			
