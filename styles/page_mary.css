@@ -106,6 +106,7 @@ td
 body
 {
 	color: var(--color-primarytext);
+	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
 	text-shadow: var(--shadow-primary);
 	background-image: var(--image-background) !important;
 	overflow-x:hidden;
@@ -139,7 +140,7 @@ body
 	vertical-align: middle;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	font-family: 'Sniglet', serif;
+	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
 	font-weight: bold;
 	font-size: 48pt;
 	z-index: -1;
