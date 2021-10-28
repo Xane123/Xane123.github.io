@@ -7,6 +7,109 @@
 	}
 }
 
+/* Merged from common.css. */
+:root
+{
+	--color-link1: #adf;
+	--color-link2: #d5eeff;
+	--shadow-link: 1.5px 1.5px 0.5px #248;
+}
+
+::selection	/* Selected content. I prefer macOS's look for selections. */
+{
+	background-color: rgba(255, 169, 129, 0.5);
+	/*color: white;*/
+}
+:focus
+{
+	background-color: rgba(128, 192, 255, 0.25);
+	outline: rgba(255, 160, 128, 0.33) auto 5px;
+}
+
+body	/* Default style. */
+{
+	font-family: XPinball, 'Trebuchet MS', Trebuchet, sans-serif;
+	color: #fc8;
+	text-shadow: 1.5px 1.5px 0.5px #842;
+	overflow-x:hidden;
+	background-image: url(https://i.imgur.com/z4PAYcx.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	margin: 0;
+}
+
+a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
+a, a:focus, a:active, a:visited { color: var(--color-link1) }
+a:hover { color: var(--color-link2) }
+
+iframe
+{
+	border: none !important;
+	border-width: 0px;
+}
+
+/* Page content */
+h1, h2, h3, h4, h5, h6
+{
+	margin: 5px 4px 0 4px;
+}
+p
+{
+	margin: 6.5px 4px 3px 4px;
+}
+code
+{
+	color: #cf8;
+	background-color: rgba(221, 255, 187, 0.5);
+	font-size: large;
+	text-shadow: 1.5px 1.5px 0.5px #482 !important;
+	border-radius: 5px;
+	word-wrap: break-word;
+}
+
+table
+{
+	position: relative;
+	left: 12.5%;
+	width: 75%;
+	background-color: rgba(255,255,255,0.13);
+}
+table, th, td
+{
+	border: 1px solid rgba(255,255,255,0.33);
+}
+th
+{
+	background-color: rgba(224,108,48,0.66);
+}
+tr
+{
+	background-color: rgba(48,108,224,0.5);
+}
+td
+{
+	max-width: 0;
+}
+
+@media screen and (max-width: 749px)
+{
+	table { width: 100% !important; left: 0% !important; }
+}
+
+@media (prefers-color-scheme: light)
+{
+	:root
+	{
+		--color-link1: #257;	/*adf*/
+		--color-link2: #5d6677;	/*d5eeff*/
+		--shadow-link: 1.5px 1.5px 0.5px #124;
+	}
+}
+
+/* From page_standard.css. Defines how the page content looks, minus links, tables, and links (which are above). */
+
 .header
 {
 	background-size: cover;
@@ -94,3 +197,9 @@ h1, h2, h3, h4, h5, h6
 {
 	.header { font-size: 36pt; }
 }
+
+/* Glossy Blue Google Chrome scrollbars. Sadly doesn't work in Firefox. */
+::-webkit-scrollbar { width: 17px; background: linear-gradient(to right, #395577 0%,#2d4561 50%,#395577 100%); }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
+::-webkit-scrollbar-thumb { border-radius: 3px; background: linear-gradient(to right, #6c89ad 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); }
+::-webkit-scrollbar-button { height: 17px; background: radial-gradient(ellipse at center, #e0eeff 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); border-radius: 2px; }

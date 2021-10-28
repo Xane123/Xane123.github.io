@@ -19,3 +19,14 @@
 {
 	color: #edf;
 }
+
+/* The navbar uses different fonts on the Magical Mary page. */
+.logo-link, .logo-link:hover, .logo-link:active, .logo-link:focus, .logo-link:visited
+{
+	font-family: 'Sniglet', cursive !important;
+	font-weight: bold !important;
+}
+.navigation
+{
+    font-family: 'Sniglet', cursive !important;
+}
