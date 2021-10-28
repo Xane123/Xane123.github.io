@@ -45,20 +45,6 @@
 	outline: rgba(255, 160, 128, 0.33) auto 5px;
 }
 
-body	/* Default style. */
-{
-	font-family: 'Sniglet', 'XPinball', cursive;
-	color: #fc8;
-	text-shadow: 1.5px 1.5px 0.5px #842;
-	overflow-x:hidden;
-	background-image: url(https://i.imgur.com/z4PAYcx.png);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	background-color: black;
-	margin: 0;
-}
-
 a { transition: color 0.25s; text-shadow: 1.5px 1.5px 0.5px #248; }
 a, a:focus, a:active, a:visited { color: var(--color-link1) }
 a:hover { color: var(--color-link2) }
@@ -117,12 +103,6 @@ td
 	table { width: 100% !important; left: 0% !important; }
 }
 
-@media (prefers-color-scheme: light)
-{
-	:root
-	{
-	}
-}
 
 /* From page_standard.css. Defines how the page content looks, minus links, tables, and links (which are above). */
 body
@@ -130,6 +110,12 @@ body
 	color: var(--color-primarytext);
 	text-shadow: var(--shadow-primary);
 	background-image: var(--image-background) !important;
+	overflow-x:hidden;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	margin: 0;
 }
 
 :focus
@@ -339,9 +325,3 @@ font.yellowtext
 {
 	.header { font-size: 36pt; }
 }
-
-/* Glossy Blue Google Chrome scrollbars. Sadly doesn't work in Firefox. */
-::-webkit-scrollbar { width: 17px; background: linear-gradient(to right, #395577 0%,#2d4561 50%,#395577 100%); }
-::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { display: none; }
-::-webkit-scrollbar-thumb { border-radius: 3px; background: linear-gradient(to right, #6c89ad 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); }
-::-webkit-scrollbar-button { height: 17px; background: radial-gradient(ellipse at center, #e0eeff 0%,#b8cce4 20%,#6c89ad 80%,#4d617a 100%); border-radius: 2px; }
