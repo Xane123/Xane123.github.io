@@ -13,13 +13,17 @@
 {
 	:root
 	{
-		--color-primarytext: #ffabd2;
-		--color-sectionbg: #5B2060;
-		--color-sectionborder: #c4963f;
-		--color-yellowtext: gold;
-		--color-iconglow: lightpink;
+		--color-primarytext: #a40a52;
+		--color-sectionbg: #dd82be;
+		--color-sectionborder: #ac52b9;
+		--color-yellowtext: #b9deff;
+		--color-iconglow: #8348;
 		--shadow-primary: unset;
 		--image-background: url('https://magicalmary.thex.site/bg_light.png');
+		--color-link1: #752;
+		--color-link2: #77665d;
+		--shadow-link: 1.5px 1.5px 0.5px #421;
+}
 	}
 }
 
@@ -196,12 +200,17 @@ img.inline-left
 	color: white !important;
 }
 
-summary	/* Security warning section header */
+summary	/* FAQ section headers */
 {
 	text-align: center;
 	color: var(--color-yellowtext);
 	font-size: larger;
 	margin: 0.5em 0;
+}
+
+font.yellowtext
+{
+	color: var(--color-yellowtext);
 }
 
 @media screen and (max-width: 850px)
