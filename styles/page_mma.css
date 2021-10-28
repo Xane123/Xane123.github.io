@@ -1,12 +1,12 @@
 :root
 {
 	--color-primarytext: #fbbdff;
-	--color-sectionbg: #723868;
+	--color-sectionbg: #602C57;
 	--color-sectionborder: #b163a4;
 	--color-yellowtext: gold;
 	--color-iconglow: lightpink;
 	--shadow-primary: 1.5px 1.5px 0.5px #713272;
-	--image-background: url('https://i.imgur.com/XbLtytF.png');
+	--image-background: url('https://magicalmary.thex.site/bg_dark.png');
 }
 
 @media (prefers-color-scheme: light)	/* Light theme alterations */
@@ -20,7 +20,7 @@
 		--color-iconglow: lightpink;
 		--color-iconglow: #736;
 		--shadow-primary: unset;
-		--image-background: url('https://i.imgur.com/GuflKdC.png');
+		--image-background: url('https://magicalmary.thex.site/bg_light.png');
 	}
 }
 
