@@ -142,6 +142,7 @@ body
 	word-wrap: break-word;
 	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
 	font-weight: bold;
+	text-transform: small-caps;
 	font-size: 48pt;
 	z-index: -1;
 	cursor: default;
@@ -197,7 +198,8 @@ body
 .game-center-content { background: transparent; border: 0; }	/* Centered content is only for the screenshots section, so it has no background. */
 .section-title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
+	font-weight: bold;
 	font-size: 32pt;
 }
 
