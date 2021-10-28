@@ -1,8 +1,8 @@
 :root
 {
-	--color-primarytext: #fbbdff;
-	--color-sectionbg: #602C57;
-	--color-sectionborder: #b163a4;
+	--color-primarytext: #ffabd2;
+	--color-sectionbg: #5B2060;
+	--color-sectionborder: #c4963f;
 	--color-yellowtext: gold;
 	--color-iconglow: lightpink;
 	--shadow-primary: 1.5px 1.5px 0.5px #713272;
@@ -13,12 +13,11 @@
 {
 	:root
 	{
-		--color-primarytext: #722f77;
-		--color-sectionbg: #ead;
-		--color-sectionborder: #b7a;
-		--color-yellowtext: #8f6d1d;
+		--color-primarytext: #ffabd2;
+		--color-sectionbg: #5B2060;
+		--color-sectionborder: #c4963f;
+		--color-yellowtext: gold;
 		--color-iconglow: lightpink;
-		--color-iconglow: #736;
 		--shadow-primary: unset;
 		--image-background: url('https://magicalmary.thex.site/bg_light.png');
 	}
@@ -75,7 +74,7 @@ body
 	border-bottom-color: #620
 }
 
-.wrapper
+.wrapper	/* Wrappers are the invisible containers that define the margins around the content-boxes. */
 {
 	width: 75%;
     position: relative;
@@ -92,23 +91,23 @@ body
 	width: 100%;
 	display: flex;
 }
-.content, .content-half, .content-quarter, .content-threequarters, .center-content
+.game-content, .game-content-half, .game-content-quarter, .game-content-threequarters, .game-center-content	/* These are the visible boxes that contain page content. */
 {
 	background-color: var(--color-sectionbg);
 	border: 1px solid var(--color-sectionborder);
 	border-radius: 1em;
 }
-.content { margin: 3px 6px; }
-.content-quarter, .content-half, .content-threequarters { margin: 0.065em 0.13em; }
-.content-half
+.game-content { margin: 3px 6px; }
+.game-content-quarter, .game-content-half, .game-content-threequarters { margin: 0.065em 0.13em; }
+.game-content-half
 {
 	width: 50%;
 	height: 100%;
 	font-size: 119%;
 }
-.content-quarter { width: 25%; }
-.content-threequarters { width: 75%; }
-.center-content { background: transparent; border: 0; }	/* Centered content is only for the screenshots section, so it has no background. */
+.game-content-quarter { width: 25%; }
+.game-content-threequarters { width: 75%; }
+.game-center-content { background: transparent; border: 0; }	/* Centered content is only for the screenshots section, so it has no background. */
 .section-title
 {
 	font-family: 'Roboto Slab', serif;
@@ -209,18 +208,18 @@ summary	/* Security warning section header */
 {
 	.wrapper { width: 100%; left: 0%; }
 	.wrapper-topcontent, .wrapper-mod { width: 100%; display: block; height: auto; }
-	.content-quarter, .content-half, .content-threequarters { width: 100%; height: auto; margin: 0.13em 0; font-size: 100%; }
+	.game-content-quarter, .game-content-half, .game-content-threequarters { width: 100%; height: auto; margin: 0.13em 0; font-size: 100%; }
 	.button { width: unset; }
 }
 @media screen and (max-width: 1600px)
 {
-	.content-half { font-size: 100%; }
+	.game-content-half { font-size: 100%; }
 	.screenshot { width: 32% !important; height: auto !important; }
 	.download-icon { font-size: 16pt; }
 }
 @media screen and (max-width: 1200px)
 {
-	.content-half { font-size: 85%; }
+	.game-content-half { font-size: 85%; }
 	.screenshot { width: 32% !important; height: auto !important; }
 	.download-icon { font-size: 16pt; }
 }
