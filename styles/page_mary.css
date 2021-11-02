@@ -238,7 +238,7 @@ img.inline-left
 	max-width: 300px;
 	width: 100%;
 }
-.download-icon
+.download-icon	/* Used for both the download icons and the labels beneath them. */
 {
 	width: 20%;
 	padding: 2.25%;
@@ -252,9 +252,9 @@ img.inline-left
 {
 	background-color: rgba(192,128,255,0.5);
 }
-.dl-icon-updated
+.dl-icon-updated	/* Second line of OS names below download icons. */
 {
-	font-weight: unset;
+	font-weight: normal;
 }
 
 .button
