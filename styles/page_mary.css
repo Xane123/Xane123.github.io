@@ -243,13 +243,18 @@ img.inline-left
 	width: 20%;
 	padding: 2.25%;
 	display: inline-block;
-	font-family: 'Roboto Slab';
+	font-weight: bold;
+	font-family: 'Sniglet';
 	font-size: 26pt;
 	filter: drop-shadow(0 0 0.5em var(--color-iconglow));
 }
 .download-labels
 {
 	background-color: rgba(192,128,255,0.5);
+}
+.dl-icon-updated
+{
+	font-weight: unset;
 }
 
 .button

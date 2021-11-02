@@ -120,16 +120,18 @@
 				<p>This game is in its early alpha development part, but you can play and try out the game now! If you're on Windows (pre-compiled builds are 32-bit), MacOS, or Ubuntu/a compatible Linux variant, click its logo below to download its compiled executable. Also, don't forget to download the game data below that. Once both are downloaded, extract both to the same directory then run the executable, "PlayGame.exe" on Windows and either "MagicalMary" or "gzdoom" on other OSes.</p>
 				<p>If you're on a variant of Linux that isn't based on Ubuntu or a derivative or just want to compile the source yourself, click the box below, find the source link, then clone/fork the repository or download it as a ZIP, then compile using <a rel=nofollow href=https://zdoom.org/wiki/Compile_GZDoom_on_Linux>the instructions found on ZDoom's wiki</a>. Don't forget to move the game data to the compiled app's folder after it compiles!</p>
 				<details><summary>(Not) frequently-asked questions</summary>
-					<details><summary>My computer says this is a virus / Windows/MacOS is blocking the game!</summary>
+					<details><summary>My computer says this is a virus, or Windows/MacOS is blocking the game!</summary>
 						<p>Magical Mary 1: Redthorn's Family Ransom is not well-known and doesn't have a security certificate to sign officially-released executable files with. Also, anti-viruses are quick to declare unpopular apps as viruses without second thought, so this section will tell you the possible problems you may encounter when initially getting Magical Mary 1: Redthorn's Family Ransom to run.</p>
 						<ul>
-							<li>If you're using Norton, it may detect this game as a virus named WS.Reputation1. If it does, tell it to restore the game's executable file from quarantine and mark it as an exception, as that is not a real virus, which only exists due to low reputation in the Norton community. Again, this game is not popular, so it will not have a good reputation. Viruses would never be sneaked into this game, which you can verify by uploading the engine files to VirusTotal or a similar website, or viewing the source code, which is mostly identical to GZDoom's source, excluding changes to skydome rendering and MAPINFO definitions.</li>
-							<li>On Windows, SmartScreen will warn you about the app/program not having a publisher when you first run it. If you're greeted with a dialog that tells you about an "unknown publisher", click "more info" then "Run anyway".</li>
-							<li>If MacOS's Gatekeeper prevents the game from running, temporarily disable it in System Preferences. You may need to use Terminal commands just to bypass it on the app file! You may also compile the app yourself using Xcode. It's probably best to just set up Bootcamp and run the Windows version in it, or boot a Linux distro, though.</li>
+							<li>If you're using Norton, it may detect this game as a virus named "WS.Reputation1". If it does, please restore the quarantined file and mark it as trusted. This virus isn't a real threat, and only indicates that not enough Norton users have marked it as trusted. If any other virus name is shown, it may be a legitimate threat, though viruses would <b>not</b> be included on purpose, especially from builds downloaded from this official website.</li>
+							<li>You can verify that there aren't viruses in this game by uploading the game's executable (PlayGame.exe, etc.) to VirusTotal or a similar website, or viewing the source code on GitHub, which is mostly identical to GZDoom's source, excluding changes to skydome rendering and MAPINFO definitions.</li>
+							<li>On Windows, SmartScreen will warn you about the app/program not having a publisher when you first run it. If you're greeted with a dialog that tells you about an "unknown publisher", click "more info" then "Run anyway". This just means that the file doesn't contain a certificate, which isn't necessary (and would be pricey).</li>
+							<li>If MacOS's Gatekeeper prevents the game from running, temporarily disable it in System Preferences. You may need to use Terminal commands just to bypass it on the app file! You may also compile the app yourself using Xcode. It's probably best to just set up Bootcamp and run the Windows version in it, or dual-boot a Linux distro, though.</li>
 						</ul>
 					</details>
 					<details><summary>There's barely any content in the game!</summary>
-					<p>This game is in development; If any levels or other content are created, they will appear in later public builds of the game, but for now, there's not much to do other than visit incomplete areas as Mary.</p></details>
+					<p>This game is in development; If any levels or other content are created, they will appear in later public builds of the game, but for now, there's not much to do other than visit incomplete areas as Mary.</p>
+					<p>To keep the game from being completable without buying it, once the game enters the beta or late beta phase, the public game will become limited to special demo versions that only contain some of the levels. If Xane opens a Patreon for this game, the full latest builds will be limited to there.</details>
 					<details><summary>The game is very slow! (lag or low framerate)</summary>
 						<p>This game, to put it simply, is powered by an engine that isn't meant to display open areas or many objects; It's instead designed to optimally render indoor corridors. Due to that, it most likely will not run well on lower-end computers, phones (if this is loaded through Delta Touch on Android), and virtual machines. Despite efforts to reduce the amount of objects rendered at long distances (trees becoming images, flowers disappearing, etc.), your computer may still struggle to run the game at a good framerate, especially if it's not at least a laptop designed for gaming. (Xane's tests and plays this game on his gaming laptops, where he makes sure the game's framerate doesn't ever dip to under 30 FPS.)</p>
 						<p>Though the performance problems may not go away if any of these are done, please try this:</p>
@@ -191,17 +193,17 @@
 			<a href="https://storage.googleapis.com/mary-game-1/downloads/public/ubuntu.zip" rel=nofollow><img src="https://i.imgur.com/ztQfvvq.png" alt="Ubuntu logo" title="Click or tap to download the Ubuntu executable." class="download-icon" /></a>
 			<a href="https://docs.google.com/document/d/1AJ36hflz8xsG798_G_d_K6mk_RJcYFu87yuogJfilI4/edit?usp=sharing" rel=nofollow><img src="https://i.imgur.com/lbzIpqj.png" alt="Open box icon" title="Click or tap to view the full list of download options in a new tab." class="download-icon" /></a>
 			<div class="game-content">
-				<div class="download-icon">Windows</div>
-				<div class="download-icon">macOS (not yet)</div>
-				<div class="download-icon">Ubuntu</div>
-				<div class="download-icon">Source & More</div>
+				<div class="download-icon">Windows<br/><span class="dl-icon-updated">November 2</span></div>
+				<div class="download-icon">macOS<br/><span class="dl-icon-updated">Unavailable</span></div>
+				<div class="download-icon">Ubuntu<br/><span class="dl-icon-updated">November 2</span></div>
+				<div class="download-icon">Compile, Source,<br/>&amp; More...</div>
 				<p>Game data comes bundled with the downloads above, so the engine and data are always compatible. These are in-development builds, so they don't contain a lot of functional gameplay; If you're a Windows user, you should <a href=https://github.com/Xane123/MagicalMary1/releases/tag/v2.1-alpha>download v2.1 from GitHub</a> instead of getting this version.</p>
 				<p>Pre-compiled builds will only work on 64-bit systems. If you own a modern desktop or laptop, it will most likely run them. However, older systems may be 32-bit (also known as x86). In that case, your only choice may be to compile a 32-bit build yourself.</p>
 			</div>
 			
 			<div class="section-title">Mods</div>
 			<div class="game-content">
-				<p>Magical Mary accepts optional downloads developed by Xane which add or change things in-game! Click/tap the picture beside the mod you want to download.</p>
+				<p>This game accepts optional downloads developed by Xane which add or change things in-game! Click/tap the picture beside the mod you want to download.</p>
 				<p>If a mod doesn't work correctly, re-download the game data and the mods. Make sure the mod is in the same folder as the game data and application, too! It will automatically load any official mods placed in the game directory.</p>
 				<p>To load your own mods, drag them onto <b>PlayGame.exe</b>, or load them using the -file parameter in a-le dynamic lights to fix the brightness issue, and use the le_ (low-end) CVars/settings to hopefully make the game run faster. If you have any mods loaded that add "reflective" materials, this will also turn those off, though custom levels not designed for this may become overly bright.</p>
 			</div>
