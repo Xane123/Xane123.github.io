@@ -229,8 +229,8 @@ img.inline-left
 
 .screenshot
 {
-	width: auto;
-	height: 200px;
+	width: 32%;
+	height: 230px;
 	margin: 0 2px;	/* Unsure of what's causing vertical margins, so let's pad it out sideways to match. */
 }
 .mod-image
@@ -313,13 +313,13 @@ font.yellowtext
 @media screen and (max-width: 1600px)
 {
 	.game-content-half { font-size: 100%; }
-	.screenshot { width: 32% !important; height: auto !important; }
+	.screenshot { width: 27.5% !important; height: 200px !important; }
 	.download-icon { font-size: 16pt; }
 }
 @media screen and (max-width: 1200px)
 {
 	.game-content-half { font-size: 85%; }
-	.screenshot { width: 32% !important; height: auto !important; }
+	.screenshot { width: 175px !important; height: 175px !important; }
 	.download-icon { font-size: 16pt; }
 }
 @media screen and (max-width: 1000px)
