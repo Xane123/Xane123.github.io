@@ -69,31 +69,31 @@
 }
 #nav1::before
 {
-	font-family: WebIcons;
+	font-family: WebIcons, Marlett, monospace;
 	font-size: 75%;
 	content: "I";
 }
 #nav2::before
 {
-	font-family: WebIcons;
+	font-family: WebIcons, Marlett, monospace;
 	font-size: 75%;
 	content: "L";
 }
 #nav3::before
 {
-	font-family: WebIcons;
+	font-family: WebIcons, Marlett, monospace;
 	font-size: 75%;
 	content: "D";
 }
 #nav4::before
 {
-	font-family: WebIcons;
+	font-family: WebIcons, Marlett, monospace;
 	font-size: 75%;
 	content: "B ";
 }
 #nav5::before
 {
-	font-family: WebIcons;
+	font-family: WebIcons, Marlett, monospace;
 	font-size: 75%;
 	content: "S";
 }

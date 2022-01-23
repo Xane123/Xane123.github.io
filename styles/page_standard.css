@@ -28,7 +28,7 @@
 
 body	/* Default style. */
 {
-	font-family: XPinball, 'Trebuchet MS', Trebuchet, sans-serif;
+	font-family: XPinball, 'Trebuchet MS', Trebuchet, serif;
 	color: #fc8;
 	text-shadow: 1.5px 1.5px 0.5px #842;
 	overflow-x:hidden;

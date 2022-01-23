@@ -106,7 +106,7 @@ td
 body
 {
 	color: var(--color-primarytext);
-	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
+	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', sans-serif;
 	text-shadow: var(--shadow-primary);
 	background-image: var(--image-background) !important;
 	overflow-x:hidden;
@@ -140,7 +140,7 @@ body
 	vertical-align: middle;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
+	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', sans-serif;
 	font-weight: bold;
 	text-transform: small-caps;
 	font-size: 48pt;
@@ -198,7 +198,7 @@ body
 .game-center-content { background: transparent; border: 0; }	/* Centered content is only for the screenshots section, so it has no background. */
 .section-title
 {
-	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', cursive;
+	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', sans-serif;
 	font-weight: bold;
 	font-size: 32pt;
 }
