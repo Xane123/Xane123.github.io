@@ -64,8 +64,41 @@
 		<!--<script src="scripts/common.js"></script>-->
 	</head>
 	
-	<!-- SECTION: HEADER -->
 	<body>
+	
+	<!-- SECTION: FACEBOOK MESSENGER PLUGIN -->
+	<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "1234200809968869");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	
+	<!-- SECTION: HEADER -->
 		<div class="navbar">
 			<a class="logo-link" href="pages/index.html" title="Click or tap to return to the homepage.">
 				<div class="logo-container">
@@ -88,11 +121,12 @@
 			<div class="wrapper-topcontent">
 				<div class="game-content-half"><iframe width="569" height="320" src="https://www.youtube-nocookie.com/embed/JxUdxpnBWas?rel=0" style="border: 0 transparent solid; border-radius: 1em; width: 100%; height: 100%;" allowfullscreen></iframe></div>
 				<div class="game-content-half">
-					<p>Magical Mary is a first person platforming game where you can experience a father and his daughter's attempts to eliminate two evil men that have tried to get rid of him in the past.</p>
+					<p>Magical Mary is a first person platforming game where a girl adventures to eliminate two evil men that have tried to get rid of her father in the past.</p>
 					<!-- <p>See the <a href=https://worldofkirbycraft.miraheze.org>Xane Wiki</a> for more details.</p>(wiki is now private) -->
 					<ul class="desclist">
 						<li><b>Run, battle, and explore!</b> In this game, you'll have to do it all! Save the world from monsters and look for hidden areas for rewards!</li>
 						<li>16 levels planned, with events that could affect other levels and a boss every four levels!</li>
+						<li>Feel the freedom of flight! Find an unassuming cleaning tool, and it will improve your mobility!</li>
 					</ul>
 					<p>Additionally, you can listen to the soundtrack on <a href=https://audius.co/xane_mma/playlist/marys-magical-adventure-2416>Audius</a>.</p>
 					<p>Want to decorate your computer with a wallpaper? You can download them <a href=https://magicalmary.thex.site/wallpaper.html>here!</a></p>
@@ -117,7 +151,7 @@
 			
 			<div class="section-title">Downloads</div>
 			<div class="game-content">
-				<p>This game is in its early alpha development part, but you can play and try out the game now! If you're on Windows (pre-compiled builds are 32-bit), MacOS, or Ubuntu/a compatible Linux variant, click its logo below to download its compiled executable. Also, don't forget to download the game data below that. Once both are downloaded, extract both to the same directory then run the executable, "PlayGame.exe" on Windows and either "MagicalMary" or "gzdoom" on other OSes.</p>
+				<p>This game is in its almost-late alpha development part, but you can play and try out the game now! If you're on Windows (pre-compiled builds are 32-bit), MacOS, or Ubuntu/a compatible Linux variant, click its logo below to download its compiled executable. Also, don't forget to download the game data below that. Once both are downloaded, extract both to the same directory then run the executable, "PlayGame.exe" on Windows and either "MagicalMary" or "gzdoom" on other OSes.</p>
 				<p>If you're on a variant of Linux that isn't based on Ubuntu or a derivative or just want to compile the source yourself, click the box below, find the source link, then clone/fork the repository or download it as a ZIP, then compile using <a rel=nofollow href=https://zdoom.org/wiki/Compile_GZDoom_on_Linux>the instructions found on ZDoom's wiki</a>. Don't forget to move the game data to the compiled app's folder after it compiles!</p>
 				<p>The dates under the operating system icons below are when they were last updated.</p>
 			</div>
@@ -181,14 +215,14 @@
 									<td>Draw Distance</td>
 									<td>le_drawdistance</td>
 									<td>Limits how far from the player that levels render.</td>
-									<td>Same as "Block Distant Areas" above, large areas will make it more likely that the game will slow down. Unlike that setting, thi works in all levels, abusing the same engine rendering quirk, only with polyobjects.</td>
+									<td>Same as "Block Distant Areas" above, large areas will make it more likely that the game will slow down. Unlike that setting, this works in all levels, abusing the same engine rendering quirk, only with polyobjects.</td>
 								</tr>
-								<tr>
+								<!--<tr>
 									<td>Disable 3D Skyboxes</td>
 									<td>le_skyboxoff</td>
 									<td>Displays pre-rendered 2D skybox images instead of a fully-3D skybox model.</td>
 									<td>Certain levels may use a detailed, completely 3D environment for their sky, which moves with the player for a nice parallax effect. These skyboxes may be graphically-intensive, and may make your game lag. For best performance (but worst appearance), it's best to disable them.</td>
-								</tr>
+								</tr>-->
 								<tr>
 									<td>Precipitation Distance</td>
 									<td>le_precipdist</td>
@@ -225,19 +259,21 @@
 			<div class="game-content">
 				<p>If you'd like to listen to Magical Mary 1: Redthorn's Family Ransom's soundtrack, it's on <a href=https://audius.co/xane_mma/playlist/marys-magical-adventure-2416>Audius</a> and <a href=https://vk.com/audios-189508864>VK</a>. Some songs can also be found on <a href=https://soundcloud.com/xane-myers/sets/mary-magical-adventure>Soundcloud</a>, but it's not recommended compared to Audius, so they are old 
 versions.</p>
-				<p>Do you like this game and want to get updates or see how far it has come? Magical Mary 1: Redthorn's Family Ransom has pages on other websites to make that easy! (Please remember to only sign up for and use social networks if you are at least a teenager. If you're a kid, please at most only check out the music, or view the YouTube videos.</p>
-				<p>Magical Mary 1: Redthorn's Family Ransom has pages on three social networks: <a href=https://www.facebook.com/MagicalMaryGame>Facebook</a>, <a href=https://twitter.com/MagicalMaryGame>Twitter</a>, and <a href=https://vk.com/club189508864>VK</a>! Like, follow, or join one, respectively, and you will see their updates in your feed. Mark as "see first" on Facebook to make it more likely that you'll see game updates first.</p>
+				<p>Do you like this game and want to get updates or see how far it has come? Magical Mary 1: Redthorn's Family Ransom has pages on other websites to make that easy! <font class=yellowtext>(Please remember to only sign up for and use social networks if you are at least a <b>teenager</b>! If you're a kid, please at most only check out the music, or view the YouTube videos.)</p></font>
+				<p>Magical Mary has pages on three social networks: <a href=https://www.facebook.com/MagicalMaryGame>Facebook</a>, <a href=https://twitter.com/MagicalMaryGame>Twitter</a>, and <a href=https://vk.com/club189508864>VK</a>! Like, follow, or join one, respectively, and you will see their updates in your feed. Mark as "see first" on Facebook to make it more likely that you'll see game updates first.</p>
 				<p>There's also a <a href=https://www.youtube.com/channel/UCpXSJl1e7gZp7kkN58uQvOA>YouTube channel</a>, which you can subscribe to (and ring the bell) to receive notifications about any videos of new content, music, and trailers! It isn't updated often, however. The channel's content is not marked as "made for kids", as the videos are not kid's shows and other applicible content. There isn't any inappropriate content in them, either.</p>
 			</div>
 			
+			<!--
 			<div class="section-title">Shop</div>
 			<div class="game-content">
 				<p>Would you like to support Xane and development of Magical Mary? There are 3D model products on The X Shop that can be bought (but they aren't the cheapest things). Below are some of the best items.</p>
 				<p>If you're a kid, <font class=yellowtext>please ask your parents' permission before visiting an online store</font> <i>They will know what's okay to get.</i></p>
-				<!--<iframe referrerpolicy="no-referrer" sandbox allowtransparency src="//www.shapeways.com/fragments/product?spin=M675XTPE7" scrolling="no" width="350" height="500" frameborder="0"></iframe>
-				<iframe referrerpolicy="no-referrer" sandbox allowtransparency src="//www.shapeways.com/fragments/product?spin=AMYB7MVZJ" scrolling="no" width="350" height="500" frameborder="0"></iframe>-->
+				<iframe referrerpolicy="no-referrer" sandbox allowtransparency src="//www.shapeways.com/fragments/product?spin=M675XTPE7" scrolling="no" width="350" height="500" frameborder="0"></iframe>
+				<iframe referrerpolicy="no-referrer" sandbox allowtransparency src="//www.shapeways.com/fragments/product?spin=AMYB7MVZJ" scrolling="no" width="350" height="500" frameborder="0"></iframe>
 				<p>(The shop item embeds above have been hidden until any confirmed 3D-printable products are found.)
 			</div>
+			-->
 			
 			<div class="footer" id="footerid">The X Site is &#169;2017-2022 Xane Myers. This website is hosted by <a href="https://pages.github.com">GitHub Pages</a> and some of its content is stored in <a href="https://cloud.google.com/storage">Google Cloud Storage</a>.</div>
 		</div>
