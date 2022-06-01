@@ -1,6 +1,6 @@
 body, html	/* Standing against what ruins June... */
 {
-	filter: saturation(0)
+	filter: grayscale(1)
 }
 
 :root

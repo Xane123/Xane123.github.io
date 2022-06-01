@@ -1,6 +1,6 @@
 p, font	/* Standing against what ruins June... */
 {
-	filter: saturation(0)
+	filter: grayscale(1)
 }
 
 .logo-container, .logo-text, .navigation

@@ -1,6 +1,6 @@
 body, html	/* Standing against what ruins June... */
 {
-	filter: saturation(0)
+	filter: grayscale(1)
 }
 
 @media screen	/* If on a screen, move the page down for the navbar. */
