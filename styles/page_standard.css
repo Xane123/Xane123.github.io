@@ -28,6 +28,7 @@
 
 body	/* Default style. */
 {
+	filter: grayscale(1);	/* thex.site does not support Pride Month. */
 	font-family: XPinball, 'Trebuchet MS', Trebuchet, serif;
 	color: #fc8;
 	text-shadow: 1.5px 1.5px 0.5px #842;
