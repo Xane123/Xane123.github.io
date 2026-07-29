@@ -105,7 +105,6 @@ td
 /* From page_standard.css. Defines how the page content looks, minus links, tables, and links (which are above). */
 body
 {
-	filter: grayscale(1);	/* thex.site does not support Pride Month. */
 	color: var(--color-primarytext);
 	font-family: 'Sniglet', 'MV Boli', 'Kristen ITC', sans-serif;
 	text-shadow: var(--shadow-primary);
